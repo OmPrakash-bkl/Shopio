@@ -4,7 +4,7 @@ import styles from './TopNavBar.module.css';
 function TopNavBar() {
   return (
   <Container fluid className={styles.topNavBarContainer}>
-  <div className="hstack gap-3">
+  <div className="hstack">
   <div className="d-md-none d-sm-none d-none d-lg-block"><h5><a href="#" className={`text-decoration-none ${styles.topNavBarSlogan}`}>Successful Ecommerce, Let's Start Today!</a></h5></div>
   <div className="ms-auto d-md-none fs-6 d-sm-none d-none d-lg-block">
   <a href="#" className="mx-2 text-light"><i className={`fa fa-facebook-f ${styles.socialIconStyles}`}></i></a>

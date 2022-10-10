@@ -1,0 +1,36 @@
+.categoryBarContainer {
+    margin: 0.2rem;
+    background-color: rgb(232, 232, 232);
+    padding: 0.2rem;
+}
+.categoryBarSelectMenu {
+    border: 3px solid gray;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+}
+
+.categoryButtonsContainer {
+    display: block;
+    margin: 0px auto;
+}
+.categoryButtonsContainer > div {
+    display: inline-block;
+    margin: 0rem 1rem;
+}
+.categoryButtons {
+    margin: 0rem 0.2rem;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    transition: color 0.3s;
+}
+.categoryButtons:hover {
+    color: rgb(22, 22, 22);
+}
+
+@media only screen and (max-width: 992px) {
+    .categoryBarContainer {
+        display: none;
+    }
+}
