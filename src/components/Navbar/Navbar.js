@@ -6,7 +6,12 @@ function Navbar() {
   return (
   <Container fluid className={`${styles.navbarContainer}`}>
   <div className="hstack">
-  <div className="text-light"><h1 className={`${styles.logoFontStyles}`}>Shopio</h1></div>
+  <div className="text-light">
+    <button className={`${styles.hamburgerIcon}`}>
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <h1 className={`${styles.logoFontStyles}`}>Shopio</h1>
+  </div>
   <div className="mx-auto fs-6">
      <form>
       <input type="search" className={`${styles.searchForm}`}  placeholder='Search products for more offer' />
@@ -15,7 +20,7 @@ function Navbar() {
       </button>
      </form>
   </div>
-  <div className="text-light">
+  <div className="text-light d-none d-sm-none d-md-block">
   <div className={`${styles.navIconsContainer}`} title="CART">
   <i className="fa fa-shopping-cart" aria-hidden="true"></i>
   </div>

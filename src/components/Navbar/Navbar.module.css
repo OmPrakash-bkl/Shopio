@@ -26,6 +26,7 @@
 .logoFontStyles {
     font-size: 3rem;
     letter-spacing: 0.4rem;
+    display: inline-block;
 }
 .navIconsContainer {
     height: 2.5rem;
@@ -43,6 +44,15 @@
     cursor: pointer;
 }
 
+.hamburgerIcon {
+    display: none;
+    border: 0px;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    width: 2.3rem;
+    margin-right: 0.6rem;
+}
+
 @media only screen and (max-width: 1400px) {
     .searchForm {
         width: 35rem;
@@ -57,6 +67,32 @@
 
 @media only screen and (max-width: 768px) {
     .searchForm {
-        width: 15rem;
+        width: 16rem;
+    }
+    .hamburgerIcon {
+        display: inline-block;
+        background-color: transparent;
+    }
+    
+.hamburgerIcon {
+    font-size: 2rem;
+    width: 2.2rem;
+    margin-right: 0.6rem;
+}
+}
+
+@media only screen and (max-width: 576px) {
+    .searchForm {
+        width: 18rem;
+    }
+    
+.logoFontStyles {
+   display: none;
+}
+}
+
+@media only screen and (max-width: 412px) {
+    .searchForm {
+        width: 12rem;
     }
 }
