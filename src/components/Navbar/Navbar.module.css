@@ -1,4 +1,6 @@
 .navbarContainer {
+    position: sticky;
+    top: 0rem;
     background-color: #54a4f3;
 }
 .searchForm {
@@ -16,6 +18,11 @@
     padding: 0.3rem;
     margin: 0rem 0.4rem;
     background-color: rgb(239, 239, 239);
+    transition: background-color 0.3s;
+}
+
+.searchButton:hover {
+background-color: rgb(222, 222, 222);
 }
 
 .searchForm:focus {
@@ -34,8 +41,14 @@
     background-color: white;
     display: inline-block;
     margin: 0rem 0.4rem;
+    border: 1px solid transparent;
     border-radius: 50%;
     padding: 0.6rem 0.2rem;
+    transition: border 0.3s;
+}
+
+.navIconsContainer:hover {
+    border: 1px solid rgb(155, 155, 155);
 }
 
 .navIconsContainer > i {
