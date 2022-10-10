@@ -1,0 +1,61 @@
+
+.shopNowBtn {
+    background-color: #54a4f3;
+    padding: 0.3rem 0.8rem;
+    border: 0rem;
+    border-radius: 0.4rem;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.shopNowBtn:hover {
+    background-color: #3291f1;
+}
+.shopNowSlideSlogan {
+    color: rgb(62, 62, 62);
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .shopNowBtn {
+    position: absolute;
+    top: 6rem;
+    left: -4rem;
+    display: block;
+    margin: 0rem auto;
+    }
+    .shopNowSlideSlogan {
+    margin-top: 7rem;
+    margin-left: -4rem;
+    text-align: left;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .shopNowBtn {
+    top: 8rem;
+    left: -2rem;
+    padding: 0.3rem 0.4rem;
+    font-size: 0.8rem;
+    }
+    .shopNowSlideSlogan {
+    margin-top: 9rem;
+    margin-left: -2rem;
+    font-size: 0.8rem;
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .shopNowBtn {
+    display: none;
+    }
+    .shopNowSlideSlogan {
+   display: none;
+    }
+}
+
+

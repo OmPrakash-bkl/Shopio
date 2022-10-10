@@ -1,7 +1,6 @@
 .categoryBarContainer {
-    margin: 0.2rem;
     background-color: rgb(232, 232, 232);
-    padding: 0.2rem;
+    padding: 0.4rem;
 }
 .categoryBarSelectMenu {
     border: 3px solid gray;
