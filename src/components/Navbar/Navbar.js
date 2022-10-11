@@ -8,7 +8,7 @@ function Navbar() {
   <div className="hstack">
   <div className="text-light">
     <button className={`${styles.hamburgerIcon}`}>
-    <i class="fa fa-bars" aria-hidden="true"></i>
+    <i className="fa fa-bars" aria-hidden="true"></i>
     </button>
     <h1 className={`${styles.logoFontStyles}`}>Shopio</h1>
   </div>

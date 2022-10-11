@@ -1,0 +1,10 @@
+.customerInfoContainer {
+    padding: 0.6rem 0rem 0rem 0rem;
+    background-color: rgb(232, 232, 232);
+}
+
+@media only screen and (max-width: 768px) {
+    .customerInfoContainer {
+        display: none;
+    }
+}

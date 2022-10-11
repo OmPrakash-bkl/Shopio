@@ -17,7 +17,7 @@ function Slider() {
       <Carousel.Item>
         <img className="d-block w-100" src={Slide1} alt="slide images"/>
         <Carousel.Caption>
-        <button className={`${Styles.shopNowBtn}`}>Shop Now <i class="fa fa-shopping-cart"></i></button>
+        <button className={`${Styles.shopNowBtn}`}>Shop Now <i className="fa fa-shopping-cart"></i></button>
           <p  className={`${Styles.shopNowSlideSlogan}`}>Ensuring the best welfare of the buyers</p>
         </Carousel.Caption>
       </Carousel.Item>
