@@ -15,11 +15,12 @@ function CategoryBar() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Mobiles</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Laptops</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Electronics</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Furnitures</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Toys</Dropdown.Item>
+        <Dropdown.Item href="#/action-1"><i className='fas fa-mobile-alt'></i> Mobiles</Dropdown.Item>
+        <Dropdown.Item href="#/action-2"><i className="fa fa-laptop"></i> Laptops</Dropdown.Item>
+        <Dropdown.Item href="#/action-3"><i className="fa fa-plug"></i> Electronics</Dropdown.Item>
+        <Dropdown.Item href="#/action-3"><i className='fas fa-bed'></i> Furnitures</Dropdown.Item>
+        <Dropdown.Item href="#/action-3"><i className="fa fa-child"></i> Toys</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">More ...</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   </div>

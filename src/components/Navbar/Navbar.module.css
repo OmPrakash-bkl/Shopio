@@ -2,6 +2,7 @@
     position: sticky;
     top: 0rem;
     background-color: #54a4f3;
+    z-index: 2;
 }
 .searchForm {
     width: 60rem;

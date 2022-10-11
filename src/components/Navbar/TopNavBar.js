@@ -7,9 +7,9 @@ function TopNavBar() {
   <div className="hstack">
   <div className="d-md-none d-sm-none d-none d-lg-block"><h5><a href="#" className={`text-decoration-none ${styles.topNavBarSlogan}`}>Successful Ecommerce, Let's Start Today!</a></h5></div>
   <div className="ms-auto d-md-none fs-6 d-sm-none d-none d-lg-block">
-  <a href="#" className="mx-2 text-light"><i className={`fa fa-facebook-f ${styles.socialIconStyles}`}></i></a>
+  <a href="#" className="mx-2 text-light"><i className={`fab fa-facebook-f ${styles.socialIconStyles}`}></i></a>
   <a href="#" className="mx-2 text-light"><i className={`fa fa-envelope ${styles.socialIconStyles}`}></i></a>
-  <a href="#" className="mx-2 text-light"><i className={`fa fa-whatsapp ${styles.socialIconStyles}`}></i></a>
+  <a href="#" className="mx-2 text-light"><i className={`fab fa-whatsapp ${styles.socialIconStyles}`}></i></a>
   </div>
   <div className="vr d-md-none text-light d-sm-none d-none d-lg-block"></div>
   <div className="d-md-none text-light d-sm-none d-none d-lg-block">
