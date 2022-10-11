@@ -5,6 +5,7 @@ import CategoryBar from '../../components/CategoryShower/CategoryBar';
 import Slider from '../../components/Slider/Slider';
 import CustomerInfo from '../../components/CustomerInfo/CustomerInfo';
 import PopularCategories from '../../components/PopularCategories/PopularCategories';
+import Banner from '../../components/Banner/Banner';
 
 function home() {
   return (
@@ -15,6 +16,7 @@ function home() {
     <Slider />
     <CustomerInfo />
     <PopularCategories />
+    <Banner />
     </>
   )
 }
