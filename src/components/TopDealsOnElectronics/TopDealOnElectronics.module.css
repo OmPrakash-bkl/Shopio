@@ -1,0 +1,143 @@
+.TopDealsContainerHeading {
+    text-align: left;
+    color: #2c80d4;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cardContainer > div {
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+
+.cardChildContainers {
+    width: 13rem;
+    border: 0.1rem solid gainsboro;
+    border-radius: 0.5rem;   
+    text-align: left;
+}
+
+.cardChildContainers:hover {
+    border: 0.1rem solid white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.cardChildContainers:hover .cardTitle {
+     color: #2462a1;
+}
+
+.cardChildContainers > img {
+    height: 10rem;
+    width: 12rem;
+    display: block;
+    margin: 0.4rem auto;
+}
+
+.starIconContainer {
+    display: inline-block;
+    margin: 0rem 0.3rem;
+    font-size: 0.8rem;
+    color: rgb(255, 101, 45);
+    background-color: rgb(200, 200, 200);
+    padding: 0.1rem 0.4rem;
+    border: 0px;
+    border-radius: 0.3rem;
+}
+
+.cardTitle {
+    font-size: 1.1rem;
+    margin: 0.3rem 0rem 0.1rem 0.4rem;
+    color: #2c80d4;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.prodPrice {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0rem 0rem 0.1rem 0.4rem;
+    color: green;
+}
+
+.prodOrigiPrice {
+    display: inline-block;
+    font-size: 1rem;
+    color: gray;
+    margin: 0rem 0rem 0.1rem 0.6rem;
+    text-decoration: line-through;
+}
+
+.cardAndWishlistContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 0.3rem;
+    background-color: rgb(210, 210, 210);
+    padding: 0.2rem 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.cardAndWishlistContainer > div {
+    background-color: white;
+    border: 0px;
+    padding: 0.38rem 0.6rem;
+    border-radius: 50%;
+    color: rgb(181, 181, 181);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cardAndWishlistContainer > div:hover {
+   background-color: #2c80d4;
+   color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+.cardChildContainers {
+    width: 10rem;
+}
+
+
+.cardChildContainers > img {
+    height: 6rem;
+    width: 7.5rem;
+}
+
+.starIconContainer {
+    font-size: 0.6rem;
+    padding: 0.1rem 0.4rem;
+}
+
+.cardTitle {
+    font-size: 0.9rem;
+}
+.prodPrice {
+    font-size: 0.9rem;
+}
+
+.prodOrigiPrice {
+    font-size: 0.8rem;
+}
+
+
+.cardAndWishlistContainer > div {
+    padding: 0.28rem 0.5rem;
+}
+
+}
+
+@media only screen and (max-width: 576px) {
+.TopDealsContainerHeading {
+    font-size: 1.2rem;
+}
+
+}

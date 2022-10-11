@@ -1,25 +1,26 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import styles from './BestSellingProducts.module.css';
-import Mobile from '../../assets/bs_mobile.jpg';
-import Drone from '../../assets/bs_drone.jpg';
-import Sarees from '../../assets/bs_saree.jpg';
-import TV from '../../assets/bs_tv.jpg';
-import Tablets from '../../assets/bs_tablets.jpg';
-import Fridge from '../../assets/bs_fridge.jpg';
-import Shoes from '../../assets/bs_shoes.jpg';
-import Laptops from '../../assets/bs_laptops.jpg';
+import styles from './TopDealOnElectronics.module.css';
+import MobileCover from '../../assets/td_mobileCover.jpg';
+import MobileCharger from '../../assets/td_mobileCharger.jpg';
+import Router from '../../assets/td_router.jpg';
+import Pendrive from '../../assets/td_pendrive.jpg';
+import Temper from '../../assets/td_temper.jpg';
+import Printer from '../../assets/td_printer.jpg';
+import Camera from '../../assets/td_camera.jpg';
+import Watch from '../../assets/td_watch.jpg';
 
 
-function BestSellingProducts() {
+function TopDealOnElectronics() {
   return (
     <Container fluid>
-    <h2 className={`${styles.BestSellingContainerHeading}`}>Best Selling Categories</h2>
+    <h2 className={`${styles.TopDealsContainerHeading}`}>Top Deals On 
+    Electronics</h2>
 
     <div className={`${styles.cardContainer}`}>
 
     <div className={`${styles.cardChildContainers}`}>
-        <img src={Mobile} alt="Mobiles" />
+        <img src={MobileCover} alt="Mobiles Covers" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
@@ -27,9 +28,9 @@ function BestSellingProducts() {
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
         </div>
-        <h2 className={`${styles.cardTitle}`}>vivo Y22 with No Cost EMI.</h2>
-        <h3 className={`${styles.prodPrice}`}>&#8377;9999</h3>
-        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;11999</h5>
+        <h2 className={`${styles.cardTitle}`}>Spazy Case Pouch for Xiaomi Redmi</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;299</h3>
+        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;499</h5>
         <div className={`${styles.cardAndWishlistContainer}`}>
             <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
             <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
@@ -38,7 +39,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
-        <img src={Drone} alt="Drones" />
+        <img src={MobileCharger} alt="Mobiles Chargers" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
@@ -46,9 +47,9 @@ function BestSellingProducts() {
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
         </div>
-        <h2 className={`${styles.cardTitle}`}>Remote Control HD Wi-Fi Camera Drone</h2>
-        <h3 className={`${styles.prodPrice}`}>&#8377;3999</h3>
-        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;4999</h5>
+        <h2 className={`${styles.cardTitle}`}>FLiX Usb Fast Charger,Adapter</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;199</h3>
+        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;499</h5>
         <div className={`${styles.cardAndWishlistContainer}`}>
             <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
             <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
@@ -57,7 +58,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
-        <img src={Sarees} alt="Sarees" />
+        <img src={Router} alt="Router" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
@@ -65,8 +66,46 @@ function BestSellingProducts() {
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
         </div>
-        <h2 className={`${styles.cardTitle}`}>Women's Printed Poly Silk Saree with Blouse</h2>
-        <h3 className={`${styles.prodPrice}`}>&#8377;269</h3>
+        <h2 className={`${styles.cardTitle}`}>Tenda Wi-Fi Router,VPN (Black)</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;3269</h3>
+        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;4799</h5>
+        <div className={`${styles.cardAndWishlistContainer}`}>
+            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
+            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
+            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+    </div>
+
+    <div className={`${styles.cardChildContainers}`}>
+        <img src={Watch} alt="Apple Watches" />
+        <div className={`${styles.starIconContainer}`}>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+        </div>
+        <h2 className={`${styles.cardTitle}`}>Apple Watch SE Gold Aluminium</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;25999</h3>
+        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;28999</h5>
+        <div className={`${styles.cardAndWishlistContainer}`}>
+            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
+            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
+            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+    </div>
+
+    <div className={`${styles.cardChildContainers}`}>
+        <img src={Pendrive} alt="Pendrives" />
+        <div className={`${styles.starIconContainer}`}>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+        </div>
+        <h2 className={`${styles.cardTitle}`}>SanDisk Ultra Flair 64GB USB Pen Drive</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;599</h3>
         <h5 className={`${styles.prodOrigiPrice}`}>&#8377;799</h5>
         <div className={`${styles.cardAndWishlistContainer}`}>
             <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
@@ -76,7 +115,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
-        <img src={TV} alt="TV" />
+        <img src={Temper} alt="Temper Glasses" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
@@ -84,9 +123,9 @@ function BestSellingProducts() {
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
         </div>
-        <h2 className={`${styles.cardTitle}`}>Redmi Android 11 Series Full HD </h2>
-        <h3 className={`${styles.prodPrice}`}>&#8377;16999</h3>
-        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;18999</h5>
+        <h2 className={`${styles.cardTitle}`}>Tempered Glass for iQOO Neo 6 5G</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;299</h3>
+        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;499</h5>
         <div className={`${styles.cardAndWishlistContainer}`}>
             <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
             <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
@@ -95,7 +134,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
-        <img src={Tablets} alt="Tablets" />
+        <img src={Printer} alt="Printers" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
@@ -103,9 +142,9 @@ function BestSellingProducts() {
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
         </div>
-        <h2 className={`${styles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${styles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;31999</h5>
+        <h2 className={`${styles.cardTitle}`}>Canon E4570 All-in-One Wi-Fi Ink Printer</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;7999</h3>
+        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;8999</h5>
         <div className={`${styles.cardAndWishlistContainer}`}>
             <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
             <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
@@ -114,7 +153,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
-        <img src={Fridge} alt="Fridge" />
+        <img src={Camera} alt="Cameras" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
@@ -122,47 +161,9 @@ function BestSellingProducts() {
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
         </div>
-        <h2 className={`${styles.cardTitle}`}>Godrej Cool Single Door Refrigerator</h2>
-        <h3 className={`${styles.prodPrice}`}>&#8377;10999</h3>
-        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;11999</h5>
-        <div className={`${styles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-    </div>
-
-    <div className={`${styles.cardChildContainers}`}>
-        <img src={Shoes} alt="Shoes" />
-        <div className={`${styles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${styles.cardTitle}`}>Sparx Mens Shoe for Running</h2>
-        <h3 className={`${styles.prodPrice}`}>&#8377;999</h3>
-        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;1999</h5>
-        <div className={`${styles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-    </div>
-
-    <div className={`${styles.cardChildContainers}`}>
-        <img src={Laptops} alt="Laptops" />
-        <div className={`${styles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${styles.cardTitle}`}>Acer Nitro 5 Gaming Laptop</h2>
-        <h3 className={`${styles.prodPrice}`}>&#8377;79999</h3>
-        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;81999</h5>
+        <h2 className={`${styles.cardTitle}`}>Canon E4570 Camera 12MP</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;36999</h3>
+        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;38999</h5>
         <div className={`${styles.cardAndWishlistContainer}`}>
             <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
             <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
@@ -181,4 +182,4 @@ function BestSellingProducts() {
   )
 }
 
-export default BestSellingProducts;
+export default TopDealOnElectronics;
