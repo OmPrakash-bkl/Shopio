@@ -1,0 +1,51 @@
+.footerContainer {
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: rgb(210, 210, 210);
+    color: rgb(44, 44, 44);
+    text-align: left;
+    transition: color 0.3s;
+}
+.shopioLogo {
+    margin: 0rem 0rem 0.3rem 0rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.companyAddressContainer > h4 {
+    font-size: 1.1rem;
+    margin: 0rem;
+}
+
+
+.companyAddressContainer > h5 {
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 0.1rem;
+}
+
+
+.footerNavLinkContainer > li {
+    list-style-type: none;
+    margin-left: -2rem;
+    margin-bottom: 0rem;
+    cursor: pointer;
+}
+
+
+.footerNavLinkContainer > li:hover {
+    color: black;
+}
+
+.copyWriteContainer {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+    margin-top: 0.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .footerContainer {
+       text-align: center;
+    }
+}
+

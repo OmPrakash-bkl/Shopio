@@ -11,6 +11,7 @@ import TopDealOnElectronics from '../../components/TopDealsOnElectronics/TopDeal
 import TopCategoriesShower from '../../components/TopCategoriesShower/TopCategoriesShower';
 import Banner2 from '../../components/Banner/Banner2';
 import NewsLetterSignup from '../../components/NewsLetterSignup/NewsLetterSignup';
+import Footer from '../../components/Footer/Footer';
 
 function home() {
   return (
@@ -27,6 +28,7 @@ function home() {
     <Banner2 />
     <TopCategoriesShower />
     <NewsLetterSignup />
+    <Footer />
     </>
   )
 }
