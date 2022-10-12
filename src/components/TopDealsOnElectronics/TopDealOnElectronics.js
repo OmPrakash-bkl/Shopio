@@ -178,6 +178,26 @@ function TopDealOnElectronics() {
             <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
         </div>
     </div>
+    
+    <div className={`${styles.cardChildContainers}`}>
+        <div  className={`${styles.offerShower}`}>25% Off</div>
+        <img src={MobileCover} alt="Mobiles Covers" />
+        <div className={`${styles.starIconContainer}`}>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+        </div>
+        <h2 className={`${styles.cardTitle}`}>Spazy Case Pouch for Xiaomi Redmi</h2>
+        <h3 className={`${styles.prodPrice}`}>&#8377;299</h3>
+        <h5 className={`${styles.prodOrigiPrice}`}>&#8377;499</h5>
+        <div className={`${styles.cardAndWishlistContainer}`}>
+            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
+            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
+            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+    </div>
 
     </div>
 

@@ -8,6 +8,7 @@ import PopularCategories from '../../components/PopularCategories/PopularCategor
 import Banner from '../../components/Banner/Banner';
 import BestSellingProducts from '../../components/BestSellingProducts/BestSellingProducts';
 import TopDealOnElectronics from '../../components/TopDealsOnElectronics/TopDealOnElectronics';
+import TopCategoriesShower from '../../components/TopCategoriesShower/TopCategoriesShower';
 
 function home() {
   return (
@@ -21,6 +22,7 @@ function home() {
     <Banner />
     <BestSellingProducts />
     <TopDealOnElectronics />
+    <TopCategoriesShower />
     </>
   )
 }
