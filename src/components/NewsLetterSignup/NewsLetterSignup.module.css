@@ -1,0 +1,50 @@
+.NewsLetterSignupContainer {
+    padding: 1rem 3rem;
+    background: linear-gradient(to left, #6eaebc, #308ae5);
+}
+
+.NewsLetterSignupContainerHeading {
+    margin: 0rem 0.4rem 0.3rem 0rem;
+    color: white;
+    font-weight: bold;
+}
+
+.NewsLetterSignupFormContainer {
+    background-color: white;
+    padding: 0.5rem;
+    border: 0rem;
+    border-radius: 1.3rem;
+}
+
+.NewsLetterSignupFormContainer > form > input {
+    width: 82%;
+    border: 0rem;
+    border-radius: 0.8rem;
+    outline: none;
+}
+
+
+.NewsLetterSignupFormContainer > form > button {
+   border: 0rem;
+   border-radius: 0.2rem;
+   background-color: #308ae5;
+   padding: 0.2rem 0.5rem;
+   font-weight: bold;
+   color: white;
+   transition: background-color 0.3s;
+}
+
+
+.NewsLetterSignupFormContainer > form > button:hover {
+   background-color: rgb(74, 74, 220);
+ }
+
+@media only screen and (max-width: 576px) {
+    
+.NewsLetterSignupFormContainer > form > input {
+   width: 74%;
+}
+}
+
+
+

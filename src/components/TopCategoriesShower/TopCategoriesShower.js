@@ -18,7 +18,7 @@ function TopCategoriesShower() {
 
         <Col className={`${styles.topCategoryInnerContainers}`}>
            <Row>
-            <Col xl={6} ><img src={Electronics} style={{ width: "11rem", height: "11rem", margin: "0rem auto", display: "block" }} alt="Electronics" /></Col>
+            <Col xl={6} ><img src={Electronics} style={{ width: "11rem", height: "11rem", margin: "1rem auto", display: "block" }} alt="Electronics" /></Col>
             <Col xl={6}>
             <ul className={`${styles.borderless}`}>
             <h4 className={`${styles.topCategoryHeadingText}`}>Electronics</h4>
@@ -35,7 +35,7 @@ function TopCategoriesShower() {
 
         <Col className={`${styles.topCategoryInnerContainers}`}>
            <Row>
-            <Col xl={6} ><img src={Furniture} style={{ width: "11rem", height: "11rem", margin: "0rem auto", display: "block"  }} alt="Furniture" /></Col>
+            <Col xl={6} ><img src={Furniture} style={{ width: "11rem", height: "11rem", margin: "1rem auto", display: "block"  }} alt="Furniture" /></Col>
             <Col xl={6} >
             <ul className={`${styles.borderless}`}>
             <h4 className={`${styles.topCategoryHeadingText}`}>Furnitures</h4>
@@ -52,7 +52,7 @@ function TopCategoriesShower() {
 
         <Col>
            <Row>
-            <Col xl={6} ><img src={Cloths} style={{ width: "11rem", height: "11rem", margin: "0rem auto", display: "block"  }}  alt="Cloths" /></Col>
+            <Col xl={6} ><img src={Cloths} style={{ width: "11rem", height: "11rem", margin: "1rem auto", display: "block"  }}  alt="Cloths" /></Col>
             <Col xl={6} >
             <ul className={`${styles.borderless}`}>
             <h4 className={`${styles.topCategoryHeadingText}`}>Cloths</h4>
@@ -73,7 +73,7 @@ function TopCategoriesShower() {
 
         <Col className={`${styles.topCategoryInnerContainers}`}>
            <Row>
-            <Col xl={6} ><img src={Bags} style={{ width: "11rem", height: "11rem", margin: "0rem auto", display: "block"  }} alt="Bags" /></Col>
+            <Col xl={6} ><img src={Bags} style={{ width: "11rem", height: "11rem", margin: "1rem auto", display: "block"  }} alt="Bags" /></Col>
             <Col xl={6} >
             <ul className={`${styles.borderless}`}>
             <h4 className={`${styles.topCategoryHeadingText}`}>Bags</h4>
@@ -90,7 +90,7 @@ function TopCategoriesShower() {
 
         <Col className={`${styles.topCategoryInnerContainers}`}>
            <Row>
-            <Col xl={6} ><img src={Books} style={{ width: "11rem", height: "11rem", margin: "0rem auto", display: "block"  }} alt="Books" /></Col>
+            <Col xl={6} ><img src={Books} style={{ width: "11rem", height: "11rem", margin: "1rem auto", display: "block"  }} alt="Books" /></Col>
             <Col xl={6} >
             <ul className={`${styles.borderless}`}>
             <h4 className={`${styles.topCategoryHeadingText}`}>Books</h4>
@@ -107,7 +107,7 @@ function TopCategoriesShower() {
 
         <Col>
            <Row>
-            <Col xl={6} ><img src={Cosmetics} style={{ width: "11rem", height: "11rem", margin: "0rem auto", display: "block"  }}  alt="Cosmetics" /></Col>
+            <Col xl={6} ><img src={Cosmetics} style={{ width: "11rem", height: "11rem", margin: "1rem auto", display: "block"  }}  alt="Cosmetics" /></Col>
             <Col xl={6} >
             <ul className={`${styles.borderless}`}>
             <h4 className={`${styles.topCategoryHeadingText}`}>Cosmetics</h4>

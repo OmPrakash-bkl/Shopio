@@ -9,6 +9,8 @@ import Banner from '../../components/Banner/Banner';
 import BestSellingProducts from '../../components/BestSellingProducts/BestSellingProducts';
 import TopDealOnElectronics from '../../components/TopDealsOnElectronics/TopDealOnElectronics';
 import TopCategoriesShower from '../../components/TopCategoriesShower/TopCategoriesShower';
+import Banner2 from '../../components/Banner/Banner2';
+import NewsLetterSignup from '../../components/NewsLetterSignup/NewsLetterSignup';
 
 function home() {
   return (
@@ -22,7 +24,9 @@ function home() {
     <Banner />
     <BestSellingProducts />
     <TopDealOnElectronics />
+    <Banner2 />
     <TopCategoriesShower />
+    <NewsLetterSignup />
     </>
   )
 }
