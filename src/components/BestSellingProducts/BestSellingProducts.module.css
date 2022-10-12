@@ -26,6 +26,18 @@
     text-align: left;
 }
 
+
+.offerShower {
+    position: absolute;
+    padding: 0.2rem 0.4rem;
+    background-color: #3996f4;
+    font-weight: bold;
+    color: black;
+    border: 0rem;
+    border-radius: 0.3rem;
+    margin: 0.1rem;
+}
+
 .cardChildContainers:hover {
     border: 0.1rem solid white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -38,7 +50,7 @@
     height: 10rem;
     width: 12rem;
     display: block;
-    margin: 0.4rem auto;
+    margin: 1.5rem auto 0.4rem auto;
 }
 
 .starIconContainer {
@@ -132,6 +144,10 @@
 .cardAndWishlistContainer > div {
     padding: 0.28rem 0.5rem;
 }
+
+.offerShower {
+    font-size: 0.8rem;
+ }
 
 }
 

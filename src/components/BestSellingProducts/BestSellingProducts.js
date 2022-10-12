@@ -19,6 +19,7 @@ function BestSellingProducts() {
     <div className={`${styles.cardContainer}`}>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Mobile} alt="Mobiles" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -38,6 +39,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Drone} alt="Drones" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -57,6 +59,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Sarees} alt="Sarees" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -76,6 +79,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={TV} alt="TV" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -95,6 +99,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Tablets} alt="Tablets" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -114,6 +119,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Fridge} alt="Fridge" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -133,6 +139,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Shoes} alt="Shoes" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -152,6 +159,7 @@ function BestSellingProducts() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Laptops} alt="Laptops" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>

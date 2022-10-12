@@ -20,6 +20,7 @@ function TopDealOnElectronics() {
     <div className={`${styles.cardContainer}`}>
 
     <div className={`${styles.cardChildContainers}`}>
+        <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={MobileCover} alt="Mobiles Covers" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -39,6 +40,7 @@ function TopDealOnElectronics() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={MobileCharger} alt="Mobiles Chargers" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -58,6 +60,7 @@ function TopDealOnElectronics() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Router} alt="Router" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -77,6 +80,7 @@ function TopDealOnElectronics() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Watch} alt="Apple Watches" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -96,6 +100,7 @@ function TopDealOnElectronics() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Pendrive} alt="Pendrives" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -115,6 +120,7 @@ function TopDealOnElectronics() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Temper} alt="Temper Glasses" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -134,6 +140,7 @@ function TopDealOnElectronics() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Printer} alt="Printers" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
@@ -153,6 +160,7 @@ function TopDealOnElectronics() {
     </div>
 
     <div className={`${styles.cardChildContainers}`}>
+    <div  className={`${styles.offerShower}`}>25% Off</div>
         <img src={Camera} alt="Cameras" />
         <div className={`${styles.starIconContainer}`}>
             <i className="fa fa-star"></i>
