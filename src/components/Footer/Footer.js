@@ -16,10 +16,10 @@ function CustomerInfo() {
             <h5>71+ 1234567890,</h5>{' '}
             <h5>71+ 0987654321</h5>
             <div className={`${styles.navIconsContainer}`}>
-                <span><i className="fab fa-facebook-f"></i></span>
-                <span><i className="fab fa-instagram"></i></span>
-                <span><i className="fab fa-twitter"></i></span>
-                <span><i className="fab fa-whatsapp"></i></span>
+                <span><a href=""><i className="fab fa-facebook-f"></i></a></span>
+                <span><a href=""><i className="fab fa-instagram"></i></a></span>
+                <span><a href=""><i className="fab fa-twitter"></i></a></span>
+                <span><a href=""><i className="fab fa-whatsapp"></i></a></span>
             </div>
         </div>
         </Col>

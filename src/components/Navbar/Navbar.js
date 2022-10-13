@@ -33,7 +33,7 @@ function Navbar() {
        {/* Profile, Login, Logout Section Start */}
        <div className={`${styles.profilePictureContainer}`}>
         <img src={Cat_Dp} className={styles.dpImage} alt="User's profile pictures" />
-        <h3>User Name</h3>
+        <h3>Guest</h3>
         <button>Login</button>
         <button>Register</button>
        </div>
@@ -51,7 +51,7 @@ function Navbar() {
       </ul>
     </div>
     {/* Hamburger Section End */}
-    
+
   </div>
   <div className="mx-auto fs-6">
      <form>

@@ -174,9 +174,10 @@ background-color: rgb(222, 222, 222);
 
  .profilePictureContainer > h3 {
     margin-top: 0.9rem;
-    margin-left: 1.6rem;
+    margin-left: 3.3rem;
     font-size: 1.3rem;
     color: black;
+    text-align: left;
  }
 
  .profilePictureContainer > button {

@@ -51,12 +51,12 @@
     margin: 0rem 0.6rem;
 }
 
-.navIconsContainer > span > i {
+.navIconsContainer > span > a > i {
     color: rgb(44, 44, 44);
     transition: color 0.3s, transform 1s;
 }
 
-.navIconsContainer > span > i:hover {
+.navIconsContainer > span > a > i:hover {
     color: #2c80d4;
     transform: rotate(360deg);
 }
