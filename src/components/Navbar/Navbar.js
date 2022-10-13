@@ -20,13 +20,16 @@ function Navbar() {
     <i className="fa fa-bars" aria-hidden="true"></i>
     </button>
     <h1 className={`${styles.logoFontStyles}`}>Shopio</h1>
+
     {/* Hamburger Section Start */}
     <div className={`${ !showHamburger ? styles.hamburgerMenuContainer : styles.hamburgerMenuContainer_active }`}>
+
       {/* Close Button Section Start */}
       <div className={`${styles.closeBtnContainer}`}>
         <button onClick={hamburgerShower}><i className="fa fa-close"></i></button>
       </div>
        {/* Close Button Section End */}
+
        {/* Profile, Login, Logout Section Start */}
        <div className={`${styles.profilePictureContainer}`}>
         <img src={Cat_Dp} className={styles.dpImage} alt="User's profile pictures" />
@@ -35,6 +38,7 @@ function Navbar() {
         <button>Register</button>
        </div>
         {/* Profile, Login, Logout Section End */}
+
       <ul style={{ paddingLeft: "0rem" }}>
         { SideBarData.map((data, index) => {
          return <li key={index} className={`${styles.hamburgerElementsContainer}`}>
@@ -47,6 +51,7 @@ function Navbar() {
       </ul>
     </div>
     {/* Hamburger Section End */}
+    
   </div>
   <div className="mx-auto fs-6">
      <form>
