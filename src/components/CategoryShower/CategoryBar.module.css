@@ -28,6 +28,83 @@
     color: rgb(22, 22, 22);
 }
 
+.dropdownContainer {
+    position: relative;
+}
+
+.dropdownContainer > button {
+    border: 0rem;
+    outline: 0rem;
+    background-color: rgb(250, 250, 250);
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.4rem;
+    color: rgb(63, 63, 63);
+}
+
+.dropdownContainer > button > span {
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    transition: color 0.3s;
+}
+
+.dropdownContainer > button > span:hover {
+    color: rgb(34, 34, 34);
+}
+
+.dropdownElementsContainer {
+    background-color: rgb(250, 250, 250);
+    padding: 1rem;
+    border: 0rem;
+    border-radius: 0.3rem;
+    margin-top: 0.3rem;
+    position: absolute;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 12rem;
+    left: -14rem;
+    transition: 0.8s;
+}
+
+.dropdownElementsContainer_active {
+    background-color: rgb(250, 250, 250);
+    padding: 1rem;
+    border: 0rem;
+    border-radius: 0.3rem;
+    margin-top: 0.3rem;
+    position: absolute;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 12rem;
+    left: 0rem;
+    transition: 0.8s;
+}
+
+.dropdownElementsInnerContainer {
+   text-align: left;
+   padding: 0.3rem;
+   border-bottom: 0.1rem solid rgb(211, 211, 211);
+}
+
+.dropdownElementsInnerContainer > div:nth-child(even) {
+   display: inline-block;
+   cursor: pointer;
+   color: rgb(77, 77, 77);
+   font-weight: bold;
+   transition: color 0.3s;
+}
+
+.dropdownElementsInnerContainer > div:nth-child(even):hover {
+    color: #54a4f3;
+}
+
+.dropdownElementsInnerContainer > div:nth-child(odd) {
+    display: inline-block;
+    margin: 0rem 0.3rem;
+    color: #53a9ff;
+    width: 2rem;
+}
+
+
 @media only screen and (max-width: 992px) {
     .categoryBarContainer {
         display: none;
