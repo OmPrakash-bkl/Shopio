@@ -15,11 +15,11 @@ function CustomerInfo() {
             <h4>57A Cheetham Hill Road MANCHESTER, M4 4FS United Kingdom.</h4>
             <h5>71+ 1234567890,</h5>{' '}
             <h5>71+ 0987654321</h5>
-            <div>
-                <span><i className="fa fa-facebook-f"></i></span>
-                <span><i className="fa fa-instagram"></i></span>
-                <span><i className="fa fa-twitter"></i></span>
-                <span><i className="fa fa-whatsapp"></i></span>
+            <div className={`${styles.navIconsContainer}`}>
+                <span><i className="fab fa-facebook-f"></i></span>
+                <span><i className="fab fa-instagram"></i></span>
+                <span><i className="fab fa-twitter"></i></span>
+                <span><i className="fab fa-whatsapp"></i></span>
             </div>
         </div>
         </Col>

@@ -43,6 +43,24 @@
     margin-top: 0.3rem;
 }
 
+.navIconsContainer {
+    margin: 0.2rem 0rem 0rem 0rem;
+}
+.navIconsContainer > span {
+    display: inline-block;
+    margin: 0rem 0.6rem;
+}
+
+.navIconsContainer > span > i {
+    color: rgb(44, 44, 44);
+    transition: color 0.3s, transform 1s;
+}
+
+.navIconsContainer > span > i:hover {
+    color: #2c80d4;
+    transform: rotate(360deg);
+}
+
 @media only screen and (max-width: 768px) {
     .footerContainer {
        text-align: center;
