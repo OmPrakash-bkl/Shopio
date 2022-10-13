@@ -62,7 +62,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 12rem;
     left: -14rem;
-    transition: 0.8s;
+    transition: 0.4s;
 }
 
 .dropdownElementsContainer_active {
@@ -76,7 +76,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 12rem;
     left: 0rem;
-    transition: 0.8s;
+    transition: 0.4s;
 }
 
 .dropdownElementsInnerContainer {
