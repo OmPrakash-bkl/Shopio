@@ -65,7 +65,134 @@ background-color: rgb(222, 222, 222);
     font-size: 1.4rem;
     width: 2.3rem;
     margin-right: 0.6rem;
+    transition: color 0.3s;
 }
+
+.hamburgerIcon:hover {
+    color: rgb(35, 35, 35);
+}
+
+.hamburgerIconSection {
+    position: relative;
+}
+
+.hamburgerMenuContainer {
+    position: absolute;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    left: -15rem;
+    top: -0.1rem;
+    height: 100vh;
+    width: 13rem;
+    transition: 0.6s;
+}
+
+.hamburgerMenuContainer_active {
+    position: absolute;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 14rem;
+    transition: 0.4s;
+    top: -0.1rem;
+    left: -1rem;
+}
+
+.hamburgerElementsContainer {
+    list-style-type: none;
+}
+
+.hamburgerElementsInnerContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+    border-bottom: 0.1rem solid gainsboro;
+}
+
+.hamburgerElementsInnerContainer:hover {
+    color: rgb(60, 60, 60);
+}
+
+.hamburgerElementsInnerContainer > span:nth-child(odd) {
+   color: #4e95db;
+}
+
+.hamburgerElementsInnerContainer > span:nth-last-child(even) {
+    display: inline-block;
+    padding: 0.2rem 1rem;
+}
+
+.closeBtnContainer {
+    height: 3.2rem;
+    background-color: #54a4f3;
+}
+
+.closeBtnContainer > button {
+   border: 0rem;
+   background-color: transparent;
+   color: black;
+   font-size: 2rem;
+   margin: 0rem 0.5rem;
+   float: left;
+}
+
+.closeBtnContainer > button:hover {
+    color: rgb(35, 35, 35);
+ }
+
+
+.closeBtnContainer > button:after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+ .profilePictureContainer {
+    padding: 0.5rem 0.5rem;
+    border-bottom: 0.2rem solid #54a4f3;
+    position: relative;
+    height: 6rem;
+ }
+
+ .dpImage {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 0.1rem solid #54a4f3;
+    padding: 0.1rem;
+    position: absolute;
+    left: 0.5rem;
+    background-color: white;
+ }
+
+ .profilePictureContainer > h3 {
+    margin-top: 0.9rem;
+    margin-left: 1.6rem;
+    font-size: 1.3rem;
+    color: black;
+ }
+
+ .profilePictureContainer > button {
+    border: 0rem;
+    background-color: #167ce1;
+    color: white;
+    border-radius: 0.3rem;
+    margin: 0.4rem;
+    font-weight: bold;
+    padding: 0.1rem 0.6rem;
+ }
+
+ 
+ .profilePictureContainer > button:hover {
+    background-color: #136ec9;
+ }
 
 @media only screen and (max-width: 1400px) {
     .searchForm {
@@ -93,6 +220,12 @@ background-color: rgb(222, 222, 222);
     width: 2.2rem;
     margin-right: 0.6rem;
 }
+
+.closeBtnContainer {
+    height: 4.2rem;
+    background-color: #54a4f3;
+}
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -102,6 +235,10 @@ background-color: rgb(222, 222, 222);
     
 .logoFontStyles {
    display: none;
+}
+
+.closeBtnContainer {
+    height: 3.2rem;
 }
 }
 
