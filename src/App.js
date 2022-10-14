@@ -1,13 +1,20 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/Home';
+import Register from './pages/Register/Register';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/Register" exact element={<Register />} />
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -24,7 +24,7 @@ function Navbar() {
     <button className={`${styles.hamburgerIcon}`} onClick={hamburgerShower}>
     <i className="fa fa-bars" aria-hidden="true"></i>
     </button>
-    <h1 className={`${styles.logoFontStyles}`}>Shopio</h1>
+    <h1 className={`${styles.logoFontStyles}`}><Link to="/" className={`${styles.logoFontStyles}`}>Shopio</Link></h1>
 
     {/* Hamburger Section Start */}
     <div className={`${ !showHamburger ? styles.hamburgerMenuContainer : styles.hamburgerMenuContainer_active }`}>
@@ -94,7 +94,7 @@ function Navbar() {
       </div>
     </Link>
 
-    <Link to="/" className={`${styles.quickNavLinks}`}>
+    <Link to="/Register" className={`${styles.quickNavLinks}`}>
       <div className={styles.quickNavMenuElements}>
       <span title=""><i className='fas fa-address-book'></i></span>
         <span title="">Register</span>

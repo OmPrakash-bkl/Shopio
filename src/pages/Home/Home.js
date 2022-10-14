@@ -1,6 +1,6 @@
 import React from 'react'
 import TopNavBar from '../../components/Navbar/TopNavBar';
-import NavbarRouter from '../../components/Navbar/NavbarRouter';
+import Navbar from '../../components/Navbar/Navbar';
 import CategoryBar from '../../components/CategoryShower/CategoryBar';
 import Slider from '../../components/Slider/Slider';
 import CustomerInfo from '../../components/CustomerInfo/CustomerInfo';
@@ -13,11 +13,11 @@ import Banner2 from '../../components/Banner/Banner2';
 import NewsLetterSignup from '../../components/NewsLetterSignup/NewsLetterSignup';
 import Footer from '../../components/Footer/Footer';
 
-function home() {
+function Home() {
   return (
     <>
     <TopNavBar />
-    <NavbarRouter />
+    <Navbar />
     <CategoryBar />
     <Slider />
     <CustomerInfo />
@@ -33,4 +33,4 @@ function home() {
   )
 }
 
-export default home
+export default Home;

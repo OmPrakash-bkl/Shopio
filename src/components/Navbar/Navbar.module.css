@@ -34,8 +34,15 @@ background-color: rgb(222, 222, 222);
 .logoFontStyles {
     font-size: 3rem;
     letter-spacing: 0.4rem;
+    color: white;
+    text-decoration: none;
     display: inline-block;
 }
+
+.logoFontStyles:hover {
+    color: white;
+}
+
 .navIconsContainer {
     height: 2.5rem;
     width: 2.5rem;
