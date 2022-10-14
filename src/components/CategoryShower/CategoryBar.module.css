@@ -53,7 +53,6 @@
 
 .dropdownElementsContainer {
     background-color: rgb(250, 250, 250);
-    padding: 1rem;
     border: 0rem;
     border-radius: 0.3rem;
     margin-top: 0.3rem;
@@ -73,7 +72,6 @@
     margin-top: 0.3rem;
     position: absolute;
     z-index: 3;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 12rem;
     left: 0rem;
     transition: 0.4s;
@@ -83,6 +81,7 @@
    text-align: left;
    padding: 0.3rem;
    border-bottom: 0.1rem solid rgb(211, 211, 211);
+   transition: background-color 0.3s;
 }
 
 .dropdownElementsInnerContainer > div:nth-child(even) {
@@ -91,6 +90,11 @@
    color: rgb(77, 77, 77);
    font-weight: bold;
    transition: color 0.3s;
+}
+
+.dropdownElementsInnerContainer:hover {
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
 }
 
 .dropdownElementsInnerContainer > div:nth-child(even):hover {
@@ -102,6 +106,59 @@
     margin: 0rem 0.3rem;
     color: #53a9ff;
     width: 2rem;
+}
+
+.elementsRelatedCategoryContainer {
+    position: absolute;
+    background-color: rgb(250, 250, 250);
+    z-index: 3;
+    top: 2.3rem;
+    border: 0rem;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.elementsRelatedCategoryContainer_disabled {
+    display: none;
+}
+
+.elementsRelatedCategoryContainer_active {
+    display: block;
+    z-index: 2;
+}
+
+.elementsRelatedCategoryInnerContainer {
+    margin-left:12rem;
+    margin-right: 1rem;
+    text-align: left;
+}
+
+.elementsRelatedCategoryInnerContainer > span {
+    display: inline-block;
+    padding: 0rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.elementsRelatedCategoryInnerContainer > ul {
+    padding-left: 0rem;
+    width: 10rem;
+}
+
+.elementsRelatedCategoryInnerContainer > ul > li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.1rem;
+    border-bottom: 0.1rem solid rgb(211, 211, 211);
+    color: rgb(102, 102, 102);
+    margin: 0.5rem 0rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.elementsRelatedCategoryInnerContainer > ul > li:hover {
+    color: black;
 }
 
 
