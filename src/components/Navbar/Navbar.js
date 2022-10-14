@@ -7,9 +7,14 @@ import Cat_Dp from '../../assets/dammy_dp.jpg';
 
 function Navbar() {
   const [showHamburger, setShowHamburger] = useState(false);
+  const [showQuickNavbar, setShowQuickNavbar] = useState(false); 
 
   function hamburgerShower() {
     setShowHamburger(!showHamburger);
+  }
+
+  function quickNavbarShower() {
+    setShowQuickNavbar(!showQuickNavbar);
   }
 
   return (
@@ -68,8 +73,73 @@ function Navbar() {
   <div className={`${styles.navIconsContainer}`} title="WISHLIST">
   <i className="fa fa-heart" aria-hidden="true"></i>
   </div>
-  <div className={`${styles.navIconsContainer}`} title="LOGIN/SIGNUP">
+  <div className={`${styles.navIconsContainer} ${styles.quickNavigationContainer}`} title="LOGIN/SIGNUP" onClick={quickNavbarShower}>
   <i className="fa fa-user" aria-hidden="true"></i>
+  
+  {/* Quick Navigation Container Start */}
+
+  <div className={ !showQuickNavbar ? styles.quickNavMenuContainer : styles.quickNavMenuContainer_active }>
+
+    <Link to="/" className={`${styles.quickNavLinks}`}>
+      <div className={styles.quickNavMenuElements}>
+      <span title=""><i className="fa fa-user" aria-hidden="true"></i></span>
+        <span title="">My Account</span>
+      </div>
+    </Link>
+
+    <Link to="/" className={`${styles.quickNavLinks}`}>
+      <div className={styles.quickNavMenuElements}>
+      <span title=""><i className='fas fa-share-square'></i></span>
+        <span title="">Login</span>
+      </div>
+    </Link>
+
+    <Link to="/" className={`${styles.quickNavLinks}`}>
+      <div className={styles.quickNavMenuElements}>
+      <span title=""><i className='fas fa-address-book'></i></span>
+        <span title="">Register</span>
+      </div>
+    </Link>
+
+    <Link to="/" className={`${styles.quickNavLinks}`}>
+      <div className={styles.quickNavMenuElements}>
+      <span title=""><i className="fa fa-shopping-cart" aria-hidden="true"></i></span>
+        <span title="">Checkout</span>
+      </div>
+    </Link>
+
+    <Link to="/" className={`${styles.quickNavLinks}`}>
+      <div className={styles.quickNavMenuElements}>
+      <span title=""><i className="fa fa-heart"></i></span>
+        <span title="">My Wishlist</span>
+      </div>
+    </Link>
+
+    <Link to="/" className={`${styles.quickNavLinks}`}>
+      <div className={styles.quickNavMenuElements}>
+      <span title=""><i className="fa fa-bell" aria-hidden="true"></i></span>
+        <span title="">Notifications</span>
+      </div>
+    </Link>
+
+    <Link to="/" className={`${styles.quickNavLinks}`}>
+      <div className={styles.quickNavMenuElements}>
+      <span title=""><i className="fa fa-truck" aria-hidden="true"></i></span>
+        <span title="">Track Order</span>
+      </div>
+    </Link>
+
+    <Link to="/" className={`${styles.quickNavLinks}`}>
+      <div className={styles.quickNavMenuElements}>
+      <span title=""><i className='fas fa-user-times'></i></span>
+        <span title="">Logout</span>
+      </div>
+    </Link>
+
+  </div>
+
+  {/* Quick Navigation Container End */}
+
   </div>
   </div>
   </div>
