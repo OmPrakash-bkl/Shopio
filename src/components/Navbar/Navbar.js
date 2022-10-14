@@ -87,7 +87,7 @@ function Navbar() {
       </div>
     </Link>
 
-    <Link to="/" className={`${styles.quickNavLinks}`}>
+    <Link to="/Login" className={`${styles.quickNavLinks}`}>
       <div className={styles.quickNavMenuElements}>
       <span title=""><i className='fas fa-share-square'></i></span>
         <span title="">Login</span>
