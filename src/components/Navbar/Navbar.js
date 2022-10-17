@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
-import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import SideBarData from './NavbarData';
 import styles from './Navbar.module.css';
 import Cat_Dp from '../../assets/dammy_dp.jpg';
+import Container from 'react-bootstrap/Container';
+import Mobile from '../../assets/mobiles_cart.jpg'; 
+import Camera from '../../assets/td_camera.jpg'; 
+import Shoes from '../../assets/shoes.jpg'; 
+import SearchBar from './SearchBar';
+
 
 function Navbar() {
   const [showHamburger, setShowHamburger] = useState(false);
-  const [showQuickNavbar, setShowQuickNavbar] = useState(false); 
+  const [showQuickNavbar, setShowQuickNavbar] = useState(false);
+  const [showCart, setShowCart] = useState(false); 
 
   function hamburgerShower() {
     setShowHamburger(!showHamburger);
@@ -15,6 +21,10 @@ function Navbar() {
 
   function quickNavbarShower() {
     setShowQuickNavbar(!showQuickNavbar);
+  }
+
+  function cartShower() {
+    setShowCart(!showCart);
   }
 
   return (
@@ -46,7 +56,7 @@ function Navbar() {
 
       <ul style={{ paddingLeft: "0rem" }}>
         { SideBarData.map((data, index) => {
-         return <li key={index} className={`${styles.hamburgerElementsContainer}`}>
+         return <li key={index} className={`${styles.hamburgerElementsContainer}`}  onClick={cartShower}>
           <Link to={`${data.path}`} className={`${styles.hamburgerElementsInnerContainer}`}>
             <span><i className={`${data.iconClass}`}></i></span>
             <span>{`${data.title}`}</span>
@@ -58,7 +68,7 @@ function Navbar() {
     {/* Hamburger Section End */}
 
   </div>
-  <div className="mx-auto fs-6">
+  <div className="mx-auto d-none d-sm-none d-md-block fs-6">
      <form>
       <input type="search" className={`${styles.searchForm}`}  placeholder='Search products for more offer' />
       <button type="submit" className={`${styles.searchButton}`} >
@@ -66,9 +76,100 @@ function Navbar() {
       </button>
      </form>
   </div>
-  <div className="text-light d-none d-sm-none d-md-block">
-  <div className={`${styles.navIconsContainer}`} title="CART">
-  <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+  <div className="text-light  ms-auto d-sm-block d-md-block">
+  <div className={`${styles.navIconsCartContainer}`} title="CART">
+    <button onClick={cartShower}>
+    <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+    </button>
+
+  {/* Cart Container Start */}
+
+  <div className={`${styles.cartContainer} ${showCart ? styles.cartContainer_active : styles.cartContainer_disabled }`} title="">
+
+    <div className={styles.cartHeader}>
+      <h2>Shopping Cart</h2>
+      <button title="Close" onClick={cartShower}><i className="fa fa-times" aria-hidden="true"></i></button>
+    </div>
+
+    <div className={styles.cartItem}>
+    
+      <div>
+        <div>
+        <img src={Mobile} alt="cart images" className={styles.cartContainerImage} />
+        </div>
+        <div className={styles.middleContainer}>
+        <h4 className={styles.cartContainerTitle}>vivo Y22 with No Cost EMI.</h4>
+        <div className={styles.increDecreBtnContainer}>
+          <button>-</button>
+          { 1 }
+          <button>+</button>
+        </div>
+        <span className={styles.qtyAndAmountText}>1 x <h5>&#8377;9999</h5></span>
+        </div>
+        <div className={styles.trashContainer}>
+        <button title="Delete"><i className="fa fa-trash" aria-hidden="true"></i></button>
+        <h4>&#8377;9999</h4>
+        </div>
+      </div>
+
+      <div>
+        <div>
+        <img src={Camera} alt="camera images" className={styles.cartContainerImage} />
+        </div>
+        <div className={styles.middleContainer}>
+        <h4 className={styles.cartContainerTitle}>Canon E4570 Camera 12MP</h4>
+        <div className={styles.increDecreBtnContainer}>
+          <button>-</button>
+          { 1 }
+          <button>+</button>
+        </div>
+        <span className={styles.qtyAndAmountText}>1 x <h5>&#8377;36999</h5></span>
+        </div>
+        <div className={styles.trashContainer}>
+        <button title="Delete"><i className="fa fa-trash" aria-hidden="true"></i></button>
+        <h4>&#8377;36999</h4>
+        </div>
+      </div>
+
+      <div>
+        <div>
+        <img src={Shoes} alt="shoes images" className={styles.cartContainerImage} />
+        </div>
+        <div className={styles.middleContainer}>
+        <h4 className={styles.cartContainerTitle}>vivo Y22 with No Cost EMI.</h4>
+        <div className={styles.increDecreBtnContainer}>
+          <button>-</button>
+          { 1 }
+          <button>+</button>
+        </div>
+        <span className={styles.qtyAndAmountText}>1 x <h5>&#8377;459</h5></span>
+        </div>
+        <div className={styles.trashContainer}>
+        <button title="Delete"><i className="fa fa-trash" aria-hidden="true"></i></button>
+        <h4>&#8377;459</h4>
+        </div>
+      </div>
+
+    </div>
+
+    <div className={styles.subTotalContainer}>
+      <h4>Sub Total:</h4>
+      <h4>&#8377; 18999</h4>
+    </div>
+
+    <div className={styles.commentContainer}>
+      <textarea placeholder="Add a note to your order."></textarea>
+      <p>Shipping & taxes calculated at checkout.</p>
+      <button>Continue Shopping</button>
+      <button>Update</button>
+      <button>Checkout</button>
+    </div>
+
+  </div>
+
+
+  {/* Cart Container End */}
+
   </div>
   <div className={`${styles.navIconsContainer}`} title="WISHLIST">
   <i className="fa fa-heart" aria-hidden="true"></i>
@@ -143,6 +244,12 @@ function Navbar() {
   </div>
   </div>
   </div>
+
+  {/* SearchBar For Mobile Container Start */}
+
+  <SearchBar />
+
+  {/* SearchBar For Mobile Container End  */}
   </Container>
 
   );

@@ -3,7 +3,7 @@ const SideBarData = [
         title: "All Categories",
         iconClass: "fa fa-list-alt",
         path: "/",
-        className: "hamburgerNavLinks"
+        className: "hamburgerNavLinks",
     },
     {
         title: "Offer Zone",

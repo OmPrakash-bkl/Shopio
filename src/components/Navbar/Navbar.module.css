@@ -11,6 +11,7 @@
     padding: 0rem 1rem;
     height: 2.2rem;
 }
+
 .searchButton {
     height: 2.2rem;
     width: 2.5rem;
@@ -55,6 +56,24 @@ background-color: rgb(222, 222, 222);
     transition: border 0.3s;
 }
 
+.navIconsCartContainer {
+    background-color: white;
+    display: inline-block;
+    margin: 0rem 0.4rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 0.1rem;
+    transition: border 0.3s;
+}
+
+.navIconsCartContainer > button {
+    background-color: white;
+    color: rgb(181, 181, 181);
+    border: 0rem;
+    border-radius: 50%;
+    font-size: 1.4rem;
+}
+
 .navIconsContainer:hover {
     border: 1px solid rgb(155, 155, 155);
 }
@@ -64,6 +83,201 @@ background-color: rgb(222, 222, 222);
     color: rgb(181, 181, 181);
     cursor: pointer;
 }
+
+.cartContainer {
+    position: absolute;
+    background-color: white;
+    overflow-y: auto;
+    width: 18rem;
+    height: 100vh;
+    z-index: 3;
+    top: 0rem;
+    right: 0rem;
+    padding: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cartContainer_active {
+    height: 100vh;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.cartContainer_disabled {
+   height: 0rem;
+   background-color: white;
+   padding: 0rem;
+   transition: 0.5s;
+   overflow: hidden;
+}
+
+.cartHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgb(218, 218, 218);
+    padding-bottom: 0.2rem;
+}
+
+.cartHeader > h2 {
+    font-size: 1.4rem;
+    color: rgb(113, 113, 113);
+    font-weight: bold;
+}
+
+.cartHeader > button {
+    background-color: transparent;
+    border: 0rem;
+    font-size: 1.2rem;
+    color: gray;
+    padding: 0rem 0.6rem;
+    border: 1px solid rgb(196, 196, 196);
+    transition: color 0.3s;
+}
+
+.cartHeader > button:hover {
+    color: black;
+}
+
+.cartItem {
+    border-bottom: 0.1rem solid rgb(218, 218, 218);
+    padding-bottom: 0.2rem;
+    color: rgb(70, 70, 70);
+    padding: 0.4rem 0.5rem 0.4rem 0.4rem;
+    height: 21rem;
+    overflow-y: auto;
+}
+
+.cartItem > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgb(208, 208, 208);
+    margin-top: 0.3rem;
+}
+
+
+
+.cartContainerTitle {
+    font-size: 1rem;
+}
+
+.cartContainerImage {
+    height: 5rem;
+    width: 3rem;
+}
+
+.increDecreBtnContainer {
+    display: inline-block;
+    margin: 0.2rem auto;
+    border: 1px solid rgb(196, 196, 196);
+    width: 3.1rem;
+}
+
+.increDecreBtnContainer > button {
+    border: 0px;
+    height: 2rem;
+    width: 1rem;
+    padding: 0rem;
+    transition: background-color 0.3s;
+}
+
+.increDecreBtnContainer > button:hover {
+   background-color: rgb(171, 171, 171);
+}
+
+.increDecreBtnContainer > button:nth-child(odd) {
+    margin-right: 0.2rem;
+}
+
+.increDecreBtnContainer > button:nth-child(even) {
+    margin-left: 0.2rem;
+}
+
+.qtyAndAmountText {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.qtyAndAmountText > h5 {
+    font-size: 1rem;
+    color: rgb(65, 65, 65);
+    display: inline-block;
+}
+
+.trashContainer {
+    text-align: right;
+}
+
+.trashContainer > h4 {
+     color: rgb(103, 103, 103);
+     font-size: 1.3rem;
+}
+
+.trashContainer > button {
+    border: 0rem;
+    background-color: white;
+    margin-bottom: 3rem;
+    color: rgb(255, 101, 45);
+   }
+
+.trashContainer > button:hover {
+    color: rgb(255, 68, 0);
+}
+
+.middleContainer {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.subTotalContainer {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.3rem 0.3rem 0.1rem 0.3rem;
+    border-bottom: 0.1rem solid rgb(208, 208, 208);
+}
+
+.subTotalContainer > h4 {
+    font-size: 1.5rem;
+}
+
+.commentContainer {
+    color: black;
+    text-align: left;
+}
+
+.commentContainer > textarea {
+    width: 100%;
+    margin-top: 0.2rem;
+    border: 0.1rem solid rgb(208, 208, 208);
+}
+.commentContainer > textarea:focus {
+    outline: none;
+}
+
+.commentContainer > p {
+    line-height: 1.2rem;
+    margin-top: -0.3rem;
+}
+
+.commentContainer > button {
+    margin: 0.2rem;
+    border: 0rem;
+    border-radius: 0.3rem;
+    background-color: #4a90d7;
+    padding: 0.2rem 0.6rem;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.commentContainer > button:hover {
+    background-color: #237bd3;
+}
+
 
 .quickNavigationContainer {
     position: relative;
@@ -281,8 +495,9 @@ background-color: rgb(222, 222, 222);
 
 @media only screen and (max-width: 768px) {
     .searchForm {
-        width: 16rem;
+        width: 30rem;
     }
+
     .hamburgerIcon {
         display: inline-block;
         background-color: transparent;
@@ -299,24 +514,28 @@ background-color: rgb(222, 222, 222);
     background-color: #54a4f3;
 }
 
+.navbarContainer {
+    padding-bottom: 1rem;
+}
+
 }
 
 @media only screen and (max-width: 576px) {
     .searchForm {
         width: 18rem;
     }
-    
-.logoFontStyles {
-   display: none;
-}
-
+ 
 .closeBtnContainer {
     height: 3.2rem;
 }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 430px) {
     .searchForm {
-        width: 12rem;
+        width: 18rem;
     }
+    
+    .logoFontStyles {
+    letter-spacing: 0.1rem;
+   }
 }
