@@ -49,14 +49,14 @@ function Navbar() {
        <div className={`${styles.profilePictureContainer}`}>
         <img src={Cat_Dp} className={styles.dpImage} alt="User's profile pictures" />
         <h3>Guest</h3>
-        <button>Login</button>
-        <button>Register</button>
+        <button><Link className={`${styles.LoginAndSignupBtns}`} to="/Login">Login</Link></button>
+        <button><Link className={`${styles.LoginAndSignupBtns}`}  to="/Register">Register</Link></button>
        </div>
         {/* Profile, Login, Logout Section End */}
 
       <ul style={{ paddingLeft: "0rem" }}>
         { SideBarData.map((data, index) => {
-         return <li key={index} className={`${styles.hamburgerElementsContainer}`}  onClick={cartShower}>
+         return <li key={index} onClick={data.title == "My Cart" ? setShowCart : undefined } className={`${styles.hamburgerElementsContainer}`} >
           <Link to={`${data.path}`} className={`${styles.hamburgerElementsInnerContainer}`}>
             <span><i className={`${data.iconClass}`}></i></span>
             <span>{`${data.title}`}</span>

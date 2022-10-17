@@ -469,13 +469,16 @@ background-color: rgb(222, 222, 222);
  .profilePictureContainer > button {
     border: 0rem;
     background-color: #167ce1;
-    color: white;
     border-radius: 0.3rem;
     margin: 0.4rem;
     font-weight: bold;
     padding: 0.1rem 0.6rem;
  }
 
+ .LoginAndSignupBtns {
+    color: white;
+    text-decoration: none;
+ }
  
  .profilePictureContainer > button:hover {
     background-color: #136ec9;
