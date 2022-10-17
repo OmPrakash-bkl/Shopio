@@ -8,6 +8,7 @@ import Mobile from '../../assets/mobiles_cart.jpg';
 import Camera from '../../assets/td_camera.jpg'; 
 import Shoes from '../../assets/shoes.jpg'; 
 import SearchBar from './SearchBar';
+import Wishlist from '../Wishlist/Wishlist';
 
 
 function Navbar() {
@@ -173,6 +174,7 @@ function Navbar() {
   </div>
   <div className={`${styles.navIconsContainer}`} title="WISHLIST">
   <i className="fa fa-heart" aria-hidden="true"></i>
+  <Wishlist />
   </div>
   <div className={`${styles.navIconsContainer} ${styles.quickNavigationContainer}`} title="LOGIN/SIGNUP" onClick={quickNavbarShower}>
   <i className="fa fa-user" aria-hidden="true"></i>
