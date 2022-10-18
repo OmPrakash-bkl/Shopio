@@ -1,13 +1,14 @@
 .wishlistContainer {
     position: absolute;
     z-index: 3;
-    display: block;
     left: 0rem;
     width: 90%;
     margin: -1% 5%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: 0rem;
+    display: block;
 }
+
 
 .wishlistHeader {
     text-align: right;

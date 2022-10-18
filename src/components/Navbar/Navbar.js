@@ -15,6 +15,8 @@ function Navbar() {
   const [showHamburger, setShowHamburger] = useState(false);
   const [showQuickNavbar, setShowQuickNavbar] = useState(false);
   const [showCart, setShowCart] = useState(false); 
+  const [showWishlist, setShowWishlist] = useState(false);
+    
 
   function hamburgerShower() {
     setShowHamburger(!showHamburger);
@@ -27,6 +29,12 @@ function Navbar() {
   function cartShower() {
     setShowCart(!showCart);
   }
+
+  
+  function wishtlistShower() {
+    setShowWishlist(!showWishlist);
+}
+
 
   return (
   <Container fluid className={`${styles.navbarContainer}`}>
@@ -57,7 +65,7 @@ function Navbar() {
 
       <ul style={{ paddingLeft: "0rem" }}>
         { SideBarData.map((data, index) => {
-         return <li key={index} onClick={data.title == "My Cart" ? setShowCart : undefined } className={`${styles.hamburgerElementsContainer}`} >
+         return <li key={index} onClick={data.title == "My Cart" ? setShowCart : data.title == "My Wishlist" ? setShowWishlist : undefined } className={`${styles.hamburgerElementsContainer}`} >
           <Link to={`${data.path}`} className={`${styles.hamburgerElementsInnerContainer}`}>
             <span><i className={`${data.iconClass}`}></i></span>
             <span>{`${data.title}`}</span>
@@ -172,9 +180,9 @@ function Navbar() {
   {/* Cart Container End */}
 
   </div>
-  <div className={`${styles.navIconsContainer}`} title="WISHLIST">
-  <i className="fa fa-heart" aria-hidden="true"></i>
-  <Wishlist />
+  <div className={`${styles.navIconsWishlistContainer}`} title="WISHLIST">
+  <button onClick={wishtlistShower}><i className="fa fa-heart" aria-hidden="true"></i></button>
+  { showWishlist && <Wishlist WishlistShowHandler={wishtlistShower} /> }
   </div>
   <div className={`${styles.navIconsContainer} ${styles.quickNavigationContainer}`} title="LOGIN/SIGNUP" onClick={quickNavbarShower}>
   <i className="fa fa-user" aria-hidden="true"></i>

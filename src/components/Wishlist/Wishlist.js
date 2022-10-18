@@ -2,18 +2,19 @@ import React, { useState } from 'react';
 import styles from './Wishlist.module.css';
 import Mobiles from '../../assets/mobiles.jpg';
 
-function Wishlist() {
+function Wishlist(props) {
     const [showAllClearContainer, setShowAllClearContainer] = useState(false);
-    
+   
 
     function allClearContainerShower() {
         setShowAllClearContainer(!showAllClearContainer);
     }
+
   return (
-    <div className={styles.wishlistContainer} title="">
+    <div className={`${styles.wishlistContainer}`} title="">
         <div className={styles.wishlistHeader}>
             <span>Guest</span>
-            <span title="Close"><i className="fa fa-times" aria-hidden="true"></i></span>
+            <span title="Close" onClick={props.WishlistShowHandler}><i className="fa fa-times" aria-hidden="true"></i></span>
         </div>
         <div className={styles.wishlistAllClearContainer}>
             <div>
