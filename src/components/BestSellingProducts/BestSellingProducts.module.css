@@ -24,6 +24,8 @@
     border: 0.1rem solid gainsboro;
     border-radius: 0.5rem;   
     text-align: left;
+    margin: 1rem 0.2rem;
+    cursor: pointer;
 }
 
 
@@ -101,6 +103,7 @@
     background-color: white;
     border: 0px;
     padding: 0.38rem 0.6rem;
+    cursor: pointer;
     border-radius: 50%;
     color: rgb(181, 181, 181);
     transition: background-color 0.3s, color 0.3s;

@@ -25,6 +25,7 @@
     border-radius: 0.5rem;   
     text-align: left;
     position: relative;
+    cursor: pointer;
 }
 
 .offerShower {

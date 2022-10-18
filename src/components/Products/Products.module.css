@@ -1,0 +1,248 @@
+.productsParentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem 0.3rem;
+}
+
+.filterContainer {
+  flex: 20;
+  background-color: white;
+  z-index: 1;
+}
+
+
+.productsContainer {
+  flex: 80;
+  border-left: 0.1rem solid rgb(202, 202, 202);
+  padding: 0.2rem;
+}
+
+.productsContainerHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.2rem 0rem 0.4rem 0rem;
+  border-bottom: 0.1rem solid rgb(202, 202, 202);
+}
+
+.productsHeaderLeft {
+    position: relative;
+}
+
+.productsHeaderLeft > button {
+  border: 0rem;
+  background-color: rgb(223, 223, 223);
+  color: rgb(60, 60, 60);
+  margin: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s;
+}
+
+.productsHeaderLeft > button:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.productsHeaderRight {
+  color: rgb(60, 60, 60);
+  font-weight: bold;
+}
+.productsHeaderRight > input {
+  width: 3rem;
+  border: 0.1rem solid rgb(204, 204, 204);
+}
+.imgContainer > img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.productsListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 0.1rem solid rgb(202, 202, 202);
+  margin-bottom: 1rem;
+}
+
+.paginationContainer > button {
+  border: 0rem;
+  padding: 0.6rem 1.1rem;
+  margin: 0.2rem 0.6rem;
+  font-weight: bold;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50%;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.paginationContainer > button:hover {
+  background-color: #54a4f3 !important;
+  color: white;
+}
+
+.paginationBtn_active {
+  background-color: #54a4f3 !important;
+  color: white;
+}
+
+.sortByContainer {
+    position: absolute;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 12rem;
+    border: 0.2rem solid rgb(197, 197, 197);
+    border-radius: 0.3rem;
+    z-index: 3;
+    text-align: left;
+    left: 3.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: block;
+}
+
+.sortByContainer_active {
+    display: block;
+}
+
+.sortByContainer_disabled {
+    display: none;
+}
+
+.sortByContainer > button {
+    border: 0rem;
+    background-color: transparent;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    padding: 0rem;
+    transition: color 0.3s;
+}
+
+.sortByContainer > button:hover {
+    color: black;
+}
+
+.filterContainerHeading  {
+    text-align: left;
+    color: rgb(60, 60, 60);
+}
+
+.filterContainerHeading > h3 {
+    display: inline-block;
+}
+
+.filterContainerHeading > button {
+    background-color: transparent;
+    border: 0rem;
+    color: rgb(60, 60, 60);
+    font-size: 1.4rem;
+    margin-top: 0.2rem;
+    display: none;
+    margin-right: 0.3rem;
+    float: right;
+}
+
+.filterContainerHeading > button:hover {
+   color: black;
+}
+
+.filterSectionContainer {
+    border: 0.1rem solid rgb(197, 197, 197);
+    border-radius: 0.3rem;
+    margin: 0rem 0.2rem;
+    border-bottom: 0rem;
+}
+
+.filterSectionElements {
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid rgb(197, 197, 197);
+}
+
+.elementsHeading {
+    width: 100%;
+    background-color: #54a4f3;
+    border: 0rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.2rem 0.4rem;
+    text-align: left;
+}
+
+.elementsHeading > i {
+    margin-top: 0.3rem;
+    float: right;
+}
+
+.elementsHeading > i::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.filterFormContainer {
+    text-align: left;
+}
+
+.filterFormContainer > form > div {
+    margin: 0rem 0.4rem;
+}
+
+.formInputCheckboxLabel {
+    display: inline-block;
+    margin-left: 0.4rem;
+}
+
+.priceRanger {
+    width: 100%;
+}
+
+.priceRangeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+  .filterContainer {
+    flex: 0;
+    position: absolute;
+    width: 12rem;
+    height: 100vh;
+    left: -13rem;
+    overflow-y: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.4s;
+  }
+
+  .filterContainer_disabled {
+    left: -13rem;
+    transition: 0.4s;
+  }
+
+  .filterContainer_active {
+    left: 0rem;
+    transition: 0.4s;
+  }
+
+  .productsContainer {
+    flex: 100;
+  }
+  .filterContainerHeading > button  {
+    display: block;
+  }
+
+  .productsContainer {
+   border: 0rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .paginationContainer > button {
+    padding: 0.3rem 0.7rem;
+    margin: 0.2rem 0.3rem;
+  }
+}
