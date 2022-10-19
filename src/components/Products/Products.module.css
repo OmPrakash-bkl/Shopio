@@ -95,7 +95,7 @@
     width: 12rem;
     border: 0.2rem solid rgb(197, 197, 197);
     border-radius: 0.3rem;
-    z-index: 3;
+    z-index: 1;
     text-align: left;
     left: 3.2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -193,7 +193,14 @@
 .formInputCheckboxLabel {
     display: inline-block;
     margin-left: 0.4rem;
+    cursor: pointer;
+    color: rgb(71, 71, 71);
 }
+
+.formInputCheckboxLabel:hover {
+ color: black;
+}
+
 
 .priceRanger {
     width: 100%;

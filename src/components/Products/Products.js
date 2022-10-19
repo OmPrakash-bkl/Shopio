@@ -93,7 +93,7 @@ function Products() {
                 <div className={`${styles.filterFormContainer}`}>
                   <form>
                     <div>
-                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='price_01'>Min Price <i class="fa fa-arrow-down"></i></label>
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='price_01'>Min Price <i className="fa fa-arrow-down"></i></label>
                     <div className={`${styles.priceRangeContainer}`}>
                       <span>0Rs</span>
                       <span>10000Rs</span>
@@ -101,12 +101,134 @@ function Products() {
                     <input type="range" className={`${styles.priceRanger}`} id="price_01" />
                     </div>
                     <div>
-                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='price_02'>Max Price <i class="fa fa-arrow-down"></i></label>
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='price_02'>Max Price <i className="fa fa-arrow-down"></i></label>
                     <div className={`${styles.priceRangeContainer}`}>
                       <span>0Rs</span>
                       <span>10000Rs</span>
                     </div>
                     <input type="range" className={`${styles.priceRanger}`} id="price_02" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+
+          <div className={`${styles.filterSectionContainer}`}>
+              <div className={`${styles.filterSectionElements}`}>
+                <button className={`${styles.elementsHeading}`}>Color <i className="fa fa-angle-down"></i></button>
+                <div className={`${styles.filterFormContainer}`}>
+                  <form>
+                    <div>
+                    <input type="checkbox" id="color_01" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='color_01'>White</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="color_02" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='color_02'>Red</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="color_03" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='color_03'>Black</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="color_04" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='color_04'>Green</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="color_05" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='color_05'>Violet</label>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+
+          <div className={`${styles.filterSectionContainer}`}>
+              <div className={`${styles.filterSectionElements}`}>
+                <button className={`${styles.elementsHeading}`}>Rating <i className="fa fa-angle-down"></i></button>
+                <div className={`${styles.filterFormContainer}`}>
+                  <form>
+                    <div>
+                    <input type="checkbox" id="rating_01" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='rating_01'>Below 5</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="rating_02" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='rating_02'>Below 4</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="rating_03" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='rating_03'>Below 3</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="rating_04" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='rating_04'>Below 2</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="rating_05" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='rating_05'>Below 1</label>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+
+          <div className={`${styles.filterSectionContainer}`}>
+              <div className={`${styles.filterSectionElements}`}>
+                <button className={`${styles.elementsHeading}`}>Size <i className="fa fa-angle-down"></i></button>
+                <div className={`${styles.filterFormContainer}`}>
+                  <form>
+                    <div>
+                    <input type="checkbox" id="size_01" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='size_01'>Small</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="size_02" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='size_02'>Medium</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="size_03" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='size_03'>Large</label>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+
+          <div className={`${styles.filterSectionContainer}`}>
+              <div className={`${styles.filterSectionElements}`}>
+                <button className={`${styles.elementsHeading}`}>Availability <i className="fa fa-angle-down"></i></button>
+                <div className={`${styles.filterFormContainer}`}>
+                  <form>
+                    <div>
+                    <input type="radio" name="avail" id="availability_01" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='availability_01'>In Stock</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="avail" id="availability_02" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='availability_02'>Out Of Stock</label>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+
+          <div className={`${styles.filterSectionContainer}`}>
+              <div className={`${styles.filterSectionElements}`}>
+                <button className={`${styles.elementsHeading}`}>Gender <i className="fa fa-angle-down"></i></button>
+                <div className={`${styles.filterFormContainer}`}>
+                  <form>
+                    <div>
+                    <input type="radio" name="gender" id="gender_01" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='gender_01'>Male</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="gender" id="gender_02" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='gender_02'>Female</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="gender" id="gender_03" />
+                    <label className={`${styles.formInputCheckboxLabel}`} htmlFor='gender_03'>Both</label>
                     </div>
                   </form>
                 </div>
