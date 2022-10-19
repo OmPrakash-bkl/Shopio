@@ -10,15 +10,15 @@ function Signin() {
       <div>
         <div className={`${styles.formFieldsElementsContainer}`}>
         <label htmlFor="email">Email</label>
-        <input type="text" id="email" />
+        <input type="email" id="email" />
         </div>
         <div className={`${styles.formFieldsElementsContainer}`}>
         <label htmlFor="password">Password</label>
         <input type="text" id="password" />
         </div>
         <div>
-          <Link to="/" className={`${styles.loginPageLinks}`}>Forgot your password?</Link>
-          <Link to="/" className={`${styles.loginPageLinks}`}>Register?</Link>
+          <Link to="/RecoverAccount" className={`${styles.loginPageLinks}`}>Forgot your password?</Link>
+          <Link to="/Register" className={`${styles.loginPageLinks}`}>Register?</Link>
         </div>
         <div>
             <button className={`${styles.loginBtn}`}>Login</button>
