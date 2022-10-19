@@ -1,0 +1,41 @@
+.categoriesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    box-shadow: none;
+}
+
+.categoriesContainerHeading {
+    display: block;
+    text-decoration: underline;
+    width: 100%;
+    margin: 1rem 0.2rem;
+}
+
+.categoriesInnerContainer {
+    border: 0.1rem solid gainsboro;
+    margin: 0.5rem 1rem;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.categoriesInnerContainer:hover {
+    border: 0.1rem solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.categoriesInnerContainer > h6 {
+    color: rgb(53, 53, 53);
+}
+
+.categoriesInnerContainer > img {
+    height: 6rem;
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+
+
+

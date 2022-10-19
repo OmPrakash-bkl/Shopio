@@ -2,7 +2,7 @@ const SideBarData = [
     {
         title: "All Categories",
         iconClass: "fa fa-list-alt",
-        path: "/",
+        path: "/Categories",
         className: "hamburgerNavLinks",
     },
     {
