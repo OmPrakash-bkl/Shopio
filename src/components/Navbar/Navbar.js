@@ -191,7 +191,7 @@ function Navbar() {
 
   <div className={ !showQuickNavbar ? styles.quickNavMenuContainer : styles.quickNavMenuContainer_active }>
 
-    <Link to="/" className={`${styles.quickNavLinks}`}>
+    <Link to="/MyAccount" className={`${styles.quickNavLinks}`}>
       <div className={styles.quickNavMenuElements}>
       <span title=""><i className="fa fa-user" aria-hidden="true"></i></span>
         <span title="">My Account</span>

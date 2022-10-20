@@ -8,6 +8,7 @@ import Products from './pages/Products/Products';
 import Categories from './pages/Categories/Categories';
 import RecoverAccount from './pages/RecoverAccount/RecoverAccount';
 import ResetPassword from './pages/ResetPassword/ResetPassword';
+import MyAccount from './pages/MyAccount/MyAccount';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Categories" exact element={<Categories />} />
         <Route path="/RecoverAccount" exact element={<RecoverAccount />} />
         <Route path="/ResetPassword" exact element={<ResetPassword />} />
+        <Route path="/MyAccount" exact element={<MyAccount />} />
       </Routes>
       </BrowserRouter>
     </div>
