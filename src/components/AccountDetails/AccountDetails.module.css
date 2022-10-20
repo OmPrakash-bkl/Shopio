@@ -1,0 +1,117 @@
+.accountDetailsContainer {
+    display: block;
+    width: 50%;
+    margin: 1% 25%;
+    padding: 0.2rem 0.5rem;
+}
+
+.accountDetailsContainer > h2 {
+    margin-bottom: 1rem;
+    color: #3c96ef;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.userDp {
+    height: 4rem;
+    width: 4rem;
+    border: 0.2rem solid rgb(35, 35, 35);
+    border-radius: 50%;
+}
+
+.detailsElementsContainer {
+    width: 100%;
+    margin: 1.5rem 0.3rem 1rem 0.3rem;
+}
+
+.detailsElements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgb(201, 201, 201);
+    margin-bottom: 2rem;
+}
+
+.detailsElements > h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.detailsElements > h4:nth-child(even) {
+    color: rgb(41, 41, 41);
+    font-weight: 400;
+}
+
+.passwordChangerHeading {
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+.passwordChangeContainer {
+    border: 0.2rem solid rgb(190, 190, 190);
+    padding: 1rem 0.5rem;
+}
+
+
+.formFieldsElementsContainer {
+    width: 100%;
+}
+
+.formFieldsElementsContainer > input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    outline: none;
+    border: 0.1rem solid rgb(220, 220, 220);
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.6rem;
+    color: rgb(66, 66, 66);
+}
+
+.formFieldsElementsContainer > input:focus {
+    outline: none;
+}
+
+.formFieldsElementsContainer > label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.2rem;
+    color: rgb(87, 87, 87);
+}
+
+.passChangeBtn, .actionBtns {
+    border: 0rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #378ade;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    color: white;
+    margin: 0.5rem 0.8rem 0.5rem 0rem;
+    transition: background-color 0.3s;
+}
+
+.passChangeBtn:hover, .actionBtns:hover {
+    background-color: #3061e8;
+}
+
+.actionBtnsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.actionBtns {
+    background-color: #3061e8;
+}
+
+.actionBtns:hover {
+    background-color: #378ade;
+}
+
+@media only screen and (max-width: 576px) {
+    .accountDetailsContainer {
+        width: 90%;
+        margin: 2% 5%;
+    }
+}

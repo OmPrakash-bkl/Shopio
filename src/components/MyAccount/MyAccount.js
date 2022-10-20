@@ -25,7 +25,7 @@ function MyAccount() {
                 <h4>Addresses</h4>
             </div>
             </Link>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/AccountDetails" style={{ textDecoration: "none" }}>
             <div className={`${styles.myAccountNavigationLinkContainer}`}>
                 <span><i className="fa fa-user-circle"></i></span>
                 <h4>Account Details</h4>

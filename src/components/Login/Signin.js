@@ -14,7 +14,7 @@ function Signin() {
         </div>
         <div className={`${styles.formFieldsElementsContainer}`}>
         <label htmlFor="password">Password</label>
-        <input type="text" id="password" />
+        <input type="password" id="password" />
         </div>
         <div>
           <Link to="/RecoverAccount" className={`${styles.loginPageLinks}`}>Forgot your password?</Link>
