@@ -10,6 +10,7 @@ import RecoverAccount from './pages/RecoverAccount/RecoverAccount';
 import ResetPassword from './pages/ResetPassword/ResetPassword';
 import MyAccount from './pages/MyAccount/MyAccount';
 import AccountDetails from './pages/AccountDetails/AccountDetails';
+import OrderHistory from './pages/OrderHistory/OrderHistory';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/ResetPassword" exact element={<ResetPassword />} />
         <Route path="/MyAccount" exact element={<MyAccount />} />
         <Route path="/AccountDetails" exact element={<AccountDetails />} />
+        <Route path="/OrderHistory" exact element={<OrderHistory />} />
       </Routes>
       </BrowserRouter>
     </div>
