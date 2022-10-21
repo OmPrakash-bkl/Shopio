@@ -62,7 +62,7 @@ const SideBarData = [
     {
         title: "Contact Us",
         iconClass: "fa fa-phone",
-        path: "/",
+        path: "/ContactUs",
         className: "hamburgerNavLinks"
     }
 ];
