@@ -11,6 +11,7 @@ import ResetPassword from './pages/ResetPassword/ResetPassword';
 import MyAccount from './pages/MyAccount/MyAccount';
 import AccountDetails from './pages/AccountDetails/AccountDetails';
 import OrderHistory from './pages/OrderHistory/OrderHistory';
+import MyAddresses from './pages/MyAddresses/MyAddresses';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/MyAccount" exact element={<MyAccount />} />
         <Route path="/AccountDetails" exact element={<AccountDetails />} />
         <Route path="/OrderHistory" exact element={<OrderHistory />} />
+        <Route path="/MyAddresses" exact element={<MyAddresses />} />
       </Routes>
       </BrowserRouter>
     </div>

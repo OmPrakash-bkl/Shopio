@@ -1,0 +1,112 @@
+.addressDetailsContainer {
+    display: block;
+    width: 50%;
+    margin: 1% 25%;
+    padding: 0.2rem 0.5rem;
+}
+
+.addressDetailsContainer > h2 {
+    margin-bottom: 1rem;
+    color: #3c96ef;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.returnAccContainer {
+    text-align: left;
+    margin: 0.5rem 0rem;
+}
+
+.returnLink {
+    display: block;
+    text-align: left;
+    color: #3c96ef;
+    font-weight: 600;
+    transition: color 0.3s;
+    font-size: 1.2rem;
+}
+
+.returnLink:hover {
+    color: #2d6fb0;
+}
+
+
+.detailsElementsContainer {
+    width: 100%;
+    margin: 1.5rem 0.3rem 1rem 0.3rem;
+}
+
+.detailsElements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgb(201, 201, 201);
+    margin-bottom: 2rem;
+}
+
+.detailsElements > h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.detailsElements > h4:nth-child(even) {
+    color: rgb(41, 41, 41);
+    font-weight: 400;
+    text-align: right;
+}
+
+.addressTypeHeading {
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+
+.actionBtns, .newAddressBtn {
+    border: 0rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #378ade;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    color: white;
+    margin: 0rem 0.8rem 0.5rem 0rem;
+    transition: background-color 0.3s;
+}
+
+.actionBtns:hover, .newAddressBtn:hover {
+    background-color: #3061e8;
+}
+
+.newAddressBtn {
+    margin: 0.6rem 0rem;
+}
+
+.actionBtnsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.actionBtns {
+    background-color: #3061e8;
+}
+
+.actionBtns:hover {
+    background-color: #378ade;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .addressDetailsContainer {
+        width: 90%;
+        margin: 2% 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .addressDetailsContainer {
+        width: 98%;
+        margin: 2% 1%;
+    }
+}

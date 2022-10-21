@@ -13,13 +13,13 @@ function MyAccount() {
                 <h4>Orders</h4>
             </div>
             </Link>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/OrderHistory" style={{ textDecoration: "none" }}>
             <div className={`${styles.myAccountNavigationLinkContainer}`}>
                 <span><i className="fa fa-history" aria-hidden="true"></i></span>
                 <h4>Orders History</h4>
             </div>
             </Link>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/MyAddresses" style={{ textDecoration: "none" }}>
             <div className={`${styles.myAccountNavigationLinkContainer}`}>
                 <span><i className="fa fa-address-card"></i></span>
                 <h4>Addresses</h4>

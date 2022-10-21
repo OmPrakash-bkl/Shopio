@@ -51,7 +51,7 @@ function AccountDetails() {
         </div>
 
         <div className={`${styles.actionBtnsContainer}`}>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/MyAddresses" style={{ textDecoration: "none" }}>
             <button className={`${styles.actionBtns}`}>View Address (1)</button>
         </Link>
         <button className={`${styles.actionBtns}`}>Logout</button>
