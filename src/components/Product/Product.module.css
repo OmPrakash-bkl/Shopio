@@ -1,0 +1,222 @@
+.productParentContainer {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 98%;
+   margin: 1rem;
+}
+
+.productImageContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prodImgLeftContainer > div {
+    height: 7rem;
+    width: 7rem;
+    cursor: pointer;
+    border: 0.1rem solid rgb(208, 208, 208);
+}
+
+.prodImgLeftContainer > div:hover {
+    border: 0.1rem solid gray;
+}
+
+.prodImgLeftContainer > div > img {
+    height: 6rem;
+    width: 6rem;
+    margin: 0.5rem;
+}
+
+.prodImgRightContainer {
+    border: 0.1rem solid rgb(208, 208, 208);
+}
+
+.prodImgRightContainer > img {
+    height: 16rem;
+    width: 16rem;
+    margin: 5rem 0rem;
+}
+
+.prodActionButtonContainer {
+    padding: 0.8rem 0.3rem;
+    display: inline-block;
+}
+
+.nonOutlineBtn {
+    border: 0rem;
+    padding: 0.6rem 1rem;
+    background-color: #378ade;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    color: white;
+    margin: 0.5rem 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.nonOutlineBtn:hover {
+    background-color: #3061e8;
+}
+
+.outlineBtn, .sizeAndColorBtns {
+    background-color: white;
+    border: 0.1rem solid #378ade;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    color: #378ade;
+    margin: 0.5rem 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.outlineBtn:hover, .sizeAndColorBtns:hover {
+    background-color: #378ade;
+    color: white;
+}
+
+.sizeAndColorBtns {
+    padding: 0.3rem 0.6rem;
+}
+
+.sizeAndColorBtns_active {
+    background-color: #378ade;
+    color: white;
+}
+
+.sizeAndColorBtns_active:hover {
+    background-color: #2676c6;
+}
+
+.sizeAndColorBtns:first-child {
+    margin-left: 0rem;
+}
+
+.productContentContainer {
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.ratingContainer > div {
+    display: inline-block;
+    background-color: rgb(229, 229, 229);
+    padding: 0.2rem 0.4rem;
+    border: 0rem;
+    border-radius: 0.3rem;
+    margin-right: 0.6rem;
+}
+
+.ratingContainer > div > span > i {
+    color: orange;
+}
+
+.reviewTxt {
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+}
+
+.prodDetailsContainer {
+    margin: 1rem 0rem;
+}
+
+.inStockIconContainer > i {
+    color: #378ade;
+}
+
+.prodDetailsTable > tbody > tr > th {
+    color: rgb(57, 57, 57);
+}
+
+.prodDetailsTable > tbody > tr > td {
+    text-align: left;
+    display: inline-block;
+    padding: 0.2rem 0.2rem 0.2rem 1rem;
+    color: rgb(110, 110, 110);    
+}
+
+
+.priceContainer > h2 {
+    color: #378ade;
+    display: inline-block;
+}
+
+.priceContainer > h3 {
+    text-decoration: line-through;
+    display: inline-block;
+    margin: 0rem 1rem;
+    font-size: 1.3rem;
+}
+
+.offerContainer > h3 {
+    color: rgb(255, 86, 39);
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.increDecreContainer {
+    margin: 0rem 1rem;
+}
+
+.increDecreContainer > button {
+    border: 0.1rem solid gainsboro;
+    background-color: #376cfd;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 2rem;
+    transition: background-color 0.3s;
+}
+
+.increDecreContainer > button:hover {
+    background-color: #2f5bd6;
+}
+
+.increDecreContainer > b {
+    font-size: 1.3rem;
+    padding: 0.2rem 0.8rem;
+    border-top: 0.1rem solid gainsboro;
+    border-bottom: 0.1rem solid gainsboro;
+    color: rgb(57, 57, 57);
+}
+
+.priceContainer, .offerContainer, .increDecreContainer {
+    margin-left: 7rem;
+}
+
+.socialMediaBtnsContainer {
+    margin-left: 7rem;
+}
+
+.socialMediaBtnsContainer > button {
+    background-color: rgb(217, 217, 217);
+    border: 0.2rem solid rgb(184, 184, 184);
+    margin: 1rem 0.6rem;
+    color: rgb(57, 57, 57);
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+    transition: border 0.3s;
+}
+
+.socialMediaBtnsContainer > button:hover {
+    border: 0.2rem solid rgb(145, 145, 145);
+}
+
+.socialMediaBtnsContainer > button:first-child {
+    margin-left: 0rem;
+}
+
+.colorBlueBtn {
+    font-size: 1rem;
+    color: rgb(1, 86, 255);
+}
+
+.colorLiteBlueBtn {
+    font-size: 1rem;
+    color: #378ade;
+}
+
+.colorRedBtn {
+    font-size: 1rem;
+    color: red;
+}

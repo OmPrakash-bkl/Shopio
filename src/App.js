@@ -13,6 +13,7 @@ import AccountDetails from './pages/AccountDetails/AccountDetails';
 import OrderHistory from './pages/OrderHistory/OrderHistory';
 import MyAddresses from './pages/MyAddresses/MyAddresses';
 import ContactUs from './pages/ContactUs/ContactUs';
+import Product from './pages/Product/Product';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/OrderHistory" exact element={<OrderHistory />} />
         <Route path="/MyAddresses" exact element={<MyAddresses />} />
         <Route path="/ContactUs" exact element={<ContactUs />} />
+        <Route path="/Product" exact element={<Product />} />
       </Routes>
       </BrowserRouter>
     </div>

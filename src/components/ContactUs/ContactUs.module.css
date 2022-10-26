@@ -78,6 +78,10 @@
     background-color: rgb(243, 243, 243);
 }
 
+.contactFormContainer > form > textarea {
+    height: 10rem;
+}
+
 .contactFormContainer > form > input:focus, .contactFormContainer > form > textarea:focus {
     outline: none;
     border: 0.1rem solid rgb(181, 181, 181);
