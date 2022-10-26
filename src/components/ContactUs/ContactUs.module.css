@@ -1,0 +1,124 @@
+.contactUsContainer > h2 {
+    margin: 1rem 0.2rem;
+    color: #3c96ef;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mapouter { 
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:600px;
+   
+}
+
+.gmap_canvas { 
+    overflow:hidden;
+    background:none!important;
+}
+
+.mapContainer {
+    margin: 2rem 0.3rem 0rem 0.3rem;
+}
+.addressAndNumberContainer {
+    display: block;
+    margin: 0rem auto;
+    width: 79%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.3rem;
+    line-height: 1.2rem;
+    margin-top: -0.4rem;
+    border-bottom: 0.2rem solid rgb(220, 220, 220);
+    margin-bottom: 1rem;
+    color: rgb(46, 46, 46);
+}
+
+.addressContainer > span {
+    display: block;
+    text-align: left;
+    font-size: 1.2rem;
+    width: 24rem;
+    font-weight: light;
+}
+
+.numberContainer > p {
+    margin: 0.2rem;
+    text-align: right;
+}
+
+.messageIconContainer {
+    margin: 0.3rem auto 1.2rem auto;
+}
+
+.messageIconContainer > i {
+    font-size: 5rem;
+    color: #3c96ef;
+}
+
+.contactFormContainer {
+    width: 80%;
+    margin: 0.2rem auto;
+}
+
+.contactFormContainer > form > input {
+    height: 2.4rem;
+}
+
+.contactFormContainer > form > input, .contactFormContainer > form > textarea {
+    width: 80%;
+    display: block;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    border: 0.1rem solid transparent;
+    margin: 0.6rem auto;
+    background-color: rgb(243, 243, 243);
+}
+
+.contactFormContainer > form > input:focus, .contactFormContainer > form > textarea:focus {
+    outline: none;
+    border: 0.1rem solid rgb(181, 181, 181);
+}
+
+.contactFormContainer > form > button {
+    border: 0rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #378ade;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    color: white;
+    margin: 0.5rem 0rem;
+    transition: background-color 0.3s;
+}
+
+.contactFormContainer > form > button:hover {
+    background-color: #3061e8;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .addressAndNumberContainer {
+        flex-direction: column;
+    }
+    
+.addressContainer > span {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.numberContainer > p {
+    text-align: center;
+    margin: 0rem;
+}
+
+.contactFormContainer > form > input, .contactFormContainer > form > textarea {
+    width: 100%;
+}
+
+}
+
+
