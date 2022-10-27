@@ -1,7 +1,6 @@
 .productParentContainer {
    display: flex;
    flex-direction: row;
-   flex-wrap: wrap;
    width: 98%;
    margin: 1rem;
 }
@@ -9,7 +8,7 @@
 .productImageContainer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 
@@ -60,7 +59,7 @@
     background-color: #3061e8;
 }
 
-.outlineBtn, .sizeAndColorBtns {
+.outlineBtn, .sizeAndColorBtns, .reviewContainerBtns {
     background-color: white;
     border: 0.1rem solid #378ade;
     padding: 0.6rem 1rem;
@@ -71,7 +70,7 @@
     transition: background-color 0.3s;
 }
 
-.outlineBtn:hover, .sizeAndColorBtns:hover {
+.outlineBtn:hover, .sizeAndColorBtns:hover, .reviewContainerBtns:hover {
     background-color: #378ade;
     color: white;
 }
@@ -126,6 +125,7 @@
 
 .prodDetailsTable > tbody > tr > th {
     color: rgb(57, 57, 57);
+    vertical-align: top;
 }
 
 .prodDetailsTable > tbody > tr > td {
@@ -189,17 +189,16 @@
 }
 
 .socialMediaBtnsContainer > button {
-    background-color: rgb(217, 217, 217);
-    border: 0.2rem solid rgb(184, 184, 184);
-    margin: 1rem 0.6rem;
-    color: rgb(57, 57, 57);
+    background-color: rgb(230, 230, 230);
+    border: 0.2rem solid rgb(213, 213, 213);
+    margin: 0.6rem 0.6rem 0rem 0.6rem;
     font-weight: bold;
     padding: 0.3rem 0.5rem;
     transition: border 0.3s;
 }
 
 .socialMediaBtnsContainer > button:hover {
-    border: 0.2rem solid rgb(145, 145, 145);
+    border: 0.2rem solid rgb(185, 185, 185);
 }
 
 .socialMediaBtnsContainer > button:first-child {
@@ -220,3 +219,116 @@
     font-size: 1rem;
     color: red;
 }
+
+.productDescription, .productSpecification, .productReviews {
+    margin: 1rem;
+    border: 0.1rem solid rgb(208, 208, 208);
+    text-align: left;
+    padding: 0.4rem;
+    color: rgb(57, 57, 57);
+}
+
+.TitleContainer, .TitleContainerReview {
+    padding: 0.3rem;
+    border-bottom: 0.1rem solid rgb(208, 208, 208);
+}
+
+.productDescription > p {
+    padding-top: 0.4rem;
+    color: rgb(110, 110, 110);    
+}
+
+.productSpecification > table {
+    width: 100%;
+}
+
+.tableHeaderAndElementsContainer > tr > th, .tableHeaderAndElementsContainer > tr > td {
+    padding: 0.4rem;
+}
+
+.tableHeaderAndElementsContainer > tr > th {
+    color: rgb(57, 57, 57);  
+    vertical-align: top;
+}
+
+.tableHeaderAndElementsContainer > tr > td {
+    color: rgb(110, 110, 110);  
+}
+
+.TitleContainerReview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.TitleContainerReview > button {
+    height: 2rem;
+    width: 2rem;
+    border: 0.1rem solid rgb(207, 207, 207);
+    border-radius: 50%;
+    background-color: rgb(222, 222, 222);
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.TitleContainerReview > button:hover {
+    border: 0.1rem solid rgb(192, 192, 192);
+    background-color: rgb(200, 200, 200);
+    color: black;
+}
+
+.reviewFormContainer {
+    width: 60%;
+    margin: auto;
+}
+
+.reviewFormContainerActive {
+    display: block;
+}
+
+.reviewFormContainerDisabler {
+    display: none;
+}
+
+.reviewFormContainer > form > input {
+    display: block;
+    border: 0.1rem solid gainsboro;
+    padding: 0.5rem;
+    margin: 0.8rem 0rem;
+    border-radius: 0.4rem;
+    color: rgb(79, 79, 79);
+    width: 100%;
+}
+
+.reviewFormContainer > form > input:focus {
+    outline: none;
+    border: 0.1rem solid rgb(187, 187, 187);
+}
+
+.reviewContainerBtns {
+    padding: 0.4rem 0.8rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+.productImageContainer {
+    flex-wrap: wrap;
+}
+.productParentContainer {
+   flex-wrap: wrap;
+   width: 96%;
+   justify-content: center;
+ }
+
+.reviewFormContainer {
+    width: 90%;
+}
+
+}
+
