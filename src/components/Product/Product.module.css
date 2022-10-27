@@ -59,7 +59,7 @@
     background-color: #3061e8;
 }
 
-.outlineBtn, .sizeAndColorBtns, .reviewContainerBtns {
+.outlineBtn, .sizeAndColorBtns, .reviewContainerBtns, .QandAContainerBtns {
     background-color: white;
     border: 0.1rem solid #378ade;
     padding: 0.6rem 1rem;
@@ -70,7 +70,7 @@
     transition: background-color 0.3s;
 }
 
-.outlineBtn:hover, .sizeAndColorBtns:hover, .reviewContainerBtns:hover {
+.outlineBtn:hover, .sizeAndColorBtns:hover, .reviewContainerBtns:hover, .QandAContainerBtns:hover {
     background-color: #378ade;
     color: white;
 }
@@ -220,7 +220,7 @@
     color: red;
 }
 
-.productDescription, .productSpecification, .productReviews {
+.productDescription, .productSpecification, .productReviews, .productQandA, .FAProdContainer {
     margin: 1rem;
     border: 0.1rem solid rgb(208, 208, 208);
     text-align: left;
@@ -228,7 +228,7 @@
     color: rgb(57, 57, 57);
 }
 
-.TitleContainer, .TitleContainerReview {
+.TitleContainer, .TitleContainerReview, .TitleContainerQandA, .TitleContainerFAProd {
     padding: 0.3rem;
     border-bottom: 0.1rem solid rgb(208, 208, 208);
 }
@@ -255,14 +255,14 @@
     color: rgb(110, 110, 110);  
 }
 
-.TitleContainerReview {
+.TitleContainerReview, .TitleContainerQandA, .TitleContainerFAProd {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.TitleContainerReview > button {
+.TitleContainerReview > button, .TitleContainerQandA > button, .TitleContainerFAProd > button {
     height: 2rem;
     width: 2rem;
     border: 0.1rem solid rgb(207, 207, 207);
@@ -275,26 +275,56 @@
 }
 
 
-.TitleContainerReview > button:hover {
+.TitleContainerReview > button:hover, .TitleContainerQandA > button:hover, .TitleContainerFAProd > button:hover {
     border: 0.1rem solid rgb(192, 192, 192);
     background-color: rgb(200, 200, 200);
     color: black;
 }
 
-.reviewFormContainer {
+.qaSearchBarContainer {
+    margin: 0.5rem 0rem;
+}
+
+.qaSearchBarContainer > form > input {
+    border: 0.1rem solid gainsboro;
+    padding: 0.5rem;
+    color: rgb(79, 79, 79);
+    width: 30%;
+}
+
+.qaSearchBarContainer > form > button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #376cfd;
+    color: white;
+    transition: background-color 0.3s;
+    border: 0.1rem solid #376cfd;
+}
+
+.qaSearchBarContainer > form > input:focus {
+    outline: none;
+    border: 0.1rem solid rgb(187, 187, 187);
+}
+
+.qaSearchBarContainer > form > button:hover {
+    background-color: #2f5ddd;
+    border: 0.1rem solid #2f5ddd;
+}
+
+.reviewFormContainer, .QandAFormContainer {
     width: 60%;
     margin: auto;
 }
 
-.reviewFormContainerActive {
+.reviewFormContainerActive, .QandAFormContainerActive {
     display: block;
 }
 
-.reviewFormContainerDisabler {
+.reviewFormContainerDisabler, .QandAFormContainerDisabler {
     display: none;
 }
 
-.reviewFormContainer > form > input {
+.reviewFormContainer > form > input, .QandAFormContainer > form > input {
     display: block;
     border: 0.1rem solid gainsboro;
     padding: 0.5rem;
@@ -304,16 +334,59 @@
     width: 100%;
 }
 
-.reviewFormContainer > form > input:focus {
+.reviewFormContainer > form > input:focus, .QandAFormContainer > form > input:focus {
     outline: none;
     border: 0.1rem solid rgb(187, 187, 187);
 }
 
-.reviewContainerBtns {
+.reviewContainerBtns, .QandAContainerBtns {
     padding: 0.4rem 0.8rem;
 }
 
+.prodPeopleReviewContainer, .prodPeopleQandAContainer {
+    border-top: 0.1rem solid rgb(208, 208, 208);
+}
 
+.prodPeopleReviewContainer > h5, .prodPeopleQandAContainer > h5 {
+    margin: 0.2rem auto;
+}
+
+.reviewRatingStarsContainer > span > i {
+    color: orange;
+}
+.prodPeopleReviewContainer > p {
+    margin: 0.2rem 0rem 0.4rem 0rem;
+}
+.prodPeopleReviewContainer > button, .prodPeopleQandAContainer > button {
+    border: 0rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: gray;
+    margin: 0rem 0.3rem;
+    transition: color 0.3s;
+}
+
+.prodPeopleReviewContainer > button:hover, .prodPeopleQandAContainer > button:hover  {
+    color: #378ade;
+}
+
+.question {
+font-size: 1rem;
+color: rgb(78, 78, 78);
+}
+
+.answer {
+    font-size: 1rem;
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+.qaSearchBarContainer > form > input {
+    width: 50%;
+}
+}
 
 @media only screen and (max-width: 768px) {
     
@@ -326,8 +399,12 @@
    justify-content: center;
  }
 
-.reviewFormContainer {
+.reviewFormContainer, .QandAFormContainer {
     width: 90%;
+}
+  
+.qaSearchBarContainer > form > input {
+    width: 80%;
 }
 
 }

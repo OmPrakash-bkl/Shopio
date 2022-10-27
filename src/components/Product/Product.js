@@ -6,13 +6,19 @@ import Vivo2 from '../../assets/vivo2.jpg';
 import Vivo3 from '../../assets/vivo3.jpg';
 import Vivo4 from '../../assets/vivo4.jpg';
 import styles from './Product.module.css';
+import FSProducts from '../../components/FAProducts/FAProducts';
 
 function Product() {
 
     const [showReviewBox, setShowReviewBox] = useState(false);
+    const [showQABox, setShowQABox] = useState(false);
 
     function reviewBoxShower() {
         setShowReviewBox(!showReviewBox);
+    }
+
+    function QABoxShower() {
+        setShowQABox(!showQABox);
     }
 
   return (
@@ -174,7 +180,7 @@ function Product() {
     </div>
     <div className={`${styles.productReviews}`}>
         <div className={`${styles.TitleContainerReview}`}>
-        <h4>PRODUCT REVIEWS</h4>
+        <h4>PRODUCT'S REVIEWS</h4>
         <button onClick={reviewBoxShower}><i className="fa fa-plus" aria-hidden="true"></i></button>
         </div>
         <div className={`${styles.reviewFormContainer} ${showReviewBox ? styles.reviewFormContainerActive : styles.reviewFormContainerDisabler}`}>
@@ -183,12 +189,75 @@ function Product() {
                 <input type="text" placeholder="Ratings (Enter Number from 1 to 5)" />
                 <input type="text" placeholder="Description" />
                 <button className={`${styles.reviewContainerBtns}`}>Submit</button>
-                <button className={`${styles.reviewContainerBtns}`}>Cancel</button>
+                <button type="button" onClick={reviewBoxShower} className={`${styles.reviewContainerBtns}`}>Cancel</button>
             </form>
         </div>
         <div className={`${styles.prodPeopleReviewContainer}`}>
-
+            <h5>Prakash</h5>
+            <div className={`${styles.reviewRatingStarsContainer}`}>
+                <span><i className="fa fa-star checked"></i></span>
+                <span><i className="fa fa-star checked"></i></span>
+                <span><i className="fa fa-star checked"></i></span>
+                <span><i className="fa fa-star nonChecked"></i></span>
+                <span><i className="fa fa-star nonChecked"></i></span>
+            </div>
+            <p>Nice product and cheapest price.</p>
+            <button><i className="fa fa-thumbs-up"></i> 1</button>
+            <button><i className="fa fa-thumbs-down"></i> 0</button>
         </div>
+        <div className={`${styles.prodPeopleReviewContainer}`}>
+            <h5>Rajesh</h5>
+            <div className={`${styles.reviewRatingStarsContainer}`}>
+                <span><i className="fa fa-star checked"></i></span>
+                <span><i className="fa fa-star checked"></i></span>
+                <span><i className="fa fa-star checked"></i></span>
+                <span><i className="fa fa-star nonChecked"></i></span>
+                <span><i className="fa fa-star nonChecked"></i></span>
+            </div>
+            <p>Good looking product.</p>
+            <button><i className="fa fa-thumbs-up"></i> 1</button>
+            <button><i className="fa fa-thumbs-down"></i> 0</button>
+        </div>
+    </div>
+    <div className={`${styles.productQandA}`}>
+        <div className={`${styles.TitleContainerQandA}`}>
+        <h4>PRODUCT'S QA</h4>
+        <button onClick={QABoxShower}><i className="fa fa-plus" aria-hidden="true"></i></button>
+        </div>
+        <div className={`${styles.qaSearchBarContainer}`}>
+            <form>
+            <input type="search" placeholder="Have a Question? Search for Answers" />
+            <button><i className="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <div className={`${styles.QandAFormContainer} ${showQABox ? styles.QandAFormContainerActive : styles.QandAFormContainerDisabler}`}>
+            <form>
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Question recording to the product" />
+                <button className={`${styles.QandAContainerBtns}`}>Submit</button>
+                <button type="button"onClick={QABoxShower} className={`${styles.QandAContainerBtns}`}>Cancel</button>
+            </form>
+        </div>
+        <div className={`${styles.prodPeopleQandAContainer}`}>
+            <h5>Prakash</h5>
+            <h5 className={`${styles.question}`}>Is this Mobile Waterproof?</h5>
+            <h5 className={`${styles.answer}`}>No.</h5>
+            <button><i className="fa fa-thumbs-up"></i> 1</button>
+            <button><i className="fa fa-thumbs-down"></i> 0</button>
+        </div>
+        <div className={`${styles.prodPeopleQandAContainer}`}>
+            <h5>Rajesh</h5>
+            <h5 className={`${styles.question}`}>What is the RAM of this Mobile?</h5>
+            <h5 className={`${styles.answer}`}>4 GB.</h5>
+            <button><i className="fa fa-thumbs-up"></i> 1</button>
+            <button><i className="fa fa-thumbs-down"></i> 0</button>
+        </div>
+    </div>
+    <div className={`${styles.FAProdContainer}`}>
+        <div className={`${styles.TitleContainerFAProd}`}>
+        <h4>PRODUCT'S QA</h4>
+        </div>
+        <FSProducts />
     </div>
     </>
   )
