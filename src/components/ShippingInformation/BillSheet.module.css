@@ -1,3 +1,102 @@
-/* .billContainer {
-    border: 0.1rem solid green;
-} */
+.prodListParentContainer {
+    height: 28rem;
+    overflow-y: auto;
+}
+
+.cartProductsListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-bottom: 0.1rem solid rgb(120, 120, 120);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.imgContainer > img {
+    height: 4rem;
+    width: 5rem;
+    margin-right: 0.5rem;
+}
+
+.titleContainer > h4 {
+    color: rgb(61, 61, 61);
+    margin: 0.5rem 0.6rem;
+    text-align: left;
+    width: 16rem;
+    font-size: 1.3rem;
+}
+
+.quantityContainer > span {
+    display: inline-block;
+    color: rgb(120, 120, 120);
+    margin: 0.5rem 0.3rem;
+    font-weight: bold;
+    width: 4rem;
+}
+
+
+.priceContainer > span {
+    display: inline-block;
+    color: rgb(61, 61, 61);
+    margin: 0.5rem 0.3rem;
+    font-weight: bold;
+    width: 5rem;
+    font-size: 1.2rem;
+}
+
+.subTotalAndShippingContainer, .totalContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    border-bottom: 0.1rem solid rgb(120, 120, 120);
+}
+
+.subTotalTitleContainer > h4, .subTotalPriceContainer > h4, .totalTitleContainer > h4, .totalPriceContainer > h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.subTotalTitleContainer > h4, .totalTitleContainer > h4 {
+    color: rgb(60, 60, 60);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .imgContainer > img, .titleContainer > h4, .quantityContainer > span, .priceContainer > span  {
+       width: auto;
+    }
+    .imgContainer > img {
+        height: 3rem;
+        width: 4rem;
+    }
+    .titleContainer > h4, .quantityContainer > span, .priceContainer > span  {
+        font-size: 1.1rem;
+    }
+    .titleContainer > h4 {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 476px) {
+    .titleContainer > h4 {
+        width: 8rem;
+        font-size: 1rem;
+    }
+    .quantityContainer > span {
+        width: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .titleContainer > h4 {
+        font-size: 1rem;
+        width: auto;
+    }
+}

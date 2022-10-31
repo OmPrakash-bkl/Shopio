@@ -6,11 +6,15 @@ import BillSheet from './BillSheet';
 function ShippingInformation() {
 
     const [showCoupon, setShowCoupon] = useState(false);
+    const [mobBill, setMobBill] = useState(false);
 
     function couponShower() {
         setShowCoupon(!showCoupon);
     }
 
+    function mobileBillShower() {
+        setMobBill(!mobBill);
+    }
   return (
     <div className={`${styles.informationParentContainer}`}>
         <div className={`${styles.shipAddressContainer}`}>
@@ -19,6 +23,19 @@ function ShippingInformation() {
                 <Link style={{ textDecoration: "none" }} to="/Information"><button className={`${styles.navBtnsActive}`}>Information</button> <i className='fas fa-angle-right' style={{ color: "rgb(80, 80, 80)" }}></i></Link>
                 <Link style={{ textDecoration: "none" }}  to="/Shipping"><button className={`${styles.navBtns}`}>Shipping</button> <i className='fas fa-angle-right' style={{ color: "rgb(80, 80, 80)" }}></i></Link>
                 <Link style={{ textDecoration: "none" }}  to="/Payment"><button className={`${styles.navBtns}`}>Payment</button></Link>
+            </div>
+            <div className={`${styles.mobBillSheetContainer}`}>
+            <div onClick={mobileBillShower} className={`${styles.mobBillSheetBtnContainer}`}>
+                <div>
+                    <button>Show BillAmount</button>
+                </div>
+                <div>
+                    <button> <i className='fas fa-angle-down' ></i></button>
+                </div>
+            </div>
+            { mobBill && <div className={`${styles.mobBillAmountContainer}`}>
+            <BillSheet />
+            </div> }
             </div>
             <h4>Contact Information</h4>
             <div className={`${styles.usernameContainer}`}>

@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 0rem 0.5rem;
 }
-
 
 .shipAddressContainer {
     text-align: left;
@@ -220,7 +220,95 @@
     color:#286bae;
 }
 
+.billSheetContainer {
+    background-color: #baffff;
+    padding: 1rem;
+}
+
+.mobBillSheetContainer {
+    margin-top: 0.6rem;
+    display: none;
+}
+
+.mobBillSheetBtnContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 0.5rem;
+    background-color: rgb(222, 222, 222);
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.mobBillSheetBtnContainer:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+.mobBillSheetContainer {
+    cursor: pointer;
+}
+
+.mobBillSheetBtnContainer > div > button {
+    border: 0rem;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(80, 80, 80);
+}
+
+.mobBillAmountContainer {
+    background-color: #baffff;
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width: 1050px) {
+    .billSheetContainer {
+        display: none;
+    }
+    .mobBillSheetContainer{
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .mobBillSheetBtnContainer {
+    width: 60%;
+   }
+}
+
+@media only screen and (max-width: 456px) {
+    .informationParentContainer {
+        margin: 0rem 1rem;
+    }
+    .addressFormContainer {
+        width: 23rem;
+    }
+    .couponContainer {
+        width: 20rem;
+    }
+    .couponBtn {
+        margin-top: 0.8rem;
+    }
+}
 
 
-
-
+@media only screen and (max-width: 380px) {
+    .addressFormContainer {
+        width: 20rem;
+    }
+    .couponContainer {
+        width: 19rem;
+    }
+    
+    .quadorWidthInputBox {   
+         width: 98%;
+    }
+    .continueShopBtn, .returnCartBtn {
+        display: block;
+        margin: 0.5rem auto;
+    }
+    .informationParentContainer {
+        margin: 0rem 1.5rem;
+    }
+}
