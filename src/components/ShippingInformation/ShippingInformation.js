@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './ShippingInformation.module.css';
 import { Link } from 'react-router-dom';
-import BillSheet from './BillSheet';
+import BillSheet from '../../components/BillSheet/BillSheet';
 
 function ShippingInformation() {
 
@@ -21,7 +21,7 @@ function ShippingInformation() {
             <h2>Shopio</h2>
             <div className={`${styles.breadCrumbContainer}`}>
                 <Link style={{ textDecoration: "none" }} to="/Information"><button className={`${styles.navBtnsActive}`}>Information</button> <i className='fas fa-angle-right' style={{ color: "rgb(80, 80, 80)" }}></i></Link>
-                <Link style={{ textDecoration: "none" }}  to="/Shipping"><button className={`${styles.navBtns}`}>Shipping</button> <i className='fas fa-angle-right' style={{ color: "rgb(80, 80, 80)" }}></i></Link>
+                <Link style={{ textDecoration: "none" }}  to="/Method"><button className={`${styles.navBtns}`}>Shipping</button> <i className='fas fa-angle-right' style={{ color: "rgb(80, 80, 80)" }}></i></Link>
                 <Link style={{ textDecoration: "none" }}  to="/Payment"><button className={`${styles.navBtns}`}>Payment</button></Link>
             </div>
             <div className={`${styles.mobBillSheetContainer}`}>

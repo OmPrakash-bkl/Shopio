@@ -1,0 +1,234 @@
+.methodParentContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0rem 0.5rem;
+}
+
+.shipMethodContainer {
+    text-align: left;
+}
+
+.shipMethodContainer > h2 {
+    color: #3c96ef;
+    font-size: 2.4rem;
+}
+
+.navBtns {
+    background-color: white;
+    border: 0rem;
+    color: rgb(80, 80, 80);
+}
+
+.navBtns:hover {
+    color: rgb(40, 40, 40);
+}
+
+.navBtnsActive {
+    border: 0rem;
+    background-color: white;
+    color: #3c96ef;
+}
+
+.shipMethodContainer > h4 {
+    margin-top: 0.6rem;
+    color: rgb(40, 40, 40);
+}
+
+.continueShopBtn {
+    padding: 0.5rem 0.8rem;
+    border: 0rem;
+    background-color: rgb(16, 0, 73);
+    border-radius: 0.4rem;
+    color: white;
+    font-weight: bold;
+    margin: 1rem 1rem 1rem 0rem;
+    transition: background-color 0.3s;
+}
+
+.continueShopBtn:hover {
+    background-color: rgb(25, 0, 113);
+}
+
+.returnCartBtn {
+    background-color: white;
+    border: 0rem;
+    color:#3789da;
+    transition: color 0.3s;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.returnCartBtn:hover {
+    color:#286bae;
+}
+
+.billSheetContainer {
+    background-color: #d3ffff;
+    padding: 1rem;
+}
+
+.mobBillSheetContainer {
+    margin-top: 0.6rem;
+    display: none;
+}
+
+.mobBillSheetBtnContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 0.5rem;
+    background-color: rgb(222, 222, 222);
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.mobBillSheetBtnContainer:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+.mobBillSheetContainer {
+    cursor: pointer;
+}
+
+.mobBillSheetBtnContainer > div > button {
+    border: 0rem;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(80, 80, 80);
+}
+
+.mobBillAmountContainer {
+    background-color: #d3ffff;
+    padding: 0.5rem;
+}
+
+.shippingMethodAddressContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0.8rem 0.6rem 0.8rem 0rem;
+    text-align: left;
+    border: 0.1rem solid rgb(230, 230, 230);
+    border-radius: 0.4rem;
+}
+
+
+.addressDetailsRow1 {
+   border-bottom: 0.1rem solid rgb(230, 230, 230);
+}
+
+
+.addressDetailsRow > td {
+    padding: 0.5rem;
+    color: rgb(80, 80, 80);
+}
+
+.addressDetailsRow > .addressHeading {
+    color: rgb(120, 120, 120);
+}
+
+.addressDetailsRow > td > button {
+    background-color: white;
+    border: 0rem;
+    color: #3c96ef;
+    transition: color 0.3s;
+}
+
+.addressDetailsRow > td > button:hover {
+   color: #286bae;
+}
+
+.shippingMethodChooserContainer {
+    margin: 0.8rem 0.6rem 0.8rem 0rem;
+    text-align: left;
+    border: 0.1rem solid rgb(230, 230, 230);
+    border-radius: 0.4rem;
+}
+
+.shippingMethodChooserContainer > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgb(230, 230, 230);
+}
+
+.shippingMethodChooserContainer > div > div {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.shippingMethodChooserContainer > div > div > button {
+    background-color: white;
+    border: 0rem;
+    margin-right: 0.5rem;
+    padding: -1rem;
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.shippingMethodChooserContainer > div > div > button:hover {
+    color: rgb(121, 121, 121);
+}
+
+.shippingMethodChooserContainer > div > div > .methodActive {
+    color: #3180cf;
+}
+
+.shippingMethodChooserContainer > div > div > .methodActive:hover {
+    color: #3180cf;
+}
+
+.methodPrice {
+    font-weight: bold;
+}
+
+.methodType {
+    color: rgb(100, 100, 100);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1250px) {
+    .billSheetContainer {
+        display: none;
+    }
+    .mobBillSheetContainer{
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+   
+    .mobBillSheetBtnContainer {
+    width: 60%;
+   }
+   
+.shippingMethodAddressContainer, .shippingMethodChooserContainer {
+    margin: 0.8rem 0.6rem 0.8rem 0.6rem;
+}
+}
+
+@media only screen and (max-width: 456px) {
+    .methodParentContainer {
+        margin: 0rem 1rem;
+    }
+    .continueShopBtn, .returnCartBtn {
+        display: block;
+        margin: 0.5rem auto;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .methodParentContainer {
+        margin: 0rem 1.5rem;
+    }
+}
