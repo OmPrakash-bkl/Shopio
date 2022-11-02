@@ -1,3 +1,5 @@
+
+
 .BestSellingContainerHeading {
     text-align: left;
     color: #2c80d4;
@@ -10,6 +12,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
 }
 
 .cardContainer > div {
@@ -114,6 +117,236 @@
    color: white;
 }
 
+.quickViewBackScreen {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.3);
+    top: -25rem;
+    z-index: 1;
+    height: 250vh;
+    width: 100%;
+    display: none;
+}
+
+.quickViewBackScreenActive {
+    display: block;
+}
+
+.quickViewContainer {
+    position: absolute;
+    opacity: 1;
+    top: 20rem;
+    width: 60%;
+    margin: 5% 20%;
+    background-color: white;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0rem;
+    border-radius: 0.5rem;
+}
+
+.quickViewImageContainer {
+    position: relative;
+}
+
+.quickViewImageContainer > div > img {
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem 0.5rem;
+}
+
+.imgChangeBtnContainer {
+    position: absolute;
+    top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgChangeBtnContainer > button {
+    border: 0rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: gray;
+    transition: color 0.3s;
+}
+
+.imgChangeBtnContainer > button:hover {
+    color: rgb(80, 80, 80);
+}
+
+.viewDetailsBtn, .addToCartButton {
+    width: 100%;
+    background-color: #0080ff;
+    border: 0rem;
+    padding: 0.4rem;
+    color: rgb(241, 241, 241);
+    border-radius: 0.3rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.viewDetailsBtn:hover, .addToCartButton:hover {
+    background-color: #2462a1;
+}
+
+.quickViewDetailsContainer {
+    position: relative;
+    margin-right: 3rem;
+    text-align: left;
+}
+
+.quickViewDetailsContainer > div > h3 {
+    margin-top: 2rem;
+}
+
+.quickViewCloseBtn, .quickViewCloseBtnMob {
+    position: absolute;
+    right: -3rem;
+    top: 0rem;
+    background-color: transparent;
+    border: 0rem;
+    color: gray;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.quickViewCloseBtn:hover, .quickViewCloseBtnMob:hover {
+    color: rgb(80, 80, 80);
+}
+
+.quickViewCloseBtnMob {
+    display: none;
+}
+
+.originalPrice, .offerPrice {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.originalPrice {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: rgb(62, 62, 62);
+}
+
+.offerPrice {
+    font-size: 1.8rem;
+    color: green;
+}
+
+.starIconContainer {
+    display: block;
+    width: 60%;
+    margin: 0.5rem 0rem;
+    font-size: 1.1rem;
+}
+
+.ratingRateTxt {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: black;
+}
+
+.increDecrementBtnContainer {
+    margin: 1.2rem 0rem;
+    display: inline-block;
+}
+
+.increDecrementBtnContainer > button {
+    border: 0rem;
+    background-color: white;
+    font-size: 1.2rem;
+    color: rgb(160, 160, 160);
+    border: 0.1rem solid gainsboro;
+}
+
+.increDecrementBtnContainer > span {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    margin: 0rem 0.5rem;
+    transition: color 0.6s;
+}
+
+.increDecrementBtnContainer > button:hover {
+    color: rgb(80, 80, 80)
+}
+
+.addToCartButton {
+    display: inline-block;
+    width: auto;
+    margin: auto 1rem;
+}
+
+.categoryTagsContainer {
+    margin-bottom: 0.3rem;
+}
+
+.categoryTagsContainer > span, .socialMediaIconsContainer > span {
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+    font-size: 1.1rem;
+    margin-right: 0.8rem;
+}
+
+.categoryTagsLinks {
+    color: #3996f4;
+}
+
+.socialMediaIconsContainer > span {
+    margin-top: 0.8rem;
+}
+
+.socialMediaIconsContainer > a > button {
+    margin-right: 0.5rem;
+    border: 0rem;
+    background-color: white;
+    color: #307cc9;
+    transition: color 0.3s;
+}
+
+
+.socialMediaIconsContainer > a > button:hover {
+   color: #43a1ff;
+}
+
+@media only screen and (max-width: 1400px) {
+    
+    .quickViewContainer {
+        width: 70%;
+        margin: auto 15%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .quickViewContainer {
+        flex-direction: column;
+    }
+    
+    .quickViewDetailsContainer {
+        text-align: center;
+    }
+    .quickViewStarIconContainer {
+        display: block;
+        margin: auto;
+    }
+    .quickViewCloseBtn {
+        display: none;
+    }
+    .quickViewCloseBtnMob {
+        display: block;
+        right: 0rem;
+    }
+    
+    .quickViewDetailsContainer {
+      margin-right: 0rem;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     
@@ -131,7 +364,10 @@
     font-size: 0.6rem;
     padding: 0.1rem 0.4rem;
 }
-
+.quickViewStarIconContainer {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
 .cardTitle {
     font-size: 0.9rem;
 }
@@ -157,6 +393,18 @@
 @media only screen and (max-width: 576px) {
 .BestSellingContainerHeading {
     font-size: 1.2rem;
+}
+
+.quickViewImageContainer > div > img {
+    height: 12rem;
+    width: 12rem;
+}
+
+.imgChangeBtnContainer {
+   top: 5rem;
+}
+.ratingRateTxt {
+    margin: 0.2rem;
 }
 
 }
