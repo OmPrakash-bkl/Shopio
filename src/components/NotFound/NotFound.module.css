@@ -1,0 +1,58 @@
+.not_found_container {
+    padding: 4% 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.not_found_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.notFoundImg2 {
+    height: 25rem;
+    width: 25rem;
+    margin: 0rem 0.8rem;
+}
+
+.notFoundImg1 {
+    height: 15rem;
+    width: 20rem;
+}
+
+ .backToHomeBtn {
+     padding: 0.5rem;
+     border: 0rem;
+     border-radius: 0.4rem;
+     background-color: #0095ff;
+     color: white;
+     font-weight: bold;
+     transition: background-color 0.3s;
+ }
+ .backToHomeBtn:hover {
+     background-color: #0080DB;
+ }
+
+ @media only screen and (max-width: 992px) {
+    .not_found_container {
+        flex-direction: column;
+    }
+    
+     .notFoundImg1 {
+        height: 8rem;
+        width: 10rem;
+    }
+    .notFoundImg2 {
+        margin: 1rem 0.5rem;
+        height: 20rem;
+        width: 20rem;
+    }
+ }
+
+ @media only screen and (max-width: 576px) {
+    .notFoundImg2 {
+        margin: 1rem 0.5rem;
+        height: 13rem;
+        width: 13rem;
+    }
+ }
