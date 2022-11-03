@@ -7,7 +7,7 @@ function MyAccount() {
     <div className={`${styles.myAccountContainer}`}>
         <h2>My Profile</h2>
         <div className={`${styles.myAccountInnerContainer}`}>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/OrderTracker" style={{ textDecoration: "none" }}>
             <div className={`${styles.myAccountNavigationLinkContainer}`}>
                 <span><i className='fas fa-box-open'></i></span>
                 <h4>Orders</h4>
