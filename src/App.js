@@ -16,6 +16,7 @@ import ContactUs from './pages/ContactUs/ContactUs';
 import Product from './pages/Product/Product';
 import ShippingInformation from './pages/ShippingInformation/ShippingInformation';
 import ShippingMethod from './pages/ShippingMethod/ShippingMethod';
+import Notification from './pages/Notification/Notification';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
@@ -39,6 +40,7 @@ function App() {
         <Route path="/Product" exact element={<Product />} />
         <Route path="/Information" exact element={<ShippingInformation />} />
         <Route path="/Method" exact element={<ShippingMethod />} />
+        <Route path="/Notification" exact element={<Notification />} />
       </Routes>
       </BrowserRouter>
     </div>
