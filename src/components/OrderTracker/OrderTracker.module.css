@@ -57,54 +57,159 @@
     margin: 0rem;
 }
 
+.orderTrackerStepsContainer {
+    width: 25rem;
+    margin: 1.5rem auto;
+    display: block;
+}
+
 .orderStepContainer {
-    border: 0.1rem solid green;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
 }
 
 .orderStepParentContainer {
-    border: 0.1rem solid red;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.orderStepsContainer {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.orderStepsContainer {
-    border: 0.1rem solid blue;
-    padding: 0.5rem;
-}
-
-.orderStepsLineContainer {
-    border: 0.1rem solid black;
-}
 
 .orderStepsLineContainer > span {
+    height: 4rem;
+    width: 4rem;
     display: block;
     font-size: 3rem;
-    color: rgb(200, 200, 200);
+    margin-left: 1rem;
+    color: rgb(160, 160, 160);
 }
 
 .orderNumber {
     font-size: 1.2rem;
-    color: rgb(59, 59, 59);
+    color: rgb(61, 61, 61);
     font-weight: bold;
     padding: 0.2em 0.8rem;
-    border: 0.1rem solid rgb(120, 120, 120);
+    border: 0.1rem solid rgb(200, 200, 200);
+    background-color: rgb(200, 200, 200);
     border-radius: 50%;
 }
 
+.orderNumberActive, .orderScaleActive {
+    background-color: #378ade;
+    color: white;
+    border: 0.1rem solid #378ade;
+}
+
 .orderScale {
-    height: 5rem;
+    height: 4rem;
     width: 0.5rem;
-    border: 0.1rem solid rgb(120, 120, 120);
+    border: 0.1rem solid rgb(200, 200, 200);
     display: block;
+    background-color: rgb(200, 200, 200);
     margin: 0.5rem auto;
     border-radius: 0.3rem;
 }
 
+
+.orderScaleActive {
+    background-color: #378ade;
+    color: white;
+    border: 0.1rem solid #378ade;
+}
+
+.orderScaleDisabled {
+    height: 4rem;
+    width: 0.5rem;
+    display: block;
+    margin: 0.5rem auto;
+    visibility: hidden;
+}
+
+.orderStepContentContainer {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.orderStepContentContainer > h2, .orderStepContentContainer > p, .orderStepContentContainer > span {
+    margin-bottom: 0rem;
+    display: block;
+    color: gray;
+    font-weight: 600;
+}
+
+.orderStepContentContainer > h2 {
+    color: rgb(61, 61, 61);
+}
+
+
+.orderCancelBtn, .orderCancelConfirmBtn {
+    color: white;
+    border: 0rem;
+    border-radius: 0.4rem;
+    background-color: orangered;
+    padding: 0.3rem 0.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 0.8rem;
+}
+
+.orderCancelBtn:hover, .orderCancelConfirmBtn {
+    background-color: rgb(236, 63, 0);
+}
+
+.orderCancelConfirmBtn {
+    background-color: #378ade;
+}
+
+.orderCancelConfirmBtn:hover  {
+    background-color: #1a6fc3;
+}
+
+.orderCancelReasonSelector {
+    width: 100%;
+    padding: 0.6rem;
+    color: rgb(80, 80, 80);
+    font-size: 1.2rem;
+    border: 0.1rem solid gainsboro;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.orderCancelReasonSelector:focus {
+    outline: none;
+}
+
+.canceledProductPaymentDetailsContainer {
+    padding: 0.3rem 0.8rem 0.8rem 0.8rem;
+    border: 0.1rem solid rgb(200, 200, 200);
+    background-color: rgb(240, 240, 240);
+    border-radius: 0.4rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.canceledProductPaymentDetailsContainer > span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.canceledProductPaymentDetailsContainer > .canceledProductPaymentDetailsContainerHeading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
 
 @media only screen and (max-width: 992px) {
     .orderTrackProdImage {
@@ -126,5 +231,14 @@
     .orderedProdOffer {
     font-size: 1rem;
     }
+    
+    .orderTrackerStepsContainer {
+        width: 23rem;
+    }
 }
 
+@media only screen and (max-width: 576px) {
+    .orderTrackerStepsContainer {
+        width: 20rem;
+    }
+}
