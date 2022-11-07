@@ -10,10 +10,6 @@ import Tablets from '../../assets/bs_tablets.jpg';
 import Fridge from '../../assets/bs_fridge.jpg';
 import Shoes from '../../assets/bs_shoes.jpg';
 import Vivo from '../../assets/bs_mobile.jpg';
-import Vivo1 from '../../assets/vivo1.jpg';
-import Vivo2 from '../../assets/vivo2.jpg';
-import Vivo3 from '../../assets/vivo3.jpg';
-import Vivo4 from '../../assets/vivo4.jpg';
 import Laptops from '../../assets/bs_laptops.jpg';
 
 

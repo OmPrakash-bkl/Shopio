@@ -21,7 +21,7 @@
 .myAccountNavigationLinkContainer > span > i {
     font-size: 3rem;
     color: rgb(155, 155, 155);
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 .myAccountNavigationLinkContainer > h4 {
@@ -31,7 +31,7 @@
 }
 .myAccountNavigationLinkContainer {
     width: 14rem;
-    height: 8rem;
+    height: 9rem;
     padding: 0.5rem;
     border: 0.2rem solid rgb(190, 190, 190);
     background-color: rgb(246, 246, 246);

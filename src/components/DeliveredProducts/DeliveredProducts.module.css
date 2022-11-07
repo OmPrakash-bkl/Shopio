@@ -1,0 +1,68 @@
+.deliveredProductsParentContainer {
+    margin: 2rem 0.5rem;
+}
+
+.deliveredProductsParentContainer > h2 {
+    margin-bottom: 1rem;
+    color: #3c96ef;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.deliveredProductsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0rem 2rem 0.8rem 2rem;
+    border-bottom: 0.1rem solid rgb(159, 159, 159);
+    margin-bottom: 1rem;
+}
+
+.deliverdProductImg {
+    height: 7rem;
+    width: 7rem;
+}
+
+.deliverdProductPriceContainer > span {
+    display: block;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.deliverdProductsActionBtnContainer1 > button, .deliverdProductsActionBtnContainer2 > button {
+    color: white;
+    border: 0rem;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    font-weight: bold;
+}
+
+.deliverdProductsActionBtnContainer1 > button {
+    background-color: orangered;
+    transition: background-color 0.3s;
+}
+
+.deliverdProductsActionBtnContainer2 > button {
+    background-color: green;
+    transition: background-color 0.3s;
+}
+
+.deliverdProductsActionBtnContainer1 > button:hover {
+    background-color: rgb(225, 60, 0);
+}
+
+.deliverdProductsActionBtnContainer2 > button:hover {
+    background-color: rgb(0, 104, 0);
+}
+
+
+@media only screen and (max-width: 992px) {
+.deliveredProductsContainer {
+    flex-direction: column;
+}
+.deliveredProductsContainer > div {
+    margin-top: 0.5rem;
+}
+}

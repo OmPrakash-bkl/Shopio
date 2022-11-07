@@ -9,7 +9,7 @@ function MyAccount() {
         <div className={`${styles.myAccountInnerContainer}`}>
             <Link to="/OrderTracker" style={{ textDecoration: "none" }}>
             <div className={`${styles.myAccountNavigationLinkContainer}`}>
-                <span><i className='fas fa-box-open'></i></span>
+                <span><i className="fa fa-truck" aria-hidden="true"></i></span>
                 <h4>Orders</h4>
             </div>
             </Link>
@@ -29,6 +29,12 @@ function MyAccount() {
             <div className={`${styles.myAccountNavigationLinkContainer}`}>
                 <span><i className="fa fa-user-circle"></i></span>
                 <h4>Account Details</h4>
+            </div>
+            </Link>
+            <Link to="/DeliveredProducts" style={{ textDecoration: "none" }}>
+            <div className={`${styles.myAccountNavigationLinkContainer}`}>
+                <span><i className='fas fa-box-open'></i></span>
+                <h4>Delivered Products</h4>
             </div>
             </Link>
         </div>

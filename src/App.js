@@ -18,6 +18,7 @@ import ShippingInformation from './pages/ShippingInformation/ShippingInformation
 import ShippingMethod from './pages/ShippingMethod/ShippingMethod';
 import Notification from './pages/Notification/Notification';
 import OrderTracker from './pages/OrderTracker/OrderTracker';
+import DeliveredProducts from './pages/DeliveredProducts/DeliveredProducts';
 import NotFound from './pages/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
@@ -44,6 +45,7 @@ function App() {
         <Route path="/Method" exact element={<ShippingMethod />} />
         <Route path="/Notification" exact element={<Notification />} />
         <Route path="/OrderTracker" exact element={<OrderTracker />} />
+        <Route path="/DeliveredProducts" exact element={<DeliveredProducts />} />
         <Route path="*" exact element={<NotFound />} />
       </Routes>
       </BrowserRouter>
