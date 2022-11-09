@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './RecoverAccount.module.css';
+import Button from '../UtilityComponents/Button/Button';
 
 function RecoverAccount() {
   return (
@@ -12,7 +13,7 @@ function RecoverAccount() {
         <input type="email" id="email" />
         </div>
         <div>
-            <button className={`${styles.RecoverBtn}`}>Recover</button>
+            <Button variant="buttonComponent blueButtonComponent">Recover</Button>
         </div>
       </div>
       </form>

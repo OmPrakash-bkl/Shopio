@@ -10,7 +10,6 @@ import Shoes from '../../assets/shoes.jpg';
 import SearchBar from './SearchBar';
 import Wishlist from '../Wishlist/Wishlist';
 
-
 function Navbar() {
   const [showHamburger, setShowHamburger] = useState(false);
   const [showQuickNavbar, setShowQuickNavbar] = useState(false);

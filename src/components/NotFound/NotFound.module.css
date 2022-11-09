@@ -20,18 +20,6 @@
     width: 20rem;
 }
 
- .backToHomeBtn {
-     padding: 0.5rem;
-     border: 0rem;
-     border-radius: 0.4rem;
-     background-color: #0095ff;
-     color: white;
-     font-weight: bold;
-     transition: background-color 0.3s;
- }
- .backToHomeBtn:hover {
-     background-color: #0080DB;
- }
 
  @media only screen and (max-width: 992px) {
     .not_found_container {

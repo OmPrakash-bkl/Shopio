@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './ShippingMethod.module.css';
 import { Link } from 'react-router-dom';
 import BillSheet from '../../components/BillSheet/BillSheet';
+import Button from '../UtilityComponents/Button/Button';
 
 function ShippingMethod() {
 
@@ -103,7 +104,7 @@ function ShippingMethod() {
                 </div>
             </div>
             <div>
-            <button className={`${styles.continueShopBtn}`}>Continue To Payment</button>
+            <Button variant="buttonComponent blueDarkButtonComponent">Continue To Payment</Button>
             <button className={`${styles.returnCartBtn}`}><i className='fas fa-angle-left'></i> Return To Information</button>
             </div>
             

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './OrderTracker.module.css';
 import Vivo from '../../assets/bs_mobile.jpg';
+import Button from '../UtilityComponents/Button/Button';
 
 function OrderTracker() {
 
@@ -102,7 +103,7 @@ function OrderTracker() {
             </div>
         </div>
         <div className={`${styles.cancelFormContainer}`}>
-            <button onClick={cancelFormShower} className={`${styles.orderCancelBtn}`}>Cancel Your Order</button>
+            <Button onClick={cancelFormShower} variant="buttonComponent orangeRedButtonComponent">Cancel Your Order</Button>
             { showCancelForm && <div className={`${styles.orderCancelingFormContainer}`}>
                 <form>
                     <select className={`${styles.orderCancelReasonSelector}`}>
@@ -123,7 +124,7 @@ function OrderTracker() {
                         <span>1. There will be no refund as the order is purchased using Cash-On-Delivery.</span>
                         <span>2. If had you already paid means, it will refund after accepted the cancellation.</span>
                     </div>
-                    <button className={`${styles.orderCancelConfirmBtn}`}>Make Order Cancel Request</button>
+                    <Button variant="buttonComponent blueButtonComponent">Make Order Cancel Request</Button>
                 </form>
             </div> }
             

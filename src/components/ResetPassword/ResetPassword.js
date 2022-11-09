@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ResetPassword.module.css';
+import Button from '../UtilityComponents/Button/Button';
 
 function ResetPassword() {
   return (
@@ -12,7 +13,7 @@ function ResetPassword() {
         <input type="text" id="resetPass" />
         </div>
         <div>
-            <button className={`${styles.ResetBtn}`}>Reset</button>
+            <Button variant="buttonComponent blueButtonComponent">Reset</Button>
         </div>
       </div>
       </form>

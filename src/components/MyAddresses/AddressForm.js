@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../UtilityComponents/Button/Button';
 import styles from './AddressForm.module.css';
 
 function AddressForm(props) {
@@ -41,8 +42,8 @@ function AddressForm(props) {
         </div>
         
         <div className={`${styles.btnContainer}`}>
-            <button className={`${styles.addressFormBtn}`}>Submit</button>
-            <button className={`${styles.addressFormBtn}`} onClick={formCloser}>Cancel</button>
+            <Button variant="buttonComponent blueButtonComponent">Submit</Button>
+            <Button variant="buttonComponent blueButtonComponent" onClick={formCloser}>Cancel</Button>
         </div>
       </div>
       </form>

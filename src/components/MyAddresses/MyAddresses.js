@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import AddressForm from './AddressForm';
 import styles from './MyAddresses.module.css';
 import { Link } from 'react-router-dom';
+import Button from '../UtilityComponents/Button/Button';
 
 function MyAddresses() {
 
@@ -23,7 +24,7 @@ function MyAddresses() {
             <Link to="/MyAccount" style={{ textDecoration: "none" }}>
                 <span className={`${styles.returnLink}`}><i className="fa fa-angle-left"></i> Return To Account Details</span>
             </Link>
-            <button className={`${styles.newAddressBtn}`} onClick={() => formOpener("NewForm")} >Add a New Address</button>
+            <Button variant="buttonComponent blueButtonComponent" onClick={() => formOpener("NewForm")}>Add a New Address</Button>
         </div>
 
         { addressForm == "NewForm" ? <AddressForm onClose={formCloser} /> : "" }
@@ -62,8 +63,8 @@ function MyAddresses() {
         </div>
 
         <div className={`${styles.actionBtnsContainer}`}>
-        <button className={`${styles.actionBtns}`} onClick={() => formOpener("DefaultForm")} >Edit</button>
-        <button className={`${styles.actionBtns}`}>Delete</button>
+        <Button variant="buttonComponent blueButtonComponent" onClick={() => formOpener("DefaultForm")}>Edit</Button>
+        <Button variant="buttonComponent blueButtonComponent" onClick={() => formOpener("NewForm")}>Delete</Button>
         </div>
 
         { addressForm == "DefaultForm" ? <AddressForm onClose={formCloser} /> : "" }
@@ -101,8 +102,8 @@ function MyAddresses() {
         </div>
 
         <div className={`${styles.actionBtnsContainer}`}>
-        <button className={`${styles.actionBtns}`} onClick={() => formOpener("SecondaryForm")} >Edit</button>
-        <button className={`${styles.actionBtns}`}>Delete</button>
+        <Button variant="buttonComponent blueButtonComponent" onClick={() => formOpener("SecondaryForm")}>Edit</Button>
+        <Button variant="buttonComponent blueButtonComponent" onClick={() => formOpener("NewForm")}>Delete</Button>
         </div>
 
         { addressForm == "SecondaryForm" ? <AddressForm onClose={formCloser} /> : "" }

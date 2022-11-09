@@ -151,30 +151,6 @@
 }
 
 
-.orderCancelBtn, .orderCancelConfirmBtn {
-    color: white;
-    border: 0rem;
-    border-radius: 0.4rem;
-    background-color: orangered;
-    padding: 0.3rem 0.4rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    margin-bottom: 0.8rem;
-}
-
-.orderCancelBtn:hover, .orderCancelConfirmBtn {
-    background-color: rgb(236, 63, 0);
-}
-
-.orderCancelConfirmBtn {
-    background-color: #378ade;
-}
-
-.orderCancelConfirmBtn:hover  {
-    background-color: #1a6fc3;
-}
-
 .orderCancelReasonSelector {
     width: 100%;
     padding: 0.6rem;

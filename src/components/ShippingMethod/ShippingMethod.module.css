@@ -36,20 +36,6 @@
     color: rgb(40, 40, 40);
 }
 
-.continueShopBtn {
-    padding: 0.5rem 0.8rem;
-    border: 0rem;
-    background-color: rgb(16, 0, 73);
-    border-radius: 0.4rem;
-    color: white;
-    font-weight: bold;
-    margin: 1rem 1rem 1rem 0rem;
-    transition: background-color 0.3s;
-}
-
-.continueShopBtn:hover {
-    background-color: rgb(25, 0, 113);
-}
 
 .returnCartBtn {
     background-color: white;
@@ -203,6 +189,10 @@
         display: inline-block;
         width: 100%;
     }
+    .returnCartBtn {
+        display: block;
+        margin: 0.5rem auto;
+    }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -219,10 +209,6 @@
 @media only screen and (max-width: 456px) {
     .methodParentContainer {
         margin: 0rem 1rem;
-    }
-    .continueShopBtn, .returnCartBtn {
-        display: block;
-        margin: 0.5rem auto;
     }
 }
 

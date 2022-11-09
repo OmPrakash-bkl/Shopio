@@ -36,20 +36,6 @@
     color: rgb(87, 87, 87);
 }
 
-.RecoverBtn {
-    border: 0rem;
-    padding: 0.4rem 0.8rem;
-    background-color: #378ade;
-    font-weight: bold;
-    border-radius: 0.4rem;
-    color: white;
-    transition: background-color 0.3s;
-}
-
-.RecoverBtn:hover {
-    background-color: #3061e8;
-}
-
 
 @media only screen and (max-width: 576px) {
     .formContainer {

@@ -1,12 +1,50 @@
 
-.buttonComponent {
+.buttonComponent, .blueNonRadiusButtonComponent {
     border: 0rem;
     padding: 0.4rem 0.8rem;
     font-weight: bold;
+    font-size: 1.2rem;
     border-radius: 0.4rem;
     color: white;
-    margin: 0.5rem 0.8rem 0.5rem 0rem;
+    margin: 0.5rem 0.4rem 0.5rem 0.4rem;
     transition: background-color 0.3s;
+}
+
+.outlineButtonComponent {
+    padding: 0.6rem 0.8rem;
+    background-color: white;
+    border: 0.1rem solid #378ade;
+    color: #378ade;
+}
+
+.blueNonRadiusButtonComponent {
+    margin: 0rem;
+    background-color: #378ade;
+    border-radius: 0rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.blueFullRadiusButtonComponent {
+    border: 0.1rem solid #378ade;
+    margin: 0rem;
+    background-color: #378ade;
+    font-size: 1rem;
+    border-radius: 1.4rem;
+    color: white;
+}
+
+.blueDarkButtonComponent {
+    background-color: rgb(16, 0, 73);
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+
+.firstButtonComponent {
+    margin-left: 0rem;
 }
 
 .blueButtonComponent {
@@ -21,7 +59,12 @@
     background-color: green;
 }
 
-.blueButtonComponent:hover {
+.outlineButtonComponentActive {
+    background-color: #378ade;
+    color: white;
+}
+
+.blueButtonComponent:hover, .blueFullRadiusButtonComponent:hover {
     background-color: #3061e8;
 }
 
@@ -31,4 +74,39 @@
 
 .greenButtonComponent:hover {
     background-color: rgb(0, 104, 0);
+}
+
+.outlineButtonComponent:hover {
+    background-color: #378ade;
+    color: white;
+}
+
+.outlineButtonComponentActive:hover {
+    background-color: #2676c6;
+}
+
+.blueDarkButtonComponent:hover {
+    background-color: rgb(25, 0, 113);
+}
+
+
+@media only screen and (max-width: 456px) {
+    .blueFullRadiusButtonComponent {
+        margin-top: 0.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .blueDarkButtonComponent {
+        display: block;
+        margin: 0.5rem auto;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .blueDarkButtonComponent {
+        display: block;
+        margin: 0.5rem auto;
+    }
 }

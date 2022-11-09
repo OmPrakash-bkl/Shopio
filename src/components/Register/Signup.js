@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Signup.module.css';
-
+import Button from '../UtilityComponents/Button/Button';
 
 function Signup() {
   return (
@@ -25,7 +25,7 @@ function Signup() {
         <input type="password" id="pass" />
         </div>
         <div>
-            <button className={`${styles.createAccountBtn}`}>Create Account</button>
+            <Button variant="buttonComponent blueButtonComponent">Create Account</Button>
         </div>
       </div>
       </form>

@@ -89,31 +89,6 @@
     margin: 0.5rem 0rem;
 }
 
-.couponParentContainer > button, .couponBtn {
-    background-color: #3c96ef;
-    border: 0rem;
-    padding: 0.4rem 0.6rem;
-    color: white;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    font-size: 1rem;
-}
-
-.couponBtn {
-    border-radius: 1.5rem;
-    padding: 0.5rem;
-    border: 0.1rem solid #3c96ef;
-}
-
-.couponParentContainer > button:hover, .couponBtn:hover {
-    background-color: #3180cf;
-}
-
-.couponBtn:hover {
-    background-color: #4a53ff;
-    border: 0.1rem solid #4a53ff;
-}
-
 .couponContainer {
     padding: 1rem;
     border: 0.2rem dashed rgb(188, 188, 188);
@@ -190,21 +165,6 @@
 
 .quadorWidthInputBox {
     width: 31.5%;
-}
-
-.continueShopBtn {
-    padding: 0.5rem 0.8rem;
-    border: 0rem;
-    background-color: rgb(16, 0, 73);
-    border-radius: 0.4rem;
-    color: white;
-    font-weight: bold;
-    margin: 1rem 1rem 1rem 0rem;
-    transition: background-color 0.3s;
-}
-
-.continueShopBtn:hover {
-    background-color: rgb(25, 0, 113);
 }
 
 .returnCartBtn {
@@ -287,9 +247,6 @@
     .couponContainer {
         width: 20rem;
     }
-    .couponBtn {
-        margin-top: 0.8rem;
-    }
 }
 
 
@@ -304,7 +261,7 @@
     .quadorWidthInputBox {   
          width: 98%;
     }
-    .continueShopBtn, .returnCartBtn {
+    .returnCartBtn {
         display: block;
         margin: 0.5rem auto;
     }

@@ -7,6 +7,7 @@ import Vivo3 from '../../assets/vivo3.jpg';
 import Vivo4 from '../../assets/vivo4.jpg';
 import styles from './Product.module.css';
 import FSProducts from '../../components/FAProducts/FAProducts';
+import Button from '../UtilityComponents/Button/Button';
 
 function Product() {
 
@@ -45,9 +46,9 @@ function Product() {
                 </div>
             </div>
             <div className={`${styles.prodActionButtonContainer}`}>
-                <button className={`${styles.outlineBtn}`} title="Add To Cart">Add To Cart</button>
-                <button className={`${styles.nonOutlineBtn}`} title="Buy Now">Buy Now</button>
-                <button className={`${styles.outlineBtn}`} title="Add To Wishlist"><i className="fa fa-heart"></i></button>
+                <Button variant="buttonComponent outlineButtonComponent"  title="Add To Cart">Add To Cart</Button>
+                <Button variant="buttonComponent blueButtonComponent" title="Buy Now">Buy Now</Button>
+                <Button variant="buttonComponent outlineButtonComponent" title="Add To Wishlist"><i className="fa fa-heart"></i></Button>
             </div>
         </div>
         <div className={`${styles.productContentContainer}`}>
@@ -80,21 +81,21 @@ function Product() {
                     <tr>
                         <th>COLOR: </th>
                         <td>
-                            <button className={`${styles.sizeAndColorBtns}`}>Red</button>
-                            <button className={`${styles.sizeAndColorBtns}`}>Green</button>
-                            <button className={`${styles.sizeAndColorBtns}`}>Yellow</button>
-                            <button className={`${styles.sizeAndColorBtns}`}>Blue</button>
-                            <button className={`${styles.sizeAndColorBtns} ${styles.sizeAndColorBtns_active}`}>Violet</button>
+                            <Button variant="buttonComponent outlineButtonComponent firstButtonComponent" >Red</Button>
+                            <Button variant="buttonComponent outlineButtonComponent" >Green</Button>
+                            <Button variant="buttonComponent outlineButtonComponent" >Yellow</Button>
+                            <Button variant="buttonComponent outlineButtonComponent" >Blue</Button>
+                            <Button variant="buttonComponent  outlineButtonComponentActive" >Violet</Button>
                         </td>
                     </tr>
                     <tr>
                         <th>SIZE: </th>
                         <td>
-                            <button className={`${styles.sizeAndColorBtns}`}>S</button>
-                            <button className={`${styles.sizeAndColorBtns}`}>M</button>
-                            <button className={`${styles.sizeAndColorBtns} ${styles.sizeAndColorBtns_active}`}>L</button>
-                            <button className={`${styles.sizeAndColorBtns}`}>XL</button>
-                            <button className={`${styles.sizeAndColorBtns}`}>XXL</button>
+                            <Button variant="buttonComponent outlineButtonComponent firstButtonComponent" >S</Button>
+                            <Button variant="buttonComponent outlineButtonComponent" >M</Button>
+                            <Button variant="buttonComponent outlineButtonComponentActive" >L</Button>
+                            <Button variant="buttonComponent outlineButtonComponent" >XL</Button>
+                            <Button variant="buttonComponent  outlineButtonComponent" >XXL</Button>
                         </td>
                     </tr>
                     </tbody>
@@ -188,8 +189,8 @@ function Product() {
                 <input type="text" placeholder="Name" />
                 <input type="text" placeholder="Ratings (Enter Number from 1 to 5)" />
                 <input type="text" placeholder="Description" />
-                <button className={`${styles.reviewContainerBtns}`}>Submit</button>
-                <button type="button" onClick={reviewBoxShower} className={`${styles.reviewContainerBtns}`}>Cancel</button>
+                <Button variant="buttonComponent outlineButtonComponent">Submit</Button>
+                <Button variant="buttonComponent outlineButtonComponent"  onClick={reviewBoxShower}>Cancel</Button>
             </form>
         </div>
         <div className={`${styles.prodPeopleReviewContainer}`}>
@@ -234,8 +235,8 @@ function Product() {
             <form>
                 <input type="text" placeholder="Name" />
                 <input type="text" placeholder="Question recording to the product" />
-                <button className={`${styles.QandAContainerBtns}`}>Submit</button>
-                <button type="button"onClick={QABoxShower} className={`${styles.QandAContainerBtns}`}>Cancel</button>
+                <Button variant="buttonComponent outlineButtonComponent">Submit</Button>
+                <Button variant="buttonComponent outlineButtonComponent"  onClick={QABoxShower}>Cancel</Button>
             </form>
         </div>
         <div className={`${styles.prodPeopleQandAContainer}`}>

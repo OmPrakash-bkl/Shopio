@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './ShippingInformation.module.css';
 import { Link } from 'react-router-dom';
 import BillSheet from '../../components/BillSheet/BillSheet';
+import Button from '../UtilityComponents/Button/Button';
 
 function ShippingInformation() {
 
@@ -56,12 +57,12 @@ function ShippingInformation() {
                 </form>
             </div>
             <div className={`${styles.couponParentContainer}`}>
-                <button onClick={couponShower}>Apply Coupon</button>
+                 <Button  onClick={couponShower} variant="buttonComponent blueNonRadiusButtonComponent">Apply Coupon</Button>
                { showCoupon && <div className={`${styles.couponContainer}`}>
                     <p>If you have a coupon code, please apply it below.</p>
                     <form>
                     <input type="text" className={`${styles.couponInputBox}`} placeholder="Enter Coupon" />
-                    <button className={`${styles.couponBtn}`}>Apply Coupon</button>
+                    <Button  onClick={couponShower} variant="buttonComponent blueFullRadiusButtonComponent">Apply Coupon</Button>
                     </form>
                 </div> } 
             </div>
@@ -81,7 +82,7 @@ function ShippingInformation() {
                     <input className={`${styles.quadorWidthInputBox}`} type="text" placeholder="City" />
                     <input className={`${styles.quadorWidthInputBox}`} type="text" placeholder="State" />
                     <input className={`${styles.quadorWidthInputBox}`} type="text" placeholder="Pin Code" />
-                    <button className={`${styles.continueShopBtn}`}>Continue To Shipping</button>
+                    <Button variant="buttonComponent blueDarkButtonComponent">Continue To Shipping</Button>
                     <button className={`${styles.returnCartBtn}`}><i className='fas fa-angle-left'></i> Return To Cart</button>
                 </form>
             </div>

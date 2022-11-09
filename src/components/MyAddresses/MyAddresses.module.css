@@ -62,21 +62,6 @@
 }
 
 
-.actionBtns, .newAddressBtn {
-    border: 0rem;
-    padding: 0.4rem 0.8rem;
-    background-color: #378ade;
-    font-weight: bold;
-    border-radius: 0.4rem;
-    color: white;
-    margin: 0rem 0.8rem 0.5rem 0rem;
-    transition: background-color 0.3s;
-}
-
-.actionBtns:hover, .newAddressBtn:hover {
-    background-color: #3061e8;
-}
-
 .newAddressBtn {
     margin: 0.6rem 0rem;
 }
@@ -86,14 +71,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-}
-
-.actionBtns {
-    background-color: #3061e8;
-}
-
-.actionBtns:hover {
-    background-color: #378ade;
 }
 
 
