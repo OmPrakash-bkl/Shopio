@@ -87,21 +87,6 @@
     border: 0.1rem solid rgb(181, 181, 181);
 }
 
-.contactFormContainer > form > button {
-    border: 0rem;
-    padding: 0.4rem 0.8rem;
-    background-color: #378ade;
-    font-weight: bold;
-    border-radius: 0.4rem;
-    color: white;
-    margin: 0.5rem 0rem;
-    transition: background-color 0.3s;
-}
-
-.contactFormContainer > form > button:hover {
-    background-color: #3061e8;
-}
-
 
 @media only screen and (max-width: 768px) {
     .addressAndNumberContainer {

@@ -79,21 +79,6 @@
     color: rgb(87, 87, 87);
 }
 
-.passChangeBtn, .actionBtns {
-    border: 0rem;
-    padding: 0.4rem 0.8rem;
-    background-color: #378ade;
-    font-weight: bold;
-    border-radius: 0.4rem;
-    color: white;
-    margin: 0.5rem 0.8rem 0.5rem 0rem;
-    transition: background-color 0.3s;
-}
-
-.passChangeBtn:hover, .actionBtns:hover {
-    background-color: #3061e8;
-}
-
 .actionBtnsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -101,13 +86,6 @@
     justify-content: flex-start;
 }
 
-.actionBtns {
-    background-color: #3061e8;
-}
-
-.actionBtns:hover {
-    background-color: #378ade;
-}
 
 @media only screen and (max-width: 576px) {
     .accountDetailsContainer {

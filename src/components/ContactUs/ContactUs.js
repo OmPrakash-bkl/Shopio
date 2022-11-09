@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../UtilityComponents/Button/Button';
 import styles from './ContactUs.module.css';
 
 function ContactUs() {
@@ -32,7 +33,7 @@ function ContactUs() {
             <input type="email" placeholder="Email" />
             <input type="text" placeholder="Phone Number" />
             <textarea placeholder="Message"></textarea>
-            <button>Send Message</button>
+            <Button variant="buttonComponent blueButtonComponent">Send Message</Button>
           </form>
         </div>
     </div>

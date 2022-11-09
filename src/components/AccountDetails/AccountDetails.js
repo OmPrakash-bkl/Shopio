@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './AccountDetails.module.css';
+import Button from '../UtilityComponents/Button/Button';
 import { Link } from 'react-router-dom';
 import Dammy_Dp from '../../assets/dammy_dp.jpg';
 
@@ -44,7 +45,7 @@ function AccountDetails() {
         </div>
 
         <div>
-            <button className={`${styles.passChangeBtn}`}>Change Password</button>
+            <Button variant="buttonComponent blueButtonComponent">Change Password</Button>
         </div>
       </div>
       </form>
@@ -52,9 +53,9 @@ function AccountDetails() {
 
         <div className={`${styles.actionBtnsContainer}`}>
         <Link to="/MyAddresses" style={{ textDecoration: "none" }}>
-            <button className={`${styles.actionBtns}`}>View Address (1)</button>
+               <Button variant="buttonComponent blueButtonComponent">View Address (1)</Button>
         </Link>
-        <button className={`${styles.actionBtns}`}>Logout</button>
+        <Button variant="buttonComponent blueButtonComponent">Logout</Button>
         </div>
     </div>
 

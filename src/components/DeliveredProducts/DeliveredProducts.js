@@ -1,6 +1,7 @@
 import React from 'react';
 import Vivo from '../../assets/bs_mobile.jpg';
 import Laptops from '../../assets/bs_laptops.jpg'
+import Button from '../UtilityComponents/Button/Button';
 import styles from './DeliveredProducts.module.css';
 
 function DeliveredProducts() {
@@ -22,10 +23,10 @@ function DeliveredProducts() {
             <span>&#x20b9;8999</span>
           </div>
           <div className={`${styles.deliverdProductsActionBtnContainer1}`}>
-            <button>Return</button>
+            <Button variant="buttonComponent orangeRedButtonComponent">Return</Button>
           </div>
           <div className={`${styles.deliverdProductsActionBtnContainer2}`}>
-            <button>Exchange</button>
+            <Button variant="buttonComponent greenButtonComponent">Exchange</Button>
           </div>
         </div>
         <div className={`${styles.deliveredProductsContainer}`}>
@@ -43,10 +44,10 @@ function DeliveredProducts() {
             <span>&#x20b9;79999</span>
           </div>
           <div className={`${styles.deliverdProductsActionBtnContainer1}`}>
-            <button>Return</button>
+            <Button variant="buttonComponent orangeRedButtonComponent">Return</Button>
           </div>
           <div className={`${styles.deliverdProductsActionBtnContainer2}`}>
-            <button>Exchange</button>
+            <Button variant="buttonComponent greenButtonComponent">Exchange</Button>
           </div>
         </div>
     </div>
