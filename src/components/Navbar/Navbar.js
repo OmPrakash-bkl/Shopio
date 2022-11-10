@@ -57,8 +57,8 @@ function Navbar() {
        <div className={`${styles.profilePictureContainer}`}>
         <img src={Cat_Dp} className={styles.dpImage} alt="User's profile pictures" />
         <h3>Guest</h3>
-        <button><Link className={`${styles.LoginAndSignupBtns}`} to="/Login">Login</Link></button>
-        <button><Link className={`${styles.LoginAndSignupBtns}`}  to="/Register">Register</Link></button>
+        <Link to="/Login"><button className={`${styles.LoginAndSignupBtns}`}>Login</button></Link>
+        <Link to="/Register"><button className={`${styles.LoginAndSignupBtns}`}>Register</button></Link>
        </div>
         {/* Profile, Login, Logout Section End */}
 

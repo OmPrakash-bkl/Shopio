@@ -466,21 +466,19 @@ background-color: rgb(222, 222, 222);
     text-align: left;
  }
 
- .profilePictureContainer > button {
+ .LoginAndSignupBtns {
     border: 0rem;
     background-color: #167ce1;
     border-radius: 0.3rem;
     margin: 0.4rem;
     font-weight: bold;
     padding: 0.1rem 0.6rem;
- }
-
- .LoginAndSignupBtns {
     color: white;
     text-decoration: none;
  }
+
  
- .profilePictureContainer > button:hover {
+ .LoginAndSignupBtns:hover {
     background-color: #136ec9;
  }
 

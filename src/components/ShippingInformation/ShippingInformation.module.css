@@ -223,6 +223,15 @@
     padding: 0.5rem;
 }
 
+@media only screen and (max-width: 1250px) {
+
+    .returnCartBtn {
+        display: inline-block;
+        width: 100%;
+    }
+
+}
+
 @media only screen and (max-width: 1050px) {
     .billSheetContainer {
         display: none;
