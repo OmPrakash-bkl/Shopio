@@ -4,12 +4,6 @@
     margin: 2% 10%;
 }
 
-.myAccountContainer > h2 {
-    margin-bottom: 1rem;
-    color: #3c96ef;
-    font-weight: bold;
-    text-decoration: underline;
-}
 
 .myAccountInnerContainer {
     display: flex;

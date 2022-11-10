@@ -17,13 +17,13 @@ import Headphones from '../../assets/headphones.jpg';
 import Professionals from '../../assets/professionals.jpg';
 import Security from '../../assets/security.jpg';
 import GamingConsoles from '../../assets/gamingConsoles.jpg';
-
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function Categories() {
   return (
+    <>
+    <PageHeading>All Categories</PageHeading>
     <div className={`${styles.categoriesContainer}`}>
-
-        <h2 className={`${styles.categoriesContainerHeading}`}>All Categories</h2>
 
         <Link to="/">
         <div className={`${styles.categoriesInnerContainer}`}>
@@ -122,6 +122,7 @@ function Categories() {
         </div>
         </Link>
     </div>
+    </>
   )
 }
 

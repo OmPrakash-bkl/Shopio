@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Notification.module.css';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function Notification() {
   return (
     <div className={`${styles.notificationContainer}`}>
+        <PageHeading>Notification</PageHeading>
         <Link style={{ textDecoration: "none" }} to="/">
         <div className={`${styles.notifyComponents}`}>
             <div className={`${styles.logoContainer}`}>

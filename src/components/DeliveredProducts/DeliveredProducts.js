@@ -3,11 +3,12 @@ import Vivo from '../../assets/bs_mobile.jpg';
 import Laptops from '../../assets/bs_laptops.jpg'
 import Button from '../UtilityComponents/Button/Button';
 import styles from './DeliveredProducts.module.css';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function DeliveredProducts() {
   return (
     <div className={`${styles.deliveredProductsParentContainer}`}>
-      <h2>Delivered Products</h2>
+      <PageHeading>Delivered Products</PageHeading>
         <div className={`${styles.deliveredProductsContainer}`}>
           <div>
             <span>1. </span>

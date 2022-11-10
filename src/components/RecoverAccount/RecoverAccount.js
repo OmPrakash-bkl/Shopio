@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './RecoverAccount.module.css';
 import Button from '../UtilityComponents/Button/Button';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function RecoverAccount() {
   return (
     <div className={`${styles.formContainer}`}>
-        <h2>Recover Account</h2>
+        <PageHeading>Recover Account</PageHeading>
       <form>
       <div>
         <div className={`${styles.formFieldsElementsContainer}`}>

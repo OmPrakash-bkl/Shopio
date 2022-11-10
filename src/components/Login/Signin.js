@@ -2,12 +2,13 @@ import React from 'react';
 import styles from './Signin.module.css';
 import { Link } from 'react-router-dom';
 import Button from '../UtilityComponents/Button/Button';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 
 function Signin() {
   return (
     <div className={`${styles.formContainer}`}>
-        <h2>Login</h2>
+        <PageHeading>Login</PageHeading>
       <form>
       <div>
         <div className={`${styles.formFieldsElementsContainer}`}>

@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './Signup.module.css';
 import Button from '../UtilityComponents/Button/Button';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function Signup() {
   return (
     <div className={`${styles.formContainer}`}>
-        <h2>Register</h2>
+        <PageHeading>Register</PageHeading>
       <form>
       <div>
         <div className={`${styles.formFieldsElementsContainer}`}>

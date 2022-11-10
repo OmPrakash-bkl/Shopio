@@ -5,12 +5,6 @@
     padding: 0.2rem 0.5rem;
 }
 
-.addressDetailsContainer > h2 {
-    margin-bottom: 1rem;
-    color: #3c96ef;
-    font-weight: bold;
-    text-decoration: underline;
-}
 
 .returnAccContainer {
     text-align: left;

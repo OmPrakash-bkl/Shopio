@@ -1,11 +1,12 @@
 import React from 'react';
 import Button from '../UtilityComponents/Button/Button';
 import styles from './ContactUs.module.css';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function ContactUs() {
   return (
     <div className={`${styles.contactUsContainer}`}>
-        <h2>Contact Us</h2>
+        <PageHeading>Contact Us</PageHeading>
         <div className={`${styles.mapContainer}`}>
         <div className="mapouter">
           <div className="gmap_canvas">

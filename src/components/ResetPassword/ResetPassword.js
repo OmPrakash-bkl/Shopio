@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './ResetPassword.module.css';
 import Button from '../UtilityComponents/Button/Button';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function ResetPassword() {
   return (
     <div className={`${styles.formContainer}`}>
-        <h2>Reset Password</h2>
+        <PageHeading>Reset Password</PageHeading>
       <form>
       <div>
         <div className={`${styles.formFieldsElementsContainer}`}>

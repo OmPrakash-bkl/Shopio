@@ -2,13 +2,6 @@
     margin: 2rem 0.5rem;
 }
 
-.deliveredProductsParentContainer > h2 {
-    margin-bottom: 1rem;
-    color: #3c96ef;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 .deliveredProductsContainer {
     display: flex;
     flex-direction: row;

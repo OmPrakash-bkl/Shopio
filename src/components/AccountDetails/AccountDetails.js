@@ -3,11 +3,12 @@ import styles from './AccountDetails.module.css';
 import Button from '../UtilityComponents/Button/Button';
 import { Link } from 'react-router-dom';
 import Dammy_Dp from '../../assets/dammy_dp.jpg';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function AccountDetails() {
   return (
     <div className={`${styles.accountDetailsContainer}`}>
-        <h2>My Account</h2>
+        <PageHeading>My Account</PageHeading>
         <img src={Dammy_Dp}  className={`${styles.userDp}`} alt="User Profile Picture" />
         <div className={`${styles.detailsElementsContainer}`}>
         <div className={`${styles.detailsElements}`}>

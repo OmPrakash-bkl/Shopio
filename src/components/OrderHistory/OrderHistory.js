@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './OrderHistory.module.css';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function OrderHistory() {
   return (
     <div className={`${styles.historyContainer}`}>
-        <h2>Order History</h2>
+        <PageHeading>Order History</PageHeading>
 
         <div className={`${styles.orderHistoryTableContainer}`}>
             <table className={`${styles.orderHistoryTable}`}>

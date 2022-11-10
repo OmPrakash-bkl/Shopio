@@ -3,6 +3,7 @@ import AddressForm from './AddressForm';
 import styles from './MyAddresses.module.css';
 import { Link } from 'react-router-dom';
 import Button from '../UtilityComponents/Button/Button';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function MyAddresses() {
 
@@ -18,7 +19,7 @@ function MyAddresses() {
 
   return (
     <div className={`${styles.addressDetailsContainer}`}>
-        <h2>My Addresses</h2>
+        <PageHeading>My Addresses</PageHeading>
         
         <div className={`${styles.returnAccContainer}`}>
             <Link to="/MyAccount" style={{ textDecoration: "none" }}>

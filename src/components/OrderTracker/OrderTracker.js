@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './OrderTracker.module.css';
 import Vivo from '../../assets/bs_mobile.jpg';
 import Button from '../UtilityComponents/Button/Button';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function OrderTracker() {
 
@@ -13,6 +14,7 @@ function OrderTracker() {
 
   return (
     <div className={`${styles.orderTrackerContainer}`}>
+        <PageHeading>Order Tracker</PageHeading>
         <div className={`${styles.orderedProductsContainer}`}>
             <div>
                 <img src={Vivo} className={`${styles.orderTrackProdImage}`} alt="ordered products" />

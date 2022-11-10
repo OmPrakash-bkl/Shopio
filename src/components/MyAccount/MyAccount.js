@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './MyAccount.module.css';
 import { Link } from 'react-router-dom';
+import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
 
 function MyAccount() {
   return (
     <div className={`${styles.myAccountContainer}`}>
-        <h2>My Profile</h2>
+        <PageHeading>My Profile</PageHeading>
         <div className={`${styles.myAccountInnerContainer}`}>
             <Link to="/OrderTracker" style={{ textDecoration: "none" }}>
             <div className={`${styles.myAccountNavigationLinkContainer}`}>
