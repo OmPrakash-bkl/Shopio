@@ -4,6 +4,9 @@ import styles from './MyAddresses.module.css';
 import { Link } from 'react-router-dom';
 import Button from '../UtilityComponents/Button/Button';
 import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
+import UserDetailsTable from '../UtilityComponents/UserDetailsTable/UserDetailsTable';
+import { userDefaultAddressDetails } from './MyAddressData.js';
+import { userSecondaryAddressDetails } from './MyAddressData.js';
 
 function MyAddresses() {
 
@@ -33,34 +36,9 @@ function MyAddresses() {
 
         <h3 className={`${styles.addressTypeHeading}`}>DEFAULT ADDRESS</h3>
         <div className={`${styles.detailsElementsContainer}`}>
-        <div className={`${styles.detailsElements}`}>
-                <h4>Name: </h4>
-                <h4>Prakash</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Street: </h4>
-                <h4>31/A, Prasanna New Colony, Avaniyapuram</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>City: </h4>
-                <h4>Madurai</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>State: </h4>
-                <h4>Tamil Nadu</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Postal/Zip Code: </h4>
-                <h4>625012</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Phone Number: </h4>
-                <h4>0123456789</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Country: </h4>
-                <h4>India</h4>
-            </div>
+            { userDefaultAddressDetails.map((data) => {
+                return <UserDetailsTable key={data.fieldName} data={data} />
+            }) }
         </div>
 
         <div className={`${styles.actionBtnsContainer}`}>
@@ -72,34 +50,9 @@ function MyAddresses() {
         
         <h3 className={`${styles.addressTypeHeading}`}>SECONDARY ADDRESS</h3>
         <div className={`${styles.detailsElementsContainer}`}>
-        <div className={`${styles.detailsElements}`}>
-                <h4>Name: </h4>
-                <h4>Prakash</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Street: </h4>
-                <h4>31/A, Prasanna Colony 3Rd Street, Avaniyapuram</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>City: </h4>
-                <h4>Madurai</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>State: </h4>
-                <h4>Tamil Nadu</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Postal/Zip Code: </h4>
-                <h4>625012</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Phone Number: </h4>
-                <h4>9876543210</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Country: </h4>
-                <h4>India</h4>
-            </div>
+        { userSecondaryAddressDetails.map((data) => {
+                return <UserDetailsTable key={data.fieldName} data={data} />
+            }) }
         </div>
 
         <div className={`${styles.actionBtnsContainer}`}>

@@ -1,0 +1,27 @@
+
+.detailsElements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid rgb(201, 201, 201);
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+.detailsElements > h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.detailsElements > h4:nth-child(even) {
+    color: rgb(41, 41, 41);
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .detailsElements > h4 {
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+    }
+}

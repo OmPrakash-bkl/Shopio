@@ -4,6 +4,8 @@ import Button from '../UtilityComponents/Button/Button';
 import { Link } from 'react-router-dom';
 import Dammy_Dp from '../../assets/dammy_dp.jpg';
 import PageHeading from '../UtilityComponents/PageHeading/PageHeading';
+import { userPersonalDetails } from './AccountDetailsData';
+import UserDetailsTable from '../UtilityComponents/UserDetailsTable/UserDetailsTable';
 
 function AccountDetails() {
   return (
@@ -11,22 +13,9 @@ function AccountDetails() {
         <PageHeading>My Account</PageHeading>
         <img src={Dammy_Dp}  className={`${styles.userDp}`} alt="User Profile Picture" />
         <div className={`${styles.detailsElementsContainer}`}>
-        <div className={`${styles.detailsElements}`}>
-                <h4>First Name: </h4>
-                <h4>Prakash</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Last Name: </h4>
-                <h4>Raj</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Email: </h4>
-                <h4>prakashgwt@gmail.com</h4>
-            </div>
-            <div className={`${styles.detailsElements}`}>
-                <h4>Phone Number: </h4>
-                <h4>0123456789</h4>
-            </div>
+        { userPersonalDetails.map((data) => {
+          return <UserDetailsTable key={data.fieldName} data={data} />
+        }) }
         </div>
         <h3 className={`${styles.passwordChangerHeading}`}>Password Change</h3>
         <div className={`${styles.passwordChangeContainer}`}>
