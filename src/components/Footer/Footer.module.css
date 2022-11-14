@@ -2,8 +2,8 @@
 
 .footerContainer {
     padding: 1rem 1rem 0rem 1rem;
-    background-color: rgb(210, 210, 210);
-    color: rgb(44, 44, 44);
+    background-color: var(--White82);
+    color: var(--var(--Black100)75);
     text-align: left;
     transition: color 0.3s;
 }
@@ -35,13 +35,13 @@
 
 
 .footerNavLinkContainer > li:hover {
-    color: black;
+    color: var(--Black100);
 }
 
 .copyWriteContainer {
     text-align: center;
     font-weight: bold;
-    color: rgb(40, 40, 40);
+    color: var(--Black75);
     margin-top: 0.3rem;
 }
 
@@ -54,12 +54,12 @@
 }
 
 .navIconsContainer > span > a > i {
-    color: rgb(44, 44, 44);
+    color: var(--Black75);
     transition: color 0.3s, transform 1s;
 }
 
 .navIconsContainer > span > a > i:hover {
-    color: #2c80d4;
+    color: var(--Blue100);
     transform: rotate(360deg);
 }
 

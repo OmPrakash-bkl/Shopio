@@ -2,17 +2,17 @@
 
 .NewsLetterSignupContainer {
     padding: 1rem 3rem;
-    background: linear-gradient(to left, #6eaebc, #308ae5);
+    background: linear-gradient(to left, var(--LightBlue100), var(--Blue95));
 }
 
 .NewsLetterSignupContainerHeading {
     margin: 0rem 0.4rem 0.3rem 0rem;
-    color: white;
+    color: var(--White100);
     font-weight: bold;
 }
 
 .NewsLetterSignupFormContainer {
-    background-color: white;
+    background-color: var(--White100);
     padding: 0.5rem;
     border: 0rem;
     border-radius: 1.3rem;
@@ -29,16 +29,16 @@
 .NewsLetterSignupFormContainer > form > button {
    border: 0rem;
    border-radius: 0.2rem;
-   background-color: #308ae5;
+   background-color: var(--Blue99);
    padding: 0.2rem 0.5rem;
    font-weight: bold;
-   color: white;
+   color: var(--White100);
    transition: background-color 0.3s;
 }
 
 
 .NewsLetterSignupFormContainer > form > button:hover {
-   background-color: rgb(74, 74, 220);
+   background-color: var(--DartBlue100);
  }
 
 @media only screen and (max-width: 576px) {

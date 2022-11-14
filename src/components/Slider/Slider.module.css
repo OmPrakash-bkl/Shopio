@@ -1,20 +1,20 @@
 @import url("../UtilityComponents/RootColors/RootColor.css");
 
 .shopNowBtn {
-    background-color: #54a4f3;
+    background-color: var(--Blue80);
     padding: 0.3rem 0.8rem;
     border: 0rem;
     border-radius: 0.4rem;
-    color: white;
+    color: var(--White100);
     font-weight: bold;
     transition: background-color 0.3s;
 }
 
 .shopNowBtn:hover {
-    background-color: #3291f1;
+    background-color: var(--Blue85);
 }
 .shopNowSlideSlogan {
-    color: rgb(62, 62, 62);
+    color: var(--Gray55);
     font-weight: bold;
     margin-top: 0.5rem;
 }

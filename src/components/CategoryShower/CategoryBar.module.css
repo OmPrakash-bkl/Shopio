@@ -1,11 +1,11 @@
 @import url("../UtilityComponents/RootColors/RootColor.css");
 
 .categoryBarContainer {
-    background-color: rgb(232, 232, 232);
+    background-color: var(--White90);
     padding: 0.4rem;
 }
 .categoryBarSelectMenu {
-    border: 3px solid gray;
+    border: 3px solid var(--Gray100);
     border-radius: 0.4rem;
     padding: 0.3rem;
 }
@@ -23,11 +23,11 @@
     border: none;
     background-color: transparent;
     font-weight: bold;
-    color: rgb(63, 63, 63);
+    color: var(--Gray55);
     transition: color 0.3s;
 }
 .categoryButtons:hover {
-    color: rgb(22, 22, 22);
+    color: var(--Black80);
 }
 
 .dropdownContainer {
@@ -37,37 +37,37 @@
 .dropdownContainer > button {
     border: 0rem;
     outline: 0rem;
-    background-color: rgb(250, 250, 250);
+    background-color: var(--White100);
     padding: 0.3rem 0.6rem;
     border-radius: 0.4rem;
-    color: rgb(63, 63, 63);
+    color: var(--Gray55);
 }
 
 .dropdownContainer > button > span {
     font-weight: bold;
-    color: rgb(63, 63, 63);
+    color: var(--Gray55);
     transition: color 0.3s;
 }
 
 .dropdownContainer > button > span:hover {
-    color: rgb(34, 34, 34);
+    color: var(--Black65);
 }
 
 .dropdownElementsContainer {
-    background-color: rgb(250, 250, 250);
+    background-color: var(--White100);
     border: 0rem;
     border-radius: 0.3rem;
     margin-top: 0.3rem;
     position: absolute;
     z-index: 3;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     width: 12rem;
     left: -14rem;
     transition: 0.4s;
 }
 
 .dropdownElementsContainer_active {
-    background-color: rgb(250, 250, 250);
+    background-color: var(--White100);
     padding: 1rem;
     border: 0rem;
     border-radius: 0.3rem;
@@ -82,43 +82,43 @@
 .dropdownElementsInnerContainer {
    text-align: left;
    padding: 0.3rem;
-   border-bottom: 0.1rem solid rgb(211, 211, 211);
+   border-bottom: 0.1rem solid var(--White82);
    transition: background-color 0.3s;
 }
 
 .dropdownElementsInnerContainer > div:nth-child(even) {
    display: inline-block;
    cursor: pointer;
-   color: rgb(77, 77, 77);
+   color: var(--Gray50);
    font-weight: bold;
    transition: color 0.3s;
 }
 
 .dropdownElementsInnerContainer:hover {
-    background-color: rgb(242, 242, 242);
+    background-color: var(--White95);
     cursor: pointer;
 }
 
 .dropdownElementsInnerContainer > div:nth-child(even):hover {
-    color: #54a4f3;
+    color: var(--Blue80);
 }
 
 .dropdownElementsInnerContainer > div:nth-child(odd) {
     display: inline-block;
     margin: 0rem 0.3rem;
-    color: #53a9ff;
+    color: var(--Blue80);
     width: 2rem;
 }
 
 .elementsRelatedCategoryContainer {
     position: absolute;
-    background-color: rgb(250, 250, 250);
+    background-color: var(--White100);
     z-index: 3;
     top: 2.3rem;
     border: 0rem;
     border-radius: 0.4rem;
     padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
 }
 
 .elementsRelatedCategoryContainer_disabled {
@@ -152,15 +152,15 @@
     list-style-type: none;
     text-align: left;
     font-size: 1.1rem;
-    border-bottom: 0.1rem solid rgb(211, 211, 211);
-    color: rgb(102, 102, 102);
+    border-bottom: 0.1rem solid var(--White82);
+    color: var(--White42);
     margin: 0.5rem 0rem;
     cursor: pointer;
     transition: color 0.3s;
 }
 
 .elementsRelatedCategoryInnerContainer > ul > li:hover {
-    color: black;
+    color: var(--Black100);
 }
 
 

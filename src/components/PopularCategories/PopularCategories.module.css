@@ -3,7 +3,7 @@
 
 .PopularContainerHeading {
     text-align: left;
-    color: #2c80d4;
+    color: var(--Blue98);
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
@@ -22,7 +22,7 @@
 }
 
 .cardContainer > div:hover {
-    color: #2c80d4;
+    color: var(--Blue98);
 }
 
 @media only screen and (max-width: 576px) {

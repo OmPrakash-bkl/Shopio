@@ -3,7 +3,7 @@
 .navbarContainer {
     position: sticky;
     top: 0rem;
-    background-color: #54a4f3;
+    background-color: var(--Blue80);
     z-index: 2;
 }
 .searchForm {
@@ -21,12 +21,12 @@
     border-radius: 0.2rem;
     padding: 0.3rem;
     margin: 0rem 0.4rem;
-    background-color: rgb(239, 239, 239);
+    background-color: var(--White95);
     transition: background-color 0.3s;
 }
 
 .searchButton:hover {
-background-color: rgb(222, 222, 222);
+background-color: var(--White85);
 }
 
 .searchForm:focus {
@@ -37,19 +37,19 @@ background-color: rgb(222, 222, 222);
 .logoFontStyles {
     font-size: 3rem;
     letter-spacing: 0.4rem;
-    color: white;
+    color: var(--White100);
     text-decoration: none;
     display: inline-block;
 }
 
 .logoFontStyles:hover {
-    color: white;
+    color: var(--White100);
 }
 
 .navIconsContainer {
     height: 2.5rem;
     width: 2.5rem;
-    background-color: white;
+    background-color: var(--White100);
     display: inline-block;
     margin: 0rem 0.4rem;
     border: 1px solid transparent;
@@ -59,7 +59,7 @@ background-color: rgb(222, 222, 222);
 }
 
 .navIconsCartContainer, .navIconsWishlistContainer {
-    background-color: white;
+    background-color: var(--White100);
     display: inline-block;
     margin: 0rem 0.4rem;
     border: 1px solid transparent;
@@ -69,26 +69,26 @@ background-color: rgb(222, 222, 222);
 }
 
 .navIconsCartContainer > button, .navIconsWishlistContainer > button {
-    background-color: white;
-    color: rgb(181, 181, 181);
+    background-color: var(--White100);
+    color: var(--White55);
     border: 0rem;
     border-radius: 50%;
     font-size: 1.4rem;
 }
 
 .navIconsContainer:hover {
-    border: 1px solid rgb(155, 155, 155);
+    border: 1px solid var(--White50);
 }
 
 .navIconsContainer > i {
     font-size: 1.4rem;
-    color: rgb(181, 181, 181);
+    color: var(--White55);
     cursor: pointer;
 }
 
 .cartContainer {
     position: absolute;
-    background-color: white;
+    background-color: var(--White100);
     overflow-y: auto;
     width: 18rem;
     height: 100vh;
@@ -96,18 +96,18 @@ background-color: rgb(222, 222, 222);
     top: 0rem;
     right: 0rem;
     padding: 0.4rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
 }
 
 .cartContainer_active {
     height: 100vh;
-    background-color: white;
+    background-color: var(--White100);
     transition: 0.2s;
 }
 
 .cartContainer_disabled {
    height: 0rem;
-   background-color: white;
+   background-color: var(--White100);
    padding: 0rem;
    transition: 0.5s;
    overflow: hidden;
@@ -118,13 +118,13 @@ background-color: rgb(222, 222, 222);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 0.1rem solid rgb(218, 218, 218);
+    border-bottom: 0.1rem solid var(--White85);
     padding-bottom: 0.2rem;
 }
 
 .cartHeader > h2 {
     font-size: 1.4rem;
-    color: rgb(113, 113, 113);
+    color: var(--White45);
     font-weight: bold;
 }
 
@@ -132,20 +132,20 @@ background-color: rgb(222, 222, 222);
     background-color: transparent;
     border: 0rem;
     font-size: 1.2rem;
-    color: gray;
+    color: var(--Gray100);
     padding: 0rem 0.6rem;
-    border: 1px solid rgb(196, 196, 196);
+    border: 1px solid var(--White57);
     transition: color 0.3s;
 }
 
 .cartHeader > button:hover {
-    color: black;
+    color: var(--Black100);
 }
 
 .cartItem {
-    border-bottom: 0.1rem solid rgb(218, 218, 218);
+    border-bottom: 0.1rem solid var(--White85);
     padding-bottom: 0.2rem;
-    color: rgb(70, 70, 70);
+    color: var(--Gray50);
     padding: 0.4rem 0.5rem 0.4rem 0.4rem;
     height: 21rem;
     overflow-y: auto;
@@ -155,7 +155,7 @@ background-color: rgb(222, 222, 222);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 0.1rem solid rgb(208, 208, 208);
+    border-bottom: 0.1rem solid var(--White82);
     margin-top: 0.3rem;
 }
 
@@ -173,7 +173,7 @@ background-color: rgb(222, 222, 222);
 .increDecreBtnContainer {
     display: inline-block;
     margin: 0.2rem auto;
-    border: 1px solid rgb(196, 196, 196);
+    border: 1px solid var(--White57);
     width: 3.1rem;
 }
 
@@ -186,7 +186,7 @@ background-color: rgb(222, 222, 222);
 }
 
 .increDecreBtnContainer > button:hover {
-   background-color: rgb(171, 171, 171);
+   background-color: var(--White55);
 }
 
 .increDecreBtnContainer > button:nth-child(odd) {
@@ -204,7 +204,7 @@ background-color: rgb(222, 222, 222);
 
 .qtyAndAmountText > h5 {
     font-size: 1rem;
-    color: rgb(65, 65, 65);
+    color: var(--Gray50);
     display: inline-block;
 }
 
@@ -213,19 +213,19 @@ background-color: rgb(222, 222, 222);
 }
 
 .trashContainer > h4 {
-     color: rgb(103, 103, 103);
+     color: var(--White45);
      font-size: 1.3rem;
 }
 
 .trashContainer > button {
     border: 0rem;
-    background-color: white;
+    background-color: var(--White100);
     margin-bottom: 3rem;
-    color: rgb(255, 101, 45);
+    color: var(--Orange80);
    }
 
 .trashContainer > button:hover {
-    color: rgb(255, 68, 0);
+    color: var(--Orange85);
 }
 
 .middleContainer {
@@ -234,12 +234,12 @@ background-color: rgb(222, 222, 222);
 }
 
 .subTotalContainer {
-    color: black;
+    color: var(--Black100);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0.3rem 0.3rem 0.1rem 0.3rem;
-    border-bottom: 0.1rem solid rgb(208, 208, 208);
+    border-bottom: 0.1rem solid var(--White82);
 }
 
 .subTotalContainer > h4 {
@@ -247,14 +247,14 @@ background-color: rgb(222, 222, 222);
 }
 
 .commentContainer {
-    color: black;
+    color: var(--Black100);
     text-align: left;
 }
 
 .commentContainer > textarea {
     width: 100%;
     margin-top: 0.2rem;
-    border: 0.1rem solid rgb(208, 208, 208);
+    border: 0.1rem solid var(--White82);
 }
 .commentContainer > textarea:focus {
     outline: none;
@@ -269,15 +269,15 @@ background-color: rgb(222, 222, 222);
     margin: 0.2rem;
     border: 0rem;
     border-radius: 0.3rem;
-    background-color: #4a90d7;
+    background-color: var(--Blue95);
     padding: 0.2rem 0.6rem;
     font-weight: bold;
-    color: white;
+    color: var(--White100);
     transition: background-color 0.3s;
 }
 
 .commentContainer > button:hover {
-    background-color: #237bd3;
+    background-color: var(--Blue98);
 }
 
 
@@ -291,8 +291,8 @@ background-color: rgb(222, 222, 222);
 
 .quickNavMenuContainer {
     position: absolute;
-    background-color: rgb(250, 250, 250);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--White95);
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     border: 0rem;
     border-radius: 0.4rem;
     width: 11.3rem;
@@ -306,8 +306,8 @@ background-color: rgb(222, 222, 222);
 
 .quickNavMenuContainer_active {
     position: absolute;
-    background-color: rgb(250, 250, 250);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--White95);
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     border: 0rem;
     border-radius: 0.4rem;
     width: 11.3rem;
@@ -322,11 +322,11 @@ background-color: rgb(222, 222, 222);
 
 .quickNavMenuElements {
     text-align: left;
-    color: #54a4f3;
+    color: var(--Blue80);
     padding-bottom: 0rem;
     margin-bottom: 0.5rem;
     width: 100%;
-    border-bottom: 0.1rem solid rgb(208, 208, 208);
+    border-bottom: 0.1rem solid var(--White82);
 }
 
 
@@ -337,13 +337,13 @@ background-color: rgb(222, 222, 222);
 
 .quickNavMenuElements > span:nth-child(even) {
     margin-left: 1rem;
-    color: rgb(77, 77, 77);
+    color: var(--Gray50);
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .quickNavMenuElements > span:nth-child(even):hover {
-    color: #54a4f3;
+    color: var(--Blue80);
 }
 
 .hamburgerIcon {
@@ -357,7 +357,7 @@ background-color: rgb(222, 222, 222);
 }
 
 .hamburgerIcon:hover {
-    color: rgb(35, 35, 35);
+    color: var(--Black65);
 }
 
 .hamburgerIconSection {
@@ -366,8 +366,8 @@ background-color: rgb(222, 222, 222);
 
 .hamburgerMenuContainer {
     position: absolute;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--White100);
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     left: -15rem;
     top: -0.1rem;
     height: 100vh;
@@ -377,8 +377,8 @@ background-color: rgb(222, 222, 222);
 
 .hamburgerMenuContainer_active {
     position: absolute;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--White100);
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     height: 100vh;
     overflow-y: scroll;
     width: 14rem;
@@ -397,19 +397,19 @@ background-color: rgb(222, 222, 222);
     flex-direction: row;
     flex-wrap: nowrap;
     text-decoration: none;
-    color: rgb(99, 99, 99);
+    color: var(--Gray40);
     padding: 0.5rem 1rem;
     font-weight: bold;
     transition: color 0.3s;
-    border-bottom: 0.1rem solid gainsboro;
+    border-bottom: 0.1rem solid var(--Gainsboro100);
 }
 
 .hamburgerElementsInnerContainer:hover {
-    color: rgb(60, 60, 60);
+    color: var(--Gray55);
 }
 
 .hamburgerElementsInnerContainer > span:nth-child(odd) {
-   color: #4e95db;
+   color: var(--Blue95);
 }
 
 .hamburgerElementsInnerContainer > span:nth-last-child(even) {
@@ -419,20 +419,20 @@ background-color: rgb(222, 222, 222);
 
 .closeBtnContainer {
     height: 3.2rem;
-    background-color: #54a4f3;
+    background-color: var(--Blue85);
 }
 
 .closeBtnContainer > button {
    border: 0rem;
    background-color: transparent;
-   color: black;
+   color: var(--Black100);
    font-size: 2rem;
    margin: 0rem 0.5rem;
    float: left;
 }
 
 .closeBtnContainer > button:hover {
-    color: rgb(35, 35, 35);
+    color: var(--Black65);
  }
 
 
@@ -444,7 +444,7 @@ background-color: rgb(222, 222, 222);
 
  .profilePictureContainer {
     padding: 0.5rem 0.5rem;
-    border-bottom: 0.2rem solid #54a4f3;
+    border-bottom: 0.2rem solid var(--Blue85);
     position: relative;
     height: 6rem;
  }
@@ -453,35 +453,35 @@ background-color: rgb(222, 222, 222);
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
-    border: 0.1rem solid #54a4f3;
+    border: 0.1rem solid var(--Blue85);
     padding: 0.1rem;
     position: absolute;
     left: 0.5rem;
-    background-color: white;
+    background-color: var(--White100);
  }
 
  .profilePictureContainer > h3 {
     margin-top: 0.9rem;
     margin-left: 3.3rem;
     font-size: 1.3rem;
-    color: black;
+    color: var(--Black100);
     text-align: left;
  }
 
  .LoginAndSignupBtns {
     border: 0rem;
-    background-color: #167ce1;
+    background-color: var(--Blue99);
     border-radius: 0.3rem;
     margin: 0.4rem;
     font-weight: bold;
     padding: 0.1rem 0.6rem;
-    color: white;
+    color: var(--White100);
     text-decoration: none;
  }
 
  
  .LoginAndSignupBtns:hover {
-    background-color: #136ec9;
+    background-color: var(--Blue100);
  }
 
 @media only screen and (max-width: 1400px) {
@@ -514,7 +514,7 @@ background-color: rgb(222, 222, 222);
 
 .closeBtnContainer {
     height: 4.2rem;
-    background-color: #54a4f3;
+    background-color: var(--Blue85);
 }
 
 .navbarContainer {

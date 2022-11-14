@@ -14,7 +14,7 @@
 }
 
 .borderless > li:hover {
-    color: gray;
+    color: var(--Gray100);
 }
 
 .topCategoryViewAllText {
@@ -25,24 +25,24 @@
 
 .topCategoryViewAllText:hover {
     text-decoration: none;
-    color: #2c80d4;
+    color: var(--Blue98);
 }
 .topCategoryContainer {
     padding-bottom: 0.3rem;
-    border-bottom: 0.1rem solid rgb(177, 177, 177);
+    border-bottom: 0.1rem solid var(--White55);
     margin: 0.5rem 0.2rem;
 }
 
 .topCategoryInnerContainers {
     margin: 0.5rem auto;
-    border-right: 0.1rem solid rgb(177, 177, 177);
+    border-right: 0.1rem solid var(--White55);
 }
 
 @media only screen and (max-width: 576px) {
 
     .topCategoryInnerContainers {
         border-right: none;
-        border-bottom: 0.1rem solid rgb(177, 177, 177);
+        border-bottom: 0.1rem solid var(--White55);
     }
 
     .topCategoryHeadingText {
