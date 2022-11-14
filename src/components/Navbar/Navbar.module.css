@@ -1,3 +1,5 @@
+@import url("../UtilityComponents/RootColors/RootColor.css");
+
 .navbarContainer {
     position: sticky;
     top: 0rem;

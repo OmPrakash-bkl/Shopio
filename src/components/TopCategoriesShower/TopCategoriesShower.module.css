@@ -1,5 +1,7 @@
+@import url("../UtilityComponents/RootColors/RootColor.css");
+
 .topCategoryParentContainer {
-margin: 2.5rem auto;
+    margin: 2.5rem auto;
 }
 .topCategoryHeadingText {
     text-align: left;

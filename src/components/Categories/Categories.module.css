@@ -1,3 +1,5 @@
+@import url("../UtilityComponents/RootColors/RootColor.css");
+
 .categoriesContainer {
     display: flex;
     flex-direction: row;
