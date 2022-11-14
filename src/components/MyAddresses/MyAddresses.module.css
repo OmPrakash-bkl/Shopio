@@ -16,14 +16,14 @@
 .returnLink {
     display: block;
     text-align: left;
-    color: #3c96ef;
+    color: var(--Blue85);
     font-weight: 600;
     transition: color 0.3s;
     font-size: 1.2rem;
 }
 
 .returnLink:hover {
-    color: #2d6fb0;
+    color: var(--Blue95);
 }
 
 

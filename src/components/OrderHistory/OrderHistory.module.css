@@ -18,7 +18,7 @@
 .orderHistoryTable {
     max-width: 60rem;
     width: 70rem;
-    border: 0.1rem solid white;
+    border: 0.1rem solid var(--White100);
     border-collapse: collapse;
     overflow-x: auto;
 }
@@ -27,27 +27,27 @@
 .orderHistoryTable > thead > tr > th {
     text-align: left;
     font-size: 1.5rem;
-    border-bottom: 0.1rem solid white;
+    border-bottom: 0.1rem solid var(--White100);
     padding-bottom: 0.5rem;
     padding-left: 0.6rem;
     font-weight: 600;
-    color: white;
-    background-color: #3685d4;
+    color: var(--White100);
+    background-color: var(--Blue98);
 } 
 
 .orderHistoryTable > tbody > tr > td {
     text-align: left;
-    border-bottom: 0.1rem solid white;
+    border-bottom: 0.1rem solid var(--White100);
     padding-left: 0.6rem;
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
-    background-color: #adadeb;
-    color: rgb(65, 65, 65);
+    background-color: var(--DarkBlue30);
+    color: var(--Gray55);
 }
 
 .noOrderContainer > h2 {
     font-size: 3rem;
-    color: rgb(65, 65, 65);
+    color: var(--Gray55);
 }
 
 @media only screen and (max-width: 768px) {

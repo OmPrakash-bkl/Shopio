@@ -28,9 +28,9 @@
     padding: 0.3rem;
     line-height: 1.2rem;
     margin-top: -0.4rem;
-    border-bottom: 0.2rem solid rgb(220, 220, 220);
+    border-bottom: 0.2rem solid var(--White85);
     margin-bottom: 1rem;
-    color: rgb(46, 46, 46);
+    color: var(--Black75);
 }
 
 .addressContainer > span {
@@ -52,7 +52,7 @@
 
 .messageIconContainer > i {
     font-size: 5rem;
-    color: #3c96ef;
+    color: var(--Blue85);
 }
 
 .contactFormContainer {
@@ -71,7 +71,7 @@
     padding: 0.4rem;
     border: 0.1rem solid transparent;
     margin: 0.6rem auto;
-    background-color: rgb(243, 243, 243);
+    background-color: var(--White95);
 }
 
 .contactFormContainer > form > textarea {
@@ -80,7 +80,7 @@
 
 .contactFormContainer > form > input:focus, .contactFormContainer > form > textarea:focus {
     outline: none;
-    border: 0.1rem solid rgb(181, 181, 181);
+    border: 0.1rem solid var(--White55);
 }
 
 

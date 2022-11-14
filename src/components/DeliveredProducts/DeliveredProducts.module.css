@@ -11,7 +11,7 @@
     align-items: center;
     font-size: 1.2rem;
     padding: 0rem 2rem 0.8rem 2rem;
-    border-bottom: 0.1rem solid rgb(159, 159, 159);
+    border-bottom: 0.1rem solid var(--White50);
     margin-bottom: 1rem;
 }
 
@@ -22,7 +22,7 @@
 
 .deliverdProductPriceContainer > span {
     display: block;
-    color: black;
+    color: var(--Black100);
     font-size: 1.5rem;
 }
 

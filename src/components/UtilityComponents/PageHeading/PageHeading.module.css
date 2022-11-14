@@ -2,7 +2,7 @@
 .pageHeading {
     display: block;
     margin: 0.3rem auto 0.8rem auto;
-    color: #3c96ef;
+    color: var(--Blue100);
     font-weight: bold;
     text-decoration: underline;
 }

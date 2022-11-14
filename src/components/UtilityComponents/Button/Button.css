@@ -5,39 +5,39 @@
     font-weight: bold;
     font-size: 1.2rem;
     border-radius: 0.4rem;
-    color: white;
+    color: var(--White100);
     margin: 0.5rem 0.4rem 0.5rem 0.4rem;
     transition: background-color 0.3s;
 }
 
 .outlineButtonComponent {
     padding: 0.3rem 0.8rem;
-    background-color: white;
-    border: 0.1rem solid #378ade;
-    color: #378ade;
+    background-color: var(--White100);
+    border: 0.1rem solid var(--Blue99);
+    color: var(--Blue99);
 }
 
 .blueNonRadiusButtonComponent {
     margin: 0rem;
-    background-color: #378ade;
+    background-color: var(--Blue99);
     border-radius: 0rem;
-    color: white;
+    color: var(--White100);
     font-size: 1rem;
 }
 
 .blueFullRadiusButtonComponent {
-    border: 0.1rem solid #378ade;
+    border: 0.1rem solid var(--Blue99);
     margin: 0rem;
-    background-color: #378ade;
+    background-color: var(--Blue99);
     font-size: 1rem;
     border-radius: 1.4rem;
-    color: white;
+    color: var(--White100);
 }
 
 .blueDarkButtonComponent {
-    background-color: rgb(16, 0, 73);
+    background-color: var(--UltraDarkBlue100);
     border-radius: 0.4rem;
-    color: white;
+    color: var(--White100);
     font-size: 1rem;
     display: inline-block;
 }
@@ -48,45 +48,45 @@
 }
 
 .blueButtonComponent {
-    background-color: #378ade;
+    background-color: var(--Blue99);
 }
 
 .orangeRedButtonComponent {
-    background-color: orangered;
+    background-color: var(--OrangeRed100);
 }
 
 .greenButtonComponent {
-    background-color: green;
+    background-color: var(--Green100);
 }
 
 .outlineButtonComponentActive {
-    background-color: #378ade;
-    color: white;
+    background-color: var(--Blue99);
+    color: var(--White100);
 }
 
 .blueButtonComponent:hover, .blueFullRadiusButtonComponent:hover {
-    background-color: #3061e8;
+    background-color: var(--DartBlue100);
 }
 
 .orangeRedButtonComponent:hover {
-    background-color: rgb(225, 60, 0);
+    background-color: var(--LightOrange100);
 }
 
 .greenButtonComponent:hover {
-    background-color: rgb(0, 104, 0);
+    background-color: var(--LightGreen100);
 }
 
 .outlineButtonComponent:hover {
-    background-color: #378ade;
-    color: white;
+    background-color: var(--Blue99);
+    color: var(--White100);
 }
 
 .outlineButtonComponentActive:hover {
-    background-color: #2676c6;
+    background-color: var(--Blue100);
 }
 
 .blueDarkButtonComponent:hover {
-    background-color: rgb(25, 0, 113);
+    background-color: var(--UltraDarkBlue50);
 }
 
 

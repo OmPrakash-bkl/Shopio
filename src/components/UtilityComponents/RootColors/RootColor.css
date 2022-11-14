@@ -1,6 +1,10 @@
 :root {
+    --LightBlue50: #d3ffff;
     --LightBlue100: #6eaebc;
+    --UltraDarkBlue100: rgb(16, 0, 73);
+    --UltraDarkBlue50: rgb(25, 0, 113);
     --DartBlue100: rgb(74, 74, 220);
+    --DarkBlue30: #adadeb;
     --Blue100: #136ec9;
     --Blue99: #167ce1;
     --Blue95: #4a90d7;
@@ -16,6 +20,7 @@
     --White55: rgb(181, 181, 181);
     --White57: rgb(196, 196, 196);
     --White50: rgb(155, 155, 155);
+    --White48: rgb(130, 130, 130);
     --White45: rgb(113, 113, 113);
     --White42: rgb(102, 102, 102);
     --Gray100: gray;
@@ -33,5 +38,11 @@
     --Orange85: rgb(255, 68, 0);
     --Gainsboro100: gainsboro;
     --Green100: green;
+    --Orange100: orange;
+    --OrangeRed100: orangered;
+    --Red100: red;
+    --OrangeRed80: rgb(255, 86, 39);
+    --LightOrange100: rgb(225, 60, 0);
+    --LightGreen100: rgb(0, 104, 0);
     --BackScreen30: rgb(0, 0, 0, 0.3);
 }

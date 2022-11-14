@@ -10,7 +10,7 @@
 .userDp {
     height: 4rem;
     width: 4rem;
-    border: 0.2rem solid rgb(35, 35, 35);
+    border: 0.2rem solid var(--Black65);
     border-radius: 50%;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .passwordChangeContainer {
-    border: 0.2rem solid rgb(190, 190, 190);
+    border: 0.2rem solid var(--White57);
     padding: 1rem 0.5rem;
 }
 
@@ -39,10 +39,10 @@
     width: 100%;
     margin-bottom: 0.5rem;
     outline: none;
-    border: 0.1rem solid rgb(220, 220, 220);
+    border: 0.1rem solid var(--White85);
     border-radius: 0.4rem;
     padding: 0.3rem 0.6rem;
-    color: rgb(66, 66, 66);
+    color: var(--Gray55);
 }
 
 .formFieldsElementsContainer > input:focus {
@@ -53,7 +53,7 @@
     display: block;
     text-align: left;
     margin-bottom: 0.2rem;
-    color: rgb(87, 87, 87);
+    color: var(--Gray45);
 }
 
 .actionBtnsContainer {

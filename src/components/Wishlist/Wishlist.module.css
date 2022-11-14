@@ -6,7 +6,7 @@
     left: 0rem;
     width: 90%;
     margin: -1% 5%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     border: 0rem;
     display: block;
 }
@@ -15,41 +15,41 @@
 .wishlistHeader {
     text-align: right;
     padding: 0.5rem 0.2rem;
-    background-color: rgb(54, 54, 54);
+    background-color: var(--Gray55);
 }
 
 .wishlistHeader > span:nth-child(odd) {
     font-weight: bold;
     font-size: 1.2rem;
     margin-right: 0.5rem;
-    color: rgb(235, 235, 235);
+    color: var(--var(--White100)90);
 }
 
 .wishlistHeader > span:nth-child(even) {
-    color: rgb(220, 220, 220);
-    border: 0.1rem solid rgb(235, 235, 235);
+    color: var(--var(--White100)85);
+    border: 0.1rem solid var(--var(--White100)90);
     padding: 0.2rem 0.4rem;
     cursor: pointer;
     transition: color 0.3s, border 0.3s;
 }
 
 .wishlistHeader > span:nth-child(even):hover {
-    color: rgb(184, 184, 184);
-    border: 0.1rem solid rgb(193, 193, 193);
+    color: var(--var(--White100)55);
+    border: 0.1rem solid var(--var(--White100)57);
 }
 
 .wishlistAllClearContainer {
-    background-color: #b3fbff;
+    background-color: var(--LightBlue50);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     position: relative;
     padding: 2rem 2rem 1rem 2rem;
-    color: rgb(54, 54, 54);
+    color: var(--Gray55);
     font-weight: bold;
     font-size: 1.4rem;
-    border-bottom: 0.1rem solid rgb(54, 54, 54);;
+    border-bottom: 0.1rem solid var(--Gray55);;
 }
 
 .clearAllContainer {
@@ -58,7 +58,7 @@
     right: 3rem;
     z-index: 2;
     padding: 0.2rem;
-    background-color: white;
+    background-color: var(--White100);
     border-radius: 0.3rem;
     display: none;
 }
@@ -75,14 +75,14 @@
     font-size: 1.2rem;
     display: inline-block;
     border: 0rem;
-    background-color: white;
+    background-color: var(--White100);
     font-size: 1rem;
     font-weight: bold;
     color: rgb(55, 55, 55);
 }
 
 .clearAllContainer > button:hover {
-    color: rgb(0, 0, 0);
+    color: var(--var(--Black100)100);
 }
 
 
@@ -99,21 +99,21 @@
 }
 
 .wishlistAllClearContainer > div > button:hover {
-    color: rgb(79, 79, 79);
+    color: var(--Gray45);
 }
 
 .productsContainer {
     padding: 2rem 1rem;
-    background-color: #b3fbff;
+    background-color: var(--LightBlue50);
     height: 28rem;
     overflow-y: scroll;
 }
 
 .prodContainer {
-    color: black;
+    color: var(--Black100);
     display: inline-block;
-    border: 0.1rem solid gainsboro;
-    background-color: white;
+    border: 0.1rem solid var(--Gainsboro100);
+    background-color: var(--White100);
     position: relative;
     border-radius: 0.4rem;
     padding: 0rem;
@@ -124,18 +124,18 @@
 }
 
 .prodContainer:hover {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     border: 0.1rem solid transparent;
 }
 
 .closeBtnDiv {
-    background-color: rgb(54, 54, 54);
+    background-color: var(--Gray55);
     text-align: right;
     border: 0rem;
 }
 
 .closeBtnDiv > span {
-    color: white;
+    color: var(--White100);
     margin: 0.4rem 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
@@ -143,11 +143,11 @@
 }
 
 .closeBtnDiv > span:hover {
-    color: rgb(209, 209, 209);
+    color: var(--White82);
 }
 
 .offerText {
-    background-color: rgb(0, 128, 255);
+    background-color: var(--Blue100);
     display: inline-block;
     padding: 0.2rem 0.3rem;
     position: absolute;
@@ -155,7 +155,7 @@
     top: 2rem;
     margin: 0.1rem;
     font-weight: bold;
-    color: white;
+    color: var(--White100);
 }
 
 .imgContainer > img {
@@ -169,8 +169,8 @@
     display: inline-block;
     margin: 0rem 0.3rem;
     font-size: 0.8rem;
-    color: rgb(255, 101, 45);
-    background-color: rgb(200, 200, 200);
+    color: var(--OrangeRed80);
+    background-color: var(--White82);
     padding: 0.1rem 0.4rem;
     border: 0px;
     border-radius: 0.3rem;
@@ -179,20 +179,20 @@
 .cardTitle {
     font-size: 1.2rem;
     padding: 0.2rem 0.2rem;
-    color: rgb(0, 128, 255);
+    color: var(--Blue100);
     cursor: pointer;
     line-height: 1.2rem;
 }
 
 .prodPrice {
-    color: green;
+    color: var(--Green100);
     font-size: 1.3rem;
     margin: 0rem 0.2rem;
     display: inline-block;
 }
 
 .prodOrigiPrice {
-    color: rgb(29, 29, 29);
+    color: var(--Black65);
     text-decoration: line-through;
     display: inline-block;
     font-size: 1rem;
@@ -201,8 +201,8 @@
 
 .addToCartContainer > button {
     display: block;
-    background-color: rgb(54, 54, 54);
-    color: white;
+    background-color: var(--Gray55);
+    color: var(--White100);
     width: 100%;
     border: 0rem;
     padding: 0.5rem 0.1rem;
@@ -211,5 +211,5 @@
 }
 
 .addToCartContainer > button:hover {
-    background-color: rgb(29, 29, 29);
+    background-color: var(--Black65);
 }

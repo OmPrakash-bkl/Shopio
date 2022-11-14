@@ -14,10 +14,10 @@
     width: 100%;
     margin-bottom: 0.5rem;
     outline: none;
-    border: 0.1rem solid rgb(220, 220, 220);
+    border: 0.1rem solid var(--White85);
     border-radius: 0.4rem;
     padding: 0.3rem 0.6rem;
-    color: rgb(66, 66, 66);
+    color: var(--Gray55);
 }
 
 .formFieldsElementsContainer > input:focus {
@@ -28,19 +28,19 @@
     display: block;
     text-align: left;
     margin-bottom: 0.2rem;
-    color: rgb(87, 87, 87);
+    color: var(--Gray45);
 }
 
 .loginPageLinks {
     display: inline-block;
-    color: rgb(87, 87, 87);
+    color: var(--Gray45);
     transition: color 0.3s;
     margin: 0rem 0.5rem 0.6rem 0.5rem;
     text-decoration: none;
 }
 
 .loginPageLinks:hover {
-    color: #378ade;
+    color: var(--Blue85);
 }
 
 @media only screen and (max-width: 576px) {

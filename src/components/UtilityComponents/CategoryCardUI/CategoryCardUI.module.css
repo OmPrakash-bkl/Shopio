@@ -1,6 +1,6 @@
 
 .categoriesInnerContainer {
-    border: 0.1rem solid gainsboro;
+    border: 0.1rem solid var(--Gainsboro100);
     margin: 0.5rem 1rem;
     display: inline-block;
     padding: 0.5rem;
@@ -9,11 +9,11 @@
 
 .categoriesInnerContainer:hover {
     border: 0.1rem solid transparent;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
 }
 
 .categoriesInnerContainer > h6 {
-    color: rgb(53, 53, 53);
+    color: var(--Gray55);
 }
 
 .categoriesInnerContainer > img {

@@ -4,7 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 0.1rem solid rgb(201, 201, 201);
+    border-bottom: 0.1rem solid var(--White57);
     margin-bottom: 2rem;
     text-align: right;
 }
@@ -15,7 +15,7 @@
 }
 
 .detailsElements > h4:nth-child(even) {
-    color: rgb(41, 41, 41);
+    color: var(--Black75);
     font-weight: 400;
 }
 

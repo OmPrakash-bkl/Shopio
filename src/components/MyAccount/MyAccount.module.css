@@ -16,21 +16,21 @@
 
 .myAccountNavigationLinkContainer > span > i {
     font-size: 3rem;
-    color: rgb(155, 155, 155);
+    color: var(--White50);
     margin-top: 1.2rem;
 }
 
 .myAccountNavigationLinkContainer > h4 {
     font-size: 1.5rem;
-    color: rgb(130, 130, 130);
+    color: var(--White48);
     text-decoration: none;
 }
 .myAccountNavigationLinkContainer {
     width: 14rem;
     height: 9rem;
     padding: 0.5rem;
-    border: 0.2rem solid rgb(190, 190, 190);
-    background-color: rgb(246, 246, 246);
+    border: 0.2rem solid var(--White57);
+    background-color: var(--White95);
     margin: 0.6rem;
     border-radius: 0.5rem;
     text-decoration: none;
@@ -38,7 +38,7 @@
 }
 
 .myAccountNavigationLinkContainer:hover  {
-    border: 0.2rem solid rgb(143, 143, 143);
+    border: 0.2rem solid var(--White50);
 }
 
 @media only screen and (max-width: 768px) {

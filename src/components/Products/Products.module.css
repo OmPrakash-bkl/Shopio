@@ -10,14 +10,14 @@
 
 .filterContainer {
   flex: 20;
-  background-color: white;
+  background-color: var(--White100);
   z-index: 1;
 }
 
 
 .productsContainer {
   flex: 80;
-  border-left: 0.1rem solid rgb(202, 202, 202);
+  border-left: 0.1rem solid var(--White82);
   padding: 0.2rem;
 }
 
@@ -27,7 +27,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0.2rem 0rem 0.4rem 0rem;
-  border-bottom: 0.1rem solid rgb(202, 202, 202);
+  border-bottom: 0.1rem solid var(--White82);
 }
 
 .productsHeaderLeft {
@@ -36,24 +36,24 @@
 
 .productsHeaderLeft > button {
   border: 0rem;
-  background-color: rgb(223, 223, 223);
-  color: rgb(60, 60, 60);
+  background-color: var(--White85);
+  color: var(--Gray55);
   margin: 0.2rem 0.4rem;
   border-radius: 0.3rem;
   transition: background-color 0.3s;
 }
 
 .productsHeaderLeft > button:hover {
-  background-color: rgb(200, 200, 200);
+  background-color: var(--White82);
 }
 
 .productsHeaderRight {
-  color: rgb(60, 60, 60);
+  color: var(--Gray55);
   font-weight: bold;
 }
 .productsHeaderRight > input {
   width: 3rem;
-  border: 0.1rem solid rgb(204, 204, 204);
+  border: 0.1rem solid var(--White82);
 }
 .imgContainer > img {
   width: 100%;
@@ -65,7 +65,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border-bottom: 0.1rem solid rgb(202, 202, 202);
+  border-bottom: 0.1rem solid var(--White82);
   margin-bottom: 1rem;
 }
 
@@ -75,32 +75,32 @@
   margin: 0.2rem 0.6rem;
   font-weight: bold;
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: var(--BoxShadow) 0px 3px 8px;
   border-radius: 50%;
   transition: color 0.3s, background-color 0.3s;
 }
 
 .paginationContainer > button:hover {
-  background-color: #54a4f3 !important;
-  color: white;
+  background-color: var(--Blue99) !important;
+  color: var(--White100);
 }
 
 .paginationBtn_active {
-  background-color: #54a4f3 !important;
-  color: white;
+  background-color: var(--Blue99) !important;
+  color: var(--White100);
 }
 
 .sortByContainer {
     position: absolute;
     padding: 0.5rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--White100);
     width: 12rem;
-    border: 0.2rem solid rgb(197, 197, 197);
+    border: 0.2rem solid var(--White57);
     border-radius: 0.3rem;
     z-index: 1;
     text-align: left;
     left: 3.2rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     display: block;
 }
 
@@ -115,19 +115,19 @@
 .sortByContainer > button {
     border: 0rem;
     background-color: transparent;
-    color: rgb(60, 60, 60);
+    color: var(--Gray55);
     font-weight: bold;
     padding: 0rem;
     transition: color 0.3s;
 }
 
 .sortByContainer > button:hover {
-    color: black;
+    color: var(--Black100);
 }
 
 .filterContainerHeading  {
     text-align: left;
-    color: rgb(60, 60, 60);
+    color: var(--Gray55);
 }
 
 .filterContainerHeading > h3 {
@@ -137,7 +137,7 @@
 .filterContainerHeading > button {
     background-color: transparent;
     border: 0rem;
-    color: rgb(60, 60, 60);
+    color: var(--Gray55);
     font-size: 1.4rem;
     margin-top: 0.2rem;
     display: none;
@@ -146,11 +146,11 @@
 }
 
 .filterContainerHeading > button:hover {
-   color: black;
+   color: var(--Black100);
 }
 
 .filterSectionContainer {
-    border: 0.1rem solid rgb(197, 197, 197);
+    border: 0.1rem solid var(--White57);
     border-radius: 0.3rem;
     margin: 0rem 0.2rem;
     border-bottom: 0rem;
@@ -159,14 +159,14 @@
 .filterSectionElements {
     margin-bottom: 0.4rem;
     padding-bottom: 0.2rem;
-    border-bottom: 0.1rem solid rgb(197, 197, 197);
+    border-bottom: 0.1rem solid var(--White57);
 }
 
 .elementsHeading {
     width: 100%;
-    background-color: #54a4f3;
+    background-color: var(--Blue99);
     border: 0rem;
-    color: white;
+    color: var(--White100);
     font-size: 1.2rem;
     font-weight: bold;
     padding: 0.2rem 0.4rem;
@@ -196,11 +196,11 @@
     display: inline-block;
     margin-left: 0.4rem;
     cursor: pointer;
-    color: rgb(71, 71, 71);
+    color: var(--Gray50);
 }
 
 .formInputCheckboxLabel:hover {
- color: black;
+ color: var(--Black100);
 }
 
 
@@ -223,7 +223,7 @@
     height: 100vh;
     left: -13rem;
     overflow-y: auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: var(--BoxShadow) 0px 3px 8px;
     transition: 0.4s;
   }
 

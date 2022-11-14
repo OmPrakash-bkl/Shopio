@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: 0.1rem solid gainsboro;
+    border: 0.1rem solid var(--Gainsboro100);
     align-items: center;
     border-radius: 0.4rem;
     margin: 0.5rem auto;
@@ -34,27 +34,27 @@
     right: 0rem;
     font-size: 1.5rem;
     font-weight: 600;
-    color: white;
+    color: var(--White100);
     margin: 0rem 1rem;
-    background-color: #378ade;
+    background-color: var(--Blue98);
     border-radius: 0.3rem;
     padding: 0rem 0.3rem;
 }
 
 .orderDetailsContentContainer > h3 {
-    color: rgb(60, 60, 60);
+    color: var(--Gray55);
     margin: 0rem;
     font-size: 2.2rem;
 }
 
 .orderedProdPrice {
-    color: green;
+    color: var(--Green100);
     font-size: 2rem;
     margin: 0rem;
 }
 
 .orderedProdOffer {
-    color: orangered;
+    color: var(--OrangeRed100);
     font-size: 1.4rem;
     margin: 0rem;
 }
@@ -92,40 +92,40 @@
     display: block;
     font-size: 3rem;
     margin-left: 1rem;
-    color: rgb(160, 160, 160);
+    color: var(--White50);
 }
 
 .orderNumber {
     font-size: 1.2rem;
-    color: rgb(61, 61, 61);
+    color: var(--Gray55);
     font-weight: bold;
     padding: 0.2em 0.8rem;
-    border: 0.1rem solid rgb(200, 200, 200);
-    background-color: rgb(200, 200, 200);
+    border: 0.1rem solid var(--White82);
+    background-color: var(--White82);
     border-radius: 50%;
 }
 
 .orderNumberActive, .orderScaleActive {
-    background-color: #378ade;
-    color: white;
-    border: 0.1rem solid #378ade;
+    background-color: var(--Blue98);
+    color: var(--White100);
+    border: 0.1rem solid var(--Blue98);
 }
 
 .orderScale {
     height: 4rem;
     width: 0.5rem;
-    border: 0.1rem solid rgb(200, 200, 200);
+    border: 0.1rem solid var(--White82);
     display: block;
-    background-color: rgb(200, 200, 200);
+    background-color: var(--White82);
     margin: 0.5rem auto;
     border-radius: 0.3rem;
 }
 
 
 .orderScaleActive {
-    background-color: #378ade;
-    color: white;
-    border: 0.1rem solid #378ade;
+    background-color: var(--Blue98);
+    color: var(--White100);
+    border: 0.1rem solid var(--Blue98);
 }
 
 .orderScaleDisabled {
@@ -144,21 +144,21 @@
 .orderStepContentContainer > h2, .orderStepContentContainer > p, .orderStepContentContainer > span {
     margin-bottom: 0rem;
     display: block;
-    color: gray;
+    color: var(--Gray100);
     font-weight: 600;
 }
 
 .orderStepContentContainer > h2 {
-    color: rgb(61, 61, 61);
+    color: var(--Gray55);
 }
 
 
 .orderCancelReasonSelector {
     width: 100%;
     padding: 0.6rem;
-    color: rgb(80, 80, 80);
+    color: var(--Gray45);
     font-size: 1.2rem;
-    border: 0.1rem solid gainsboro;
+    border: 0.1rem solid var(--Gainsboro100);
     display: block;
     margin-bottom: 0.8rem;
 }
@@ -169,8 +169,8 @@
 
 .canceledProductPaymentDetailsContainer {
     padding: 0.3rem 0.8rem 0.8rem 0.8rem;
-    border: 0.1rem solid rgb(200, 200, 200);
-    background-color: rgb(240, 240, 240);
+    border: 0.1rem solid var(--White82);
+    background-color: var(--White95);
     border-radius: 0.4rem;
     text-align: left;
     font-size: 1rem;
