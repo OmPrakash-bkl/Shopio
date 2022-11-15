@@ -224,7 +224,7 @@
 
 .productDescription, .productSpecification, .productReviews, .productQandA, .FAProdContainer {
     margin: 1rem;
-    border: 0.1rem solid var(--White100);
+    border: 0.1rem solid var(--White82);
     text-align: left;
     padding: 0.4rem;
     color: var(--Gray55);
@@ -232,7 +232,7 @@
 
 .TitleContainer, .TitleContainerReview, .TitleContainerQandA, .TitleContainerFAProd {
     padding: 0.3rem;
-    border-bottom: 0.1rem solid var(--White100);
+    border-bottom: 0.1rem solid var(--White82);
 }
 
 .productDescription > p {
@@ -346,7 +346,7 @@
 }
 
 .prodPeopleReviewContainer, .prodPeopleQandAContainer {
-    border-top: 0.1rem solid var(--White100);
+    border-top: 0.1rem solid var(--White82);
 }
 
 .prodPeopleReviewContainer > h5, .prodPeopleQandAContainer > h5 {
