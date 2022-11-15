@@ -1,0 +1,150 @@
+
+.cardChildContainers {
+    width: 13rem;
+    border: 0.1rem solid var(--Gainsboro100);
+    border-radius: 0.5rem;   
+    text-align: left;
+    margin: 1rem 0.2rem;
+    cursor: pointer;
+}
+
+
+.cardChildContainers:hover {
+    border: 0.1rem solid var(--White100);
+    box-shadow: var(--BoxShadow50) 0px 2px 8px 0px;
+}
+.cardChildContainers:hover .cardTitle {
+     color: var(--Blue100);
+}
+
+.cardChildContainers > img {
+    height: 10rem;
+    width: 12rem;
+    display: block;
+    margin: 1.5rem auto 0.4rem auto;
+}
+
+
+.offerShower {
+    position: absolute;
+    padding: 0.2rem 0.4rem;
+    background-color: var(--Blue80);
+    font-weight: bold;
+    color: var(--Black100);
+    border: 0rem;
+    border-radius: 0.3rem;
+    margin: 0.1rem;
+}
+
+
+.starIconContainer {
+    display: inline-block;
+    margin: 0rem 0.3rem;
+    font-size: 0.8rem;
+    color: var(--Orange80);
+    background-color: var(--White82);
+    padding: 0.1rem 0.4rem;
+    border: 0px;
+    border-radius: 0.3rem;
+}
+
+
+.starIconContainer {
+    display: block;
+    width: 46%;
+    margin: 0.5rem 0rem;
+    font-size: 0.9rem;
+}
+
+
+.cardTitle {
+    font-size: 1.1rem;
+    margin: 0.3rem 0rem 0.1rem 0.4rem;
+    color: var(--Blue100);
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+
+.prodPrice {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0rem 0rem 0.1rem 0.4rem;
+    color: var(--Green100);
+}
+
+
+.prodOrigiPrice {
+    display: inline-block;
+    font-size: 1rem;
+    color: var(--var(--Gray100)100);
+    margin: 0rem 0rem 0.1rem 0.6rem;
+    text-decoration: line-through;
+}
+
+
+.cardAndWishlistContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 0.3rem;
+    background-color: var(--White82);
+    padding: 0.2rem 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.cardAndWishlistContainer > div {
+    background-color: var(--White100);
+    border: 0px;
+    padding: 0.38rem 0.6rem;
+    cursor: pointer;
+    border-radius: 50%;
+    color: var(--White55);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cardAndWishlistContainer > div:hover {
+   background-color: var(--Blue98);
+   color: var(--White100);
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .cardChildContainers {
+        width: 10rem;
+    }
+    
+    
+    .cardChildContainers > img {
+        height: 6rem;
+        width: 7.5rem;
+    }
+
+    
+    .offerShower {
+        font-size: 0.8rem;
+    }
+
+    .starIconContainer {
+       width: 55%;
+       font-size: 0.8rem;
+       padding: 0.2rem 0.4rem;
+   }
+   .cardTitle {
+       font-size: 0.9rem;
+    }
+    .prodPrice {
+        font-size: 0.9rem;
+    }
+    .prodOrigiPrice {
+        font-size: 0.8rem;
+    }
+
+    .cardAndWishlistContainer > div {
+        padding: 0.28rem 0.5rem;
+    }
+}    
+
+
