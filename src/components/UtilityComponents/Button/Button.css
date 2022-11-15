@@ -22,6 +22,7 @@
     background-color: var(--Blue99);
     border-radius: 0rem;
     color: var(--White100);
+    transition: background-color 0.3s;
     font-size: 1rem;
 }
 
@@ -87,6 +88,10 @@
 
 .blueDarkButtonComponent:hover {
     background-color: var(--UltraDarkBlue50);
+}
+
+.blueNonRadiusButtonComponent:hover {
+    background-color: var(--Blue85);
 }
 
 

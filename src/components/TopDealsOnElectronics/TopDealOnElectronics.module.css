@@ -57,9 +57,10 @@
 }
 
 .starIconContainer {
+    font-size: 0.9rem;
     display: inline-block;
-    margin: 0rem 0.3rem;
-    font-size: 0.8rem;
+    width: 46%;
+    margin: 0.5rem 0rem;
     color: var(--Orange80);
     background-color: var(--White82);
     padding: 0.1rem 0.4rem;
@@ -128,8 +129,9 @@
 }
 
 .starIconContainer {
-    font-size: 0.6rem;
-    padding: 0.1rem 0.4rem;
+    width: 55%;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.4rem;
 }
 
 .cardTitle {

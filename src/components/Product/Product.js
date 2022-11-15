@@ -256,7 +256,7 @@ function Product() {
     </div>
     <div className={`${styles.FAProdContainer}`}>
         <div className={`${styles.TitleContainerFAProd}`}>
-        <h4>Related Products</h4>
+        <h4>RELATED PRODUCTS</h4>
         </div>
         <FSProducts />
     </div>
