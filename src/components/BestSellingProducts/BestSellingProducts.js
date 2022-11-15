@@ -11,6 +11,7 @@ import Fridge from '../../assets/bs_fridge.jpg';
 import Shoes from '../../assets/bs_shoes.jpg';
 import Vivo from '../../assets/bs_mobile.jpg';
 import Laptops from '../../assets/bs_laptops.jpg';
+import ComponentHeading from '../UtilityComponents/ComponentHeading/ComponentHeading';
 
 
 function BestSellingProducts() {
@@ -23,7 +24,7 @@ function BestSellingProducts() {
 
   return (
     <Container fluid>
-    <h2 className={`${styles.BestSellingContainerHeading}`}>Best Selling Categories</h2>
+    <ComponentHeading>Best Selling Categories</ComponentHeading>
 
     <div className={`${styles.cardContainer}`}>
 

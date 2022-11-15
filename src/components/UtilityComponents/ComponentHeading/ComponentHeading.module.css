@@ -1,0 +1,15 @@
+
+.PopularContainerHeading {
+    text-align: left;
+    color: var(--Blue98);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .PopularContainerHeading {
+        font-size: 1.2rem;
+    }
+    
+}

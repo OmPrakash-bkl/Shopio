@@ -1,11 +1,5 @@
 @import url("../UtilityComponents/RootColors/RootColor.css");
 
-.TopDealsContainerHeading {
-    text-align: left;
-    color: var(--Blue98);
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
 
 .cardContainer {
     display: flex;
@@ -155,12 +149,5 @@
    font-size: 0.8rem;
 }
 
-
-}
-
-@media only screen and (max-width: 576px) {
-.TopDealsContainerHeading {
-    font-size: 1.2rem;
-}
 
 }

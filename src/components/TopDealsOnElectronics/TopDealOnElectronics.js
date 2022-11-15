@@ -9,13 +9,14 @@ import Temper from '../../assets/td_temper.jpg';
 import Printer from '../../assets/td_printer.jpg';
 import Camera from '../../assets/td_camera.jpg';
 import Watch from '../../assets/td_watch.jpg';
+import ComponentHeading from '../UtilityComponents/ComponentHeading/ComponentHeading';
 
 
 function TopDealOnElectronics() {
   return (
     <Container fluid>
-    <h2 className={`${styles.TopDealsContainerHeading}`}>Top Deals On 
-    Electronics</h2>
+    <ComponentHeading>Top Deals On 
+    Electronics</ComponentHeading>
 
     <div className={`${styles.cardContainer}`}>
 

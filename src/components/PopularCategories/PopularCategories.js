@@ -3,12 +3,14 @@ import Container from 'react-bootstrap/Container';
 import styles from './PopularCategories.module.css';
 import { CategoryData } from '../Categories/CategoriesData';
 import CategoryCardUI from '../UtilityComponents/CategoryCardUI/CategoryCardUI';
+import ComponentHeading from '../UtilityComponents/ComponentHeading/ComponentHeading';
 
 
 function PopularCategories() {
   return (
     <Container fluid>
-    <h2 className={`${styles.PopularContainerHeading}`}>Popular Categories</h2>
+      
+      <ComponentHeading>Popular Categories</ComponentHeading>
 
     <div className={`${styles.cardContainer}`}>
 

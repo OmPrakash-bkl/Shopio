@@ -1,13 +1,6 @@
 @import url("../UtilityComponents/RootColors/RootColor.css");
 
 
-.BestSellingContainerHeading {
-    text-align: left;
-    color: var(--Blue98);
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
 .cardContainer {
     display: flex;
     flex-direction: row;
@@ -393,9 +386,7 @@
 }
 
 @media only screen and (max-width: 576px) {
-.BestSellingContainerHeading {
-    font-size: 1.2rem;
-}
+
 
 .quickViewImageContainer > div > img {
     height: 12rem;
