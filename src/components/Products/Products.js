@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import styles from './Products.module.css';
 import Banner from '../../assets/productPageBanner.jpg';
-import prodStyles from '../BestSellingProducts/BestSellingProducts.module.css';
-import Tablets from '../../assets/bs_tablets.jpg';
+import { ProductData } from './ProductsData';
+import ProdCard from '../UtilityComponents/ProdCard/ProdCard';
+
 
 function Products() {
 
@@ -258,170 +259,12 @@ function Products() {
 
         <div className={styles.productsListContainer}>
 
-        <div className={`${prodStyles.cardChildContainers}`}>
-           <div  className={`${prodStyles.offerShower}`}>25% Off</div>
-        <img src={Tablets} alt="Tablets" />
-        <div className={`${prodStyles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${prodStyles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${prodStyles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${prodStyles.prodOrigiPrice}`}>&#8377;31999</h5>
-        <div className={`${prodStyles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-      </div>
-
-      <div className={`${prodStyles.cardChildContainers}`}>
-           <div  className={`${prodStyles.offerShower}`}>25% Off</div>
-        <img src={Tablets} alt="Tablets" />
-        <div className={`${prodStyles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${prodStyles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${prodStyles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${prodStyles.prodOrigiPrice}`}>&#8377;31999</h5>
-        <div className={`${prodStyles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-      </div>
-
-
-      <div className={`${prodStyles.cardChildContainers}`}>
-           <div  className={`${prodStyles.offerShower}`}>25% Off</div>
-        <img src={Tablets} alt="Tablets" />
-        <div className={`${prodStyles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${prodStyles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${prodStyles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${prodStyles.prodOrigiPrice}`}>&#8377;31999</h5>
-        <div className={`${prodStyles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-      </div>
-
-
-      <div className={`${prodStyles.cardChildContainers}`}>
-           <div  className={`${prodStyles.offerShower}`}>25% Off</div>
-        <img src={Tablets} alt="Tablets" />
-        <div className={`${prodStyles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${prodStyles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${prodStyles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${prodStyles.prodOrigiPrice}`}>&#8377;31999</h5>
-        <div className={`${prodStyles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-      </div>
-
-
-      <div className={`${prodStyles.cardChildContainers}`}>
-           <div  className={`${prodStyles.offerShower}`}>25% Off</div>
-        <img src={Tablets} alt="Tablets" />
-        <div className={`${prodStyles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${prodStyles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${prodStyles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${prodStyles.prodOrigiPrice}`}>&#8377;31999</h5>
-        <div className={`${prodStyles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-      </div>
-
-
-      <div className={`${prodStyles.cardChildContainers}`}>
-           <div  className={`${prodStyles.offerShower}`}>25% Off</div>
-        <img src={Tablets} alt="Tablets" />
-        <div className={`${prodStyles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${prodStyles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${prodStyles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${prodStyles.prodOrigiPrice}`}>&#8377;31999</h5>
-        <div className={`${prodStyles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-      </div>
-
-      <div className={`${prodStyles.cardChildContainers}`}>
-           <div  className={`${prodStyles.offerShower}`}>25% Off</div>
-        <img src={Tablets} alt="Tablets" />
-        <div className={`${prodStyles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${prodStyles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${prodStyles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${prodStyles.prodOrigiPrice}`}>&#8377;31999</h5>
-        <div className={`${prodStyles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-      </div>
-
-
-      <div className={`${prodStyles.cardChildContainers}`}>
-           <div  className={`${prodStyles.offerShower}`}>25% Off</div>
-        <img src={Tablets} alt="Tablets" />
-        <div className={`${prodStyles.starIconContainer}`}>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-            <i className="fa fa-star"></i>
-        </div>
-        <h2 className={`${prodStyles.cardTitle}`}>Lenovo Tablet with The Google Assistant</h2>
-        <h3 className={`${prodStyles.prodPrice}`}>&#8377;29999</h3>
-        <h5 className={`${prodStyles.prodOrigiPrice}`}>&#8377;31999</h5>
-        <div className={`${prodStyles.cardAndWishlistContainer}`}>
-            <div title="Cart"><i className="fa fa-shopping-cart" aria-hidden="true"></i></div>
-            <div title="Wishlist"><i className="fa fa-heart" aria-hidden="true"></i></div>
-            <div title="Quick View"><i className="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-      </div>
+          
+    {
+        ProductData.map((data) => {
+            return <ProdCard key={data.prodTitle} data={data} />;
+        })
+    }
 
         </div>
 

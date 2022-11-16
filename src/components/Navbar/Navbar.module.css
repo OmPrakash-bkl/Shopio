@@ -76,10 +76,6 @@ background-color: var(--White85);
     font-size: 1.4rem;
 }
 
-.navIconsContainer:hover {
-    border: 1px solid var(--White50);
-}
-
 .navIconsContainer > i {
     font-size: 1.4rem;
     color: var(--White55);
