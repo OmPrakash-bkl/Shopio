@@ -7,11 +7,11 @@ function ProdCard(props) {
     <div  className={`${styles.offerShower}`}>{props.data.offerPercentage}</div>
         <img src={props.data.prodImg} alt={props.data.prodTitle} />
         <div className={`${styles.starIconContainer}`}>
-            <i className={`${props.data.rating >= 1 ? "fa fa-star" : "fa fa-star-o"}`}></i>
-            <i className={`${props.data.rating >= 2 ? "fa fa-star" : "fa fa-star-o"}`}></i>
-            <i className={`${props.data.rating >= 3 ? "fa fa-star" : "fa fa-star-o"}`}></i>
-            <i className={`${props.data.rating >= 4 ? "fa fa-star" : "fa fa-star-o"}`}></i>
-            <i className={`${props.data.rating >= 5 ? "fa fa-star" : "fa fa-star-o"}`}></i>
+          { props.data.rating >= 1 ? <i className={`fa fa-star`}></i> : <i style={{ color: "rgb(99, 99, 99)" }} className={`fa fa-star`}></i> }
+          { props.data.rating >= 2 ? <i className={`fa fa-star`}></i> : <i style={{ color: "rgb(99, 99, 99)" }} className={`fa fa-star`}></i> }
+          { props.data.rating >= 3 ? <i className={`fa fa-star`}></i> : <i style={{ color: "rgb(99, 99, 99)" }} className={`fa fa-star`}></i> }
+          { props.data.rating >= 4 ? <i className={`fa fa-star`}></i> : <i style={{ color: "rgb(99, 99, 99)" }} className={`fa fa-star`}></i> }
+          { props.data.rating >= 5 ? <i className={`fa fa-star`}></i> : <i style={{ color: "rgb(99, 99, 99)" }} className={`fa fa-star`}></i> }
         </div>
         <h2 className={`${styles.cardTitle}`}>{props.data.prodTitle}</h2>
         <h3 className={`${styles.prodPrice}`}>&#8377;{props.data.discountPrice}</h3>
