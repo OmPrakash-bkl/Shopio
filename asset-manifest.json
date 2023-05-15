@@ -1,10 +1,9 @@
 {
-  "main.css": "/static/css/main.2cdecdcc.chunk.css",
-  "main.js": "/static/js/main.2cd5226a.chunk.js",
-  "main.js.map": "/static/js/main.2cd5226a.chunk.js.map",
-  "static/css/1.ad93108d.chunk.css": "/static/css/1.ad93108d.chunk.css",
-  "static/js/1.89330caa.chunk.js": "/static/js/1.89330caa.chunk.js",
-  "static/js/1.89330caa.chunk.js.map": "/static/js/1.89330caa.chunk.js.map",
+  "main.css": "/static/css/main.daa08708.chunk.css",
+  "main.js": "/static/js/main.50703a8f.chunk.js",
+  "main.js.map": "/static/js/main.50703a8f.chunk.js.map",
+  "static/js/1.c7c10223.chunk.js": "/static/js/1.c7c10223.chunk.js",
+  "static/js/1.c7c10223.chunk.js.map": "/static/js/1.c7c10223.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/bs_mobile.jpg": "/static/media/bs_mobile.a135ed0f.jpg",
@@ -44,9 +43,8 @@
   "static/media/vivo2.jpg": "/static/media/vivo2.3b180a81.jpg",
   "static/media/vivo3.jpg": "/static/media/vivo3.837dadc6.jpg",
   "static/media/not_found_image2.png": "/static/media/not_found_image2.c884b33e.png",
-  "static/css/main.2cdecdcc.chunk.css.map": "/static/css/main.2cdecdcc.chunk.css.map",
-  "static/css/1.ad93108d.chunk.css.map": "/static/css/1.ad93108d.chunk.css.map",
+  "static/css/main.daa08708.chunk.css.map": "/static/css/main.daa08708.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b81c1e5505904f0fad0dd98061126e23.js": "/precache-manifest.b81c1e5505904f0fad0dd98061126e23.js",
+  "precache-manifest.0239fd2e1a82234087141807bbe1ca7c.js": "/precache-manifest.0239fd2e1a82234087141807bbe1ca7c.js",
   "service-worker.js": "/service-worker.js"
 }
