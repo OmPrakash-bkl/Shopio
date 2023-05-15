@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/Shopio/static/media/not_found_image2.c884b33e.png"
   },
   {
-    "revision": "ad524e9717a22a9d24e46943501d2cae",
+    "revision": "9a99acbad7433c78503e9b4407e5a4d7",
     "url": "/Shopio/index.html"
   }
 ];
