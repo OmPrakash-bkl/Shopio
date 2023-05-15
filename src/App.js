@@ -26,7 +26,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Shopio">
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/Register" exact element={<Register />} />
