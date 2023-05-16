@@ -1,7 +1,7 @@
 {
-  "main.css": "/Shopio/static/css/main.465a59f4.chunk.css",
-  "main.js": "/Shopio/static/js/main.f8638f41.chunk.js",
-  "main.js.map": "/Shopio/static/js/main.f8638f41.chunk.js.map",
+  "main.css": "/Shopio/static/css/main.19aaa8c2.chunk.css",
+  "main.js": "/Shopio/static/js/main.63cbba8c.chunk.js",
+  "main.js.map": "/Shopio/static/js/main.63cbba8c.chunk.js.map",
   "static/css/1.3a88d162.chunk.css": "/Shopio/static/css/1.3a88d162.chunk.css",
   "static/js/1.45b25b91.chunk.js": "/Shopio/static/js/1.45b25b91.chunk.js",
   "static/js/1.45b25b91.chunk.js.map": "/Shopio/static/js/1.45b25b91.chunk.js.map",
@@ -44,9 +44,9 @@
   "static/media/vivo2.jpg": "/Shopio/static/media/vivo2.3b180a81.jpg",
   "static/media/vivo3.jpg": "/Shopio/static/media/vivo3.837dadc6.jpg",
   "static/media/not_found_image2.png": "/Shopio/static/media/not_found_image2.c884b33e.png",
-  "static/css/main.465a59f4.chunk.css.map": "/Shopio/static/css/main.465a59f4.chunk.css.map",
+  "static/css/main.19aaa8c2.chunk.css.map": "/Shopio/static/css/main.19aaa8c2.chunk.css.map",
   "static/css/1.3a88d162.chunk.css.map": "/Shopio/static/css/1.3a88d162.chunk.css.map",
   "index.html": "/Shopio/index.html",
-  "precache-manifest.450480c59410aa153cdd9dec655ca488.js": "/Shopio/precache-manifest.450480c59410aa153cdd9dec655ca488.js",
+  "precache-manifest.20c6c6c79b29183736a1eb903571f01a.js": "/Shopio/precache-manifest.20c6c6c79b29183736a1eb903571f01a.js",
   "service-worker.js": "/Shopio/service-worker.js"
 }
