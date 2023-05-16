@@ -1,7 +1,7 @@
 {
   "main.css": "/Shopio/static/css/main.e9d9f707.chunk.css",
-  "main.js": "/Shopio/static/js/main.28d73cf4.chunk.js",
-  "main.js.map": "/Shopio/static/js/main.28d73cf4.chunk.js.map",
+  "main.js": "/Shopio/static/js/main.0e73766e.chunk.js",
+  "main.js.map": "/Shopio/static/js/main.0e73766e.chunk.js.map",
   "static/css/1.3a88d162.chunk.css": "/Shopio/static/css/1.3a88d162.chunk.css",
   "static/js/1.45b25b91.chunk.js": "/Shopio/static/js/1.45b25b91.chunk.js",
   "static/js/1.45b25b91.chunk.js.map": "/Shopio/static/js/1.45b25b91.chunk.js.map",
@@ -47,6 +47,6 @@
   "static/css/1.3a88d162.chunk.css.map": "/Shopio/static/css/1.3a88d162.chunk.css.map",
   "static/css/main.e9d9f707.chunk.css.map": "/Shopio/static/css/main.e9d9f707.chunk.css.map",
   "index.html": "/Shopio/index.html",
-  "precache-manifest.c4d126522ade441263ec70fdd399aece.js": "/Shopio/precache-manifest.c4d126522ade441263ec70fdd399aece.js",
+  "precache-manifest.8d89f067b0935783b51f48bc9bbf98b2.js": "/Shopio/precache-manifest.8d89f067b0935783b51f48bc9bbf98b2.js",
   "service-worker.js": "/Shopio/service-worker.js"
 }
