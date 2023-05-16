@@ -1,10 +1,10 @@
 {
-  "main.css": "/Shopio/static/css/main.2cdecdcc.chunk.css",
-  "main.js": "/Shopio/static/js/main.5baea6c3.chunk.js",
-  "main.js.map": "/Shopio/static/js/main.5baea6c3.chunk.js.map",
+  "main.css": "/Shopio/static/css/main.e9d9f707.chunk.css",
+  "main.js": "/Shopio/static/js/main.2fb1fe3f.chunk.js",
+  "main.js.map": "/Shopio/static/js/main.2fb1fe3f.chunk.js.map",
   "static/css/1.3a88d162.chunk.css": "/Shopio/static/css/1.3a88d162.chunk.css",
-  "static/js/1.37799e02.chunk.js": "/Shopio/static/js/1.37799e02.chunk.js",
-  "static/js/1.37799e02.chunk.js.map": "/Shopio/static/js/1.37799e02.chunk.js.map",
+  "static/js/1.45b25b91.chunk.js": "/Shopio/static/js/1.45b25b91.chunk.js",
+  "static/js/1.45b25b91.chunk.js.map": "/Shopio/static/js/1.45b25b91.chunk.js.map",
   "runtime~main.js": "/Shopio/static/js/runtime~main.ce720d8b.js",
   "runtime~main.js.map": "/Shopio/static/js/runtime~main.ce720d8b.js.map",
   "static/media/bs_mobile.jpg": "/Shopio/static/media/bs_mobile.a135ed0f.jpg",
@@ -44,9 +44,9 @@
   "static/media/vivo2.jpg": "/Shopio/static/media/vivo2.3b180a81.jpg",
   "static/media/vivo3.jpg": "/Shopio/static/media/vivo3.837dadc6.jpg",
   "static/media/not_found_image2.png": "/Shopio/static/media/not_found_image2.c884b33e.png",
-  "static/css/main.2cdecdcc.chunk.css.map": "/Shopio/static/css/main.2cdecdcc.chunk.css.map",
+  "static/css/main.e9d9f707.chunk.css.map": "/Shopio/static/css/main.e9d9f707.chunk.css.map",
   "static/css/1.3a88d162.chunk.css.map": "/Shopio/static/css/1.3a88d162.chunk.css.map",
   "index.html": "/Shopio/index.html",
-  "precache-manifest.d10145e78ef34a03c7dc2f253abbe284.js": "/Shopio/precache-manifest.d10145e78ef34a03c7dc2f253abbe284.js",
+  "precache-manifest.2306128a6d8cd8e291163b28a83a4de2.js": "/Shopio/precache-manifest.2306128a6d8cd8e291163b28a83a4de2.js",
   "service-worker.js": "/Shopio/service-worker.js"
 }

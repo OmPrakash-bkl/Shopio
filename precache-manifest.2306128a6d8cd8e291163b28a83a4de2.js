@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "5baea6c3916f5759e7e9",
-    "url": "/Shopio/static/css/main.2cdecdcc.chunk.css"
+    "revision": "2fb1fe3fb3204c3592a6",
+    "url": "/Shopio/static/css/main.e9d9f707.chunk.css"
   },
   {
-    "revision": "5baea6c3916f5759e7e9",
-    "url": "/Shopio/static/js/main.5baea6c3.chunk.js"
+    "revision": "2fb1fe3fb3204c3592a6",
+    "url": "/Shopio/static/js/main.2fb1fe3f.chunk.js"
   },
   {
-    "revision": "37799e02fc58dfeed43f",
+    "revision": "45b25b9127fda5bd0803",
     "url": "/Shopio/static/css/1.3a88d162.chunk.css"
   },
   {
-    "revision": "37799e02fc58dfeed43f",
-    "url": "/Shopio/static/js/1.37799e02.chunk.js"
+    "revision": "45b25b9127fda5bd0803",
+    "url": "/Shopio/static/js/1.45b25b91.chunk.js"
   },
   {
     "revision": "ce720d8b0b1e7dbaea68",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/Shopio/static/media/not_found_image2.c884b33e.png"
   },
   {
-    "revision": "9a99acbad7433c78503e9b4407e5a4d7",
+    "revision": "937815bbf9d3abc73eb574bc3cf8d1a2",
     "url": "/Shopio/index.html"
   }
 ];
