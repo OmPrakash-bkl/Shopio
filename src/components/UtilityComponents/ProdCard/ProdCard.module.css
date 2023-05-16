@@ -13,11 +13,9 @@
     border: 0.1rem solid var(--White100);
     box-shadow: var(--BoxShadow50) 0px 2px 8px 0px;
 }
-.cardChildContainers:hover .cardTitle {
-     color: var(--Blue100);
-}
 
-.cardChildContainers > img {
+
+.cardChildContainersImage {
     height: 10rem;
     width: 12rem;
     display: block;
@@ -52,7 +50,7 @@
 .starIconContainer {
     display: block;
     width: 46%;
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 0.3rem;
     font-size: 0.9rem;
 }
 
@@ -117,7 +115,7 @@
     }
     
     
-    .cardChildContainers > img {
+    .cardChildContainersImage {
         height: 6rem;
         width: 7.5rem;
     }
