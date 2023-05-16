@@ -1,10 +1,10 @@
 @import url("../UtilityComponents/RootColors/RootColor.css");
 
 .productParentContainer {
-   display: flex;
-   flex-direction: row;
-   width: 98%;
-   margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    margin: 1rem;
 }
 
 .productImageContainer {
@@ -14,18 +14,18 @@
     justify-content: space-between;
 }
 
-.prodImgLeftContainer > div {
+.prodImgLeftContainer>div {
     height: 7rem;
     width: 7rem;
     cursor: pointer;
     border: 0.1rem solid var(--White100);
 }
 
-.prodImgLeftContainer > div:hover {
+.prodImgLeftContainer>div:hover {
     border: 0.1rem solid var(--Gray100);
 }
 
-.prodImgLeftContainer > div > img {
+.prodImgLeftContainer>div>img {
     height: 6rem;
     width: 6rem;
     margin: 0.5rem;
@@ -35,7 +35,7 @@
     border: 0.1rem solid var(--White100);
 }
 
-.prodImgRightContainer > img {
+.prodImgRightContainer>img {
     height: 16rem;
     width: 16rem;
     margin: 5rem 0rem;
@@ -61,7 +61,10 @@
     background-color: var(--Blue100);
 }
 
-.outlineBtn, .sizeAndColorBtns, .reviewContainerBtns, .QandAContainerBtns {
+.outlineBtn,
+.sizeAndColorBtns,
+.reviewContainerBtns,
+.QandAContainerBtns {
     background-color: var(--White100);
     border: 0.1rem solid var(--Blue98);
     padding: 0.6rem 1rem;
@@ -72,7 +75,10 @@
     transition: background-color 0.3s;
 }
 
-.outlineBtn:hover, .sizeAndColorBtns:hover, .reviewContainerBtns:hover, .QandAContainerBtns:hover {
+.outlineBtn:hover,
+.sizeAndColorBtns:hover,
+.reviewContainerBtns:hover,
+.QandAContainerBtns:hover {
     background-color: var(--Blue98);
     color: var(--White100);
 }
@@ -99,7 +105,7 @@
     padding: 0.5rem;
 }
 
-.ratingContainer > div {
+.ratingContainer>div {
     display: inline-block;
     background-color: var(--White90);
     padding: 0.2rem 0.4rem;
@@ -108,7 +114,7 @@
     margin-right: 0.6rem;
 }
 
-.ratingContainer > div > span > i {
+.ratingContainer>div>span>i {
     color: var(--Orange100);
 }
 
@@ -121,36 +127,36 @@
     margin: 1rem 0rem;
 }
 
-.inStockIconContainer > i {
+.inStockIconContainer>i {
     color: var(--Blue98);
 }
 
-.prodDetailsTable > tbody > tr > th {
+.prodDetailsTable>tbody>tr>th {
     color: var(--Gray55);
     vertical-align: top;
 }
 
-.prodDetailsTable > tbody > tr > td {
+.prodDetailsTable>tbody>tr>td {
     text-align: left;
     display: inline-block;
     padding: 0.2rem 0.2rem 0.2rem 1rem;
-    color: var(--White45);    
+    color: var(--White45);
 }
 
 
-.priceContainer > h2 {
+.priceContainer>h2 {
     color: var(--Blue98);
     display: inline-block;
 }
 
-.priceContainer > h3 {
+.priceContainer>h3 {
     text-decoration: line-through;
     display: inline-block;
     margin: 0rem 1rem;
     font-size: 1.3rem;
 }
 
-.offerContainer > h3 {
+.offerContainer>h3 {
     color: var(--OrangeRed80);
     font-size: 2.2rem;
     font-weight: bold;
@@ -160,7 +166,7 @@
     margin: 0rem 1rem;
 }
 
-.increDecreContainer > button {
+.increDecreContainer>button {
     border: 0.1rem solid var(--Gainsboro100);
     background-color: var(--Blue100);
     color: var(--White100);
@@ -170,11 +176,11 @@
     transition: background-color 0.3s;
 }
 
-.increDecreContainer > button:hover {
+.increDecreContainer>button:hover {
     background-color: var(--Blue99);
 }
 
-.increDecreContainer > b {
+.increDecreContainer>b {
     font-size: 1.3rem;
     padding: 0.2rem 0.8rem;
     border-top: 0.1rem solid var(--Gainsboro100);
@@ -182,7 +188,9 @@
     color: var(--Gray55);
 }
 
-.priceContainer, .offerContainer, .increDecreContainer {
+.priceContainer,
+.offerContainer,
+.increDecreContainer {
     margin-left: 7rem;
 }
 
@@ -190,7 +198,7 @@
     margin-left: 7rem;
 }
 
-.socialMediaBtnsContainer > button {
+.socialMediaBtnsContainer>button {
     background-color: var(--White90);
     border: 0.2rem solid var(--White82);
     margin: 0.6rem 0.6rem 0rem 0.6rem;
@@ -199,11 +207,11 @@
     transition: border 0.3s;
 }
 
-.socialMediaBtnsContainer > button:hover {
+.socialMediaBtnsContainer>button:hover {
     border: 0.2rem solid var(--White55);
 }
 
-.socialMediaBtnsContainer > button:first-child {
+.socialMediaBtnsContainer>button:first-child {
     margin-left: 0rem;
 }
 
@@ -222,7 +230,11 @@
     color: var(--Red100);
 }
 
-.productDescription, .productSpecification, .productReviews, .productQandA, .FAProdContainer {
+.productDescription,
+.productSpecification,
+.productReviews,
+.productQandA,
+.FAProdContainer {
     margin: 1rem;
     border: 0.1rem solid var(--White82);
     text-align: left;
@@ -230,41 +242,49 @@
     color: var(--Gray55);
 }
 
-.TitleContainer, .TitleContainerReview, .TitleContainerQandA, .TitleContainerFAProd {
+.TitleContainer,
+.TitleContainerReview,
+.TitleContainerQandA,
+.TitleContainerFAProd {
     padding: 0.3rem;
     border-bottom: 0.1rem solid var(--White82);
 }
 
-.productDescription > p {
+.productDescription>p {
     padding-top: 0.4rem;
-    color: var(--White45);    
+    color: var(--White45);
 }
 
-.productSpecification > table {
+.productSpecification>table {
     width: 100%;
 }
 
-.tableHeaderAndElementsContainer > tr > th, .tableHeaderAndElementsContainer > tr > td {
+.tableHeaderAndElementsContainer>tr>th,
+.tableHeaderAndElementsContainer>tr>td {
     padding: 0.4rem;
 }
 
-.tableHeaderAndElementsContainer > tr > th {
-    color: var(--Gray55);  
+.tableHeaderAndElementsContainer>tr>th {
+    color: var(--Gray55);
     vertical-align: top;
 }
 
-.tableHeaderAndElementsContainer > tr > td {
-    color: var(--White45);  
+.tableHeaderAndElementsContainer>tr>td {
+    color: var(--White45);
 }
 
-.TitleContainerReview, .TitleContainerQandA, .TitleContainerFAProd {
+.TitleContainerReview,
+.TitleContainerQandA,
+.TitleContainerFAProd {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.TitleContainerReview > button, .TitleContainerQandA > button, .TitleContainerFAProd > button {
+.TitleContainerReview>button,
+.TitleContainerQandA>button,
+.TitleContainerFAProd>button {
     height: 2rem;
     width: 2rem;
     border: 0.1rem solid var(--White82);
@@ -277,7 +297,9 @@
 }
 
 
-.TitleContainerReview > button:hover, .TitleContainerQandA > button:hover, .TitleContainerFAProd > button:hover {
+.TitleContainerReview>button:hover,
+.TitleContainerQandA>button:hover,
+.TitleContainerFAProd>button:hover {
     border: 0.1rem solid var(--White57);
     background-color: var(--White85);
     color: var(--Black100);
@@ -287,46 +309,50 @@
     margin: 0.5rem 0rem;
 }
 
-.qaSearchBarContainer > form > input {
+.qaSearchBarContainer>form>input {
     border: 0.1rem solid var(--Gainsboro100);
     padding: 0.5rem;
     color: var(--Gray45);
     width: 30%;
 }
 
-.qaSearchBarContainer > form > button {
+.qaSearchBarContainer>form>button {
     padding: 0.5rem;
     border: none;
-    background-color: var( --Blue100);
+    background-color: var(--Blue100);
     color: var(--White100);
     transition: background-color 0.3s;
-    border: 0.1rem solid var( --Blue100);
+    border: 0.1rem solid var(--Blue100);
 }
 
-.qaSearchBarContainer > form > input:focus {
+.qaSearchBarContainer>form>input:focus {
     outline: none;
     border: 0.1rem solid var(--White55);
 }
 
-.qaSearchBarContainer > form > button:hover {
+.qaSearchBarContainer>form>button:hover {
     background-color: var(--Blue100);
     border: 0.1rem solid var(--Blue100);
 }
 
-.reviewFormContainer, .QandAFormContainer {
+.reviewFormContainer,
+.QandAFormContainer {
     width: 60%;
     margin: auto;
 }
 
-.reviewFormContainerActive, .QandAFormContainerActive {
+.reviewFormContainerActive,
+.QandAFormContainerActive {
     display: block;
 }
 
-.reviewFormContainerDisabler, .QandAFormContainerDisabler {
+.reviewFormContainerDisabler,
+.QandAFormContainerDisabler {
     display: none;
 }
 
-.reviewFormContainer > form > input, .QandAFormContainer > form > input {
+.reviewFormContainer>form>input,
+.QandAFormContainer>form>input {
     display: block;
     border: 0.1rem solid var(--Gainsboro100);
     padding: 0.5rem;
@@ -336,30 +362,37 @@
     width: 100%;
 }
 
-.reviewFormContainer > form > input:focus, .QandAFormContainer > form > input:focus {
+.reviewFormContainer>form>input:focus,
+.QandAFormContainer>form>input:focus {
     outline: none;
     border: 0.1rem solid var(--White55);
 }
 
-.reviewContainerBtns, .QandAContainerBtns {
+.reviewContainerBtns,
+.QandAContainerBtns {
     padding: 0.4rem 0.8rem;
 }
 
-.prodPeopleReviewContainer, .prodPeopleQandAContainer {
+.prodPeopleReviewContainer,
+.prodPeopleQandAContainer {
     border-top: 0.1rem solid var(--White82);
 }
 
-.prodPeopleReviewContainer > h5, .prodPeopleQandAContainer > h5 {
+.prodPeopleReviewContainer>h5,
+.prodPeopleQandAContainer>h5 {
     margin: 0.2rem auto;
 }
 
-.reviewRatingStarsContainer > span > i {
+.reviewRatingStarsContainer>span>i {
     color: var(--Orange100);
 }
-.prodPeopleReviewContainer > p {
+
+.prodPeopleReviewContainer>p {
     margin: 0.2rem 0rem 0.4rem 0rem;
 }
-.prodPeopleReviewContainer > button, .prodPeopleQandAContainer > button {
+
+.prodPeopleReviewContainer>button,
+.prodPeopleQandAContainer>button {
     border: 0rem;
     background-color: transparent;
     cursor: pointer;
@@ -368,13 +401,14 @@
     transition: color 0.3s;
 }
 
-.prodPeopleReviewContainer > button:hover, .prodPeopleQandAContainer > button:hover  {
+.prodPeopleReviewContainer>button:hover,
+.prodPeopleQandAContainer>button:hover {
     color: var(--Blue98);
 }
 
 .question {
-font-size: 1rem;
-color: var(--Gray45);
+    font-size: 1rem;
+    color: var(--Gray45);
 }
 
 .answer {
@@ -384,30 +418,64 @@ color: var(--Gray45);
 }
 
 @media only screen and (max-width: 1200px) {
-    
-.qaSearchBarContainer > form > input {
-    width: 50%;
-}
+
+    .qaSearchBarContainer>form>input {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+
+    .productImageContainer {
+        flex-wrap: wrap;
+    }
+
+    .productParentContainer {
+        flex-wrap: wrap;
+        width: 96%;
+        justify-content: center;
+    }
+
+    .reviewFormContainer,
+    .QandAFormContainer {
+        width: 90%;
+    }
+
+    .qaSearchBarContainer>form>input {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .prodActionButtonContainer {
+        padding: 0.3rem 0.1rem;
+    }
+
+    .increDecreContainer > button {
+        font-size: 1rem;
+        width: 1.7rem;
+    }
     
-.productImageContainer {
-    flex-wrap: wrap;
-}
-.productParentContainer {
-   flex-wrap: wrap;
-   width: 96%;
-   justify-content: center;
- }
+    .increDecreContainer > b {
+        font-size: 1rem;
+        padding: 0.1rem 0.8rem;
+        border-top: 0.1rem solid var(--Gainsboro100);
+        border-bottom: 0.1rem solid var(--Gainsboro100);
+    }
+    
+    .priceContainer, .offerContainer, .increDecreContainer {
+        margin-left: 7rem;
+    }
 
-.reviewFormContainer, .QandAFormContainer {
-    width: 90%;
+    .socialMediaBtnsContainer {
+        margin-left: 0rem;
+    }
+    
+    .colorBlueBtn, .colorLiteBlueBtn, .colorRedBtn {
+        font-size: 0.7rem;
+    }
+   
+    
 }
-  
-.qaSearchBarContainer > form > input {
-    width: 80%;
-}
-
-}
-

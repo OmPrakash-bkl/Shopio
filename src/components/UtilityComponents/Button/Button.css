@@ -115,3 +115,10 @@
         margin: 0.5rem auto;
     }
 }
+
+@media only screen and (max-width: 390px) {
+    .commonBtn {
+        font-size: 0.7rem;
+        margin: 0.2rem;
+    }
+}

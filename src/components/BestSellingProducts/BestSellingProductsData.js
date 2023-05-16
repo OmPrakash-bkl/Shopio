@@ -35,7 +35,7 @@ export const ProductData = [
         offerPercentage: "25%",
         prodImg: Sarees,
         rating: 5,
-        prodTitle: "Women's Printed Poly Silk Saree with Blouse",
+        prodTitle: "Women's Printed Poly Silk Saree with Matching Blouse",
         discountPrice: "269",
         originalPrice: "799",
         cartFunc: 0,

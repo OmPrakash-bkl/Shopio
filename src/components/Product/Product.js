@@ -46,9 +46,10 @@ function Product() {
                 </div>
             </div>
             <div className={`${styles.prodActionButtonContainer}`}>
-                <Button variant="buttonComponent outlineButtonComponent"  title="Add To Cart">Add To Cart</Button>
+                <Button variant="buttonComponent outlineButtonComponent" title="Add To Cart">Add To Cart</Button>
                 <Button variant="buttonComponent blueButtonComponent" title="Buy Now">Buy Now</Button>
                 <Button variant="buttonComponent outlineButtonComponent" title="Add To Wishlist"><i className="fa fa-heart"></i></Button>
+                <Button variant="buttonComponent outlineButtonComponent" title="AR View"><i className="fas fa-dice-d6"></i></Button>
             </div>
         </div>
         <div className={`${styles.productContentContainer}`}>
