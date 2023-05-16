@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0e73766e4c0a7a9993cb",
-    "url": "/Shopio/static/css/main.e9d9f707.chunk.css"
+    "revision": "f8638f4166bb058bd5a6",
+    "url": "/Shopio/static/css/main.465a59f4.chunk.css"
   },
   {
-    "revision": "0e73766e4c0a7a9993cb",
-    "url": "/Shopio/static/js/main.0e73766e.chunk.js"
+    "revision": "f8638f4166bb058bd5a6",
+    "url": "/Shopio/static/js/main.f8638f41.chunk.js"
   },
   {
     "revision": "45b25b9127fda5bd0803",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/Shopio/static/media/not_found_image2.c884b33e.png"
   },
   {
-    "revision": "97a1004e61f761d7ffeea402b66baa2e",
+    "revision": "e38552fa5a986a85aba825ed3e4b1fec",
     "url": "/Shopio/index.html"
   }
 ];
