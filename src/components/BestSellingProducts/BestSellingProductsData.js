@@ -1,4 +1,5 @@
-import Mobile from '../../assets/bs_mobile.jpg';
+// import Mobile from '../../assets/bs_mobile.jpg';
+import Mobile from '../../assets/iphone1.jpg';
 import Drone from '../../assets/bs_drone.jpg';
 import Sarees from '../../assets/bs_saree.jpg';
 import TV from '../../assets/bs_tv.jpg';
@@ -13,9 +14,9 @@ export const ProductData = [
         offerPercentage: "25%",
         prodImg: Mobile,
         rating: 4,
-        prodTitle: "Vivo Y22 with No Cost EMI",
-        discountPrice: "9999",
-        originalPrice: "11999",
+        prodTitle: "Apple iPhone 13 - 128GB RED",
+        discountPrice: "62999",
+        originalPrice: "69900",
         cartFunc: 0,
         wishlistFunc: 0,
         quickViewFunc: 1
