@@ -22,7 +22,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: MobileCharger,
-        rating: 4,
+        rating: 5,
         prodTitle: "FLiX Usb Fast Charger,Adapter",
         discountPrice: "199",
         originalPrice: "499",
@@ -33,7 +33,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Router,
-        rating: 4,
+        rating: 5,
         prodTitle: "Tenda Wi-Fi Router,VPN (Black)",
         discountPrice: "3269",
         originalPrice: "4799",
@@ -44,7 +44,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Pendrive,
-        rating: 4,
+        rating: 3,
         prodTitle: "Apple Watch SE Gold Aluminium",
         discountPrice: "25999",
         originalPrice: "28999",
@@ -66,7 +66,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Printer,
-        rating: 4,
+        rating: 2,
         prodTitle: "Tempered Glass for iQOO Neo 6 5G",
         discountPrice: "299",
         originalPrice: "499",
@@ -77,7 +77,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Camera,
-        rating: 4,
+        rating: 5,
         prodTitle: "Canon E4570 All-in-One Wi-Fi Ink Printer",
         discountPrice: "7999",
         originalPrice: "8999",
@@ -88,7 +88,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Watch,
-        rating: 4,
+        rating: 3,
         prodTitle: "Canon E4570 Camera 12MP",
         discountPrice: "36999",
         originalPrice: "38999",

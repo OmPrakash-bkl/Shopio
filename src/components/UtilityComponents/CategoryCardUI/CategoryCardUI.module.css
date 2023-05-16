@@ -1,4 +1,3 @@
-
 .categoriesInnerContainer {
     border: 0.1rem solid var(--Gainsboro100);
     margin: 0.5rem 1rem;
@@ -12,15 +11,21 @@
     box-shadow: var(--BoxShadow) 0px 3px 8px;
 }
 
-.categoriesInnerContainer > h6 {
+.categoriesInnerContainer>h6 {
     color: var(--Gray55);
 }
 
-.categoriesInnerContainer > img {
+.categoriesInnerContainer>img {
     height: 6rem;
     width: 7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
 }
 
+@media only screen and (max-width: 350px) {
 
-
+    .categoriesInnerContainer>img {
+        height: 5rem;
+        width: 5rem;
+        margin-bottom: 1rem;
+    }
+}

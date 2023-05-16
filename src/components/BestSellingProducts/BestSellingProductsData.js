@@ -23,7 +23,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Drone,
-        rating: 4,
+        rating: 3,
         prodTitle: "Remote Control HD Wi-Fi Camera Drone",
         discountPrice: "3999",
         originalPrice: "4999",
@@ -34,7 +34,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Sarees,
-        rating: 4,
+        rating: 5,
         prodTitle: "Women's Printed Poly Silk Saree with Blouse",
         discountPrice: "269",
         originalPrice: "799",
@@ -45,8 +45,8 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: TV,
-        rating: 4,
-        prodTitle: "Redmi Android 11 Series Full HD",
+        rating: 2,
+        prodTitle: "Redmi Android 11 Series Full HD Ready Black",
         discountPrice: "16999",
         originalPrice: "18999",
         cartFunc: 0,
@@ -56,7 +56,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Tablets,
-        rating: 4,
+        rating: 3,
         prodTitle: "Lenovo Tablet with The Google Assistant",
         discountPrice: "29999",
         originalPrice: "31999",
@@ -67,7 +67,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Fridge,
-        rating: 4,
+        rating: 5,
         prodTitle: "Godrej Cool Single Door Refrigerator",
         discountPrice: "10999",
         originalPrice: "11999",
@@ -100,7 +100,7 @@ export const ProductData = [
     {
         offerPercentage: "25%",
         prodImg: Laptops,
-        rating: 4,
+        rating: 3,
         prodTitle: "Lenovo laptop with No Cost EMI.",
         discountPrice: "12999",
         originalPrice: "15999",
