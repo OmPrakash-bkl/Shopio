@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1c6db1866ccb778520e4",
-    "url": "/Shopio/static/css/main.1c25a2ee.chunk.css"
+    "revision": "a031d05c0b11bdcca978",
+    "url": "/Shopio/static/css/main.553bd30e.chunk.css"
   },
   {
-    "revision": "1c6db1866ccb778520e4",
-    "url": "/Shopio/static/js/main.1c6db186.chunk.js"
+    "revision": "a031d05c0b11bdcca978",
+    "url": "/Shopio/static/js/main.a031d05c.chunk.js"
   },
   {
-    "revision": "45b25b9127fda5bd0803",
-    "url": "/Shopio/static/css/1.3a88d162.chunk.css"
+    "revision": "7c9471a9caff361a3d50",
+    "url": "/Shopio/static/css/1.c4463806.chunk.css"
   },
   {
-    "revision": "45b25b9127fda5bd0803",
-    "url": "/Shopio/static/js/1.45b25b91.chunk.js"
+    "revision": "7c9471a9caff361a3d50",
+    "url": "/Shopio/static/js/1.7c9471a9.chunk.js"
   },
   {
     "revision": "ce720d8b0b1e7dbaea68",
@@ -42,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "850372572e387b88f9462692a015ab7d",
     "url": "/Shopio/static/media/shoes.85037257.jpg"
+  },
+  {
+    "revision": "3118c911e9ef977db84e2b1f8222469c",
+    "url": "/Shopio/static/media/iphone1.3118c911.jpg"
   },
   {
     "revision": "5f267b567dad101892690bf61c30ef40",
@@ -152,23 +156,27 @@ self.__precacheManifest = [
     "url": "/Shopio/static/media/productPageBanner.c0461fb6.jpg"
   },
   {
-    "revision": "0a99915e0bab6839922a5d3e36ee2815",
-    "url": "/Shopio/static/media/vivo1.0a99915e.jpg"
+    "revision": "1fdf63275d7f4c36d4a42d5dd53c9ce5",
+    "url": "/Shopio/static/media/iphone2.1fdf6327.jpg"
   },
   {
-    "revision": "3b180a811150f79d8cf747d996846ecd",
-    "url": "/Shopio/static/media/vivo2.3b180a81.jpg"
+    "revision": "6f4d0e6212e4febc7914c609b68ad74a",
+    "url": "/Shopio/static/media/iphone3.6f4d0e62.jpg"
   },
   {
-    "revision": "837dadc6f400da4be0e7e4e7098078ba",
-    "url": "/Shopio/static/media/vivo3.837dadc6.jpg"
+    "revision": "7ce59584f64a8838c8706f8fd84b3ab6",
+    "url": "/Shopio/static/media/iphone4.7ce59584.jpg"
+  },
+  {
+    "revision": "ce58fec127a845de8f26c66a1f622a9c",
+    "url": "/Shopio/static/media/iphone5.ce58fec1.jpg"
   },
   {
     "revision": "c884b33e765afb966d97c9356f88fd81",
     "url": "/Shopio/static/media/not_found_image2.c884b33e.png"
   },
   {
-    "revision": "a0ad09f9e9976f311e5ef7786652a668",
+    "revision": "1d959c0d3b8e9afd9be192e03828577e",
     "url": "/Shopio/index.html"
   }
 ];
