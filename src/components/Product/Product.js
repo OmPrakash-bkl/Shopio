@@ -49,7 +49,9 @@ function Product() {
                 <Button variant="buttonComponent outlineButtonComponent" title="Add To Cart">Add To Cart</Button>
                 <Button variant="buttonComponent blueButtonComponent" title="Buy Now">Buy Now</Button>
                 <Button variant="buttonComponent outlineButtonComponent" title="Add To Wishlist"><i className="fa fa-heart"></i></Button>
+                <a href="https://mywebar.com/p/Project_0_4rhkctncck?_ga=2.106173125.711936732.1684144066-1215011679.1683694055">
                 <Button variant="buttonComponent outlineButtonComponent" title="AR View"><i className="fas fa-dice-d6"></i></Button>
+                </a>
             </div>
         </div>
         <div className={`${styles.productContentContainer}`}>

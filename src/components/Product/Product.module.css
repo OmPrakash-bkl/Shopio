@@ -449,33 +449,102 @@
 
 @media only screen and (max-width: 390px) {
 
+    .prodImgLeftContainer>div {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .prodImgLeftContainer>div>img {
+        height: 5.2rem;
+        width: 5.2rem;
+        margin: 0.5rem;
+    }
+
+    .prodImgRightContainer>img {
+        height: 14rem;
+        width: 14rem;
+        margin: 4rem 0rem;
+    }
+
     .prodActionButtonContainer {
         padding: 0.3rem 0.1rem;
     }
 
-    .increDecreContainer > button {
+    .increDecreContainer>button {
         font-size: 1rem;
         width: 1.7rem;
     }
-    
-    .increDecreContainer > b {
+
+    .increDecreContainer>b {
         font-size: 1rem;
         padding: 0.1rem 0.8rem;
         border-top: 0.1rem solid var(--Gainsboro100);
         border-bottom: 0.1rem solid var(--Gainsboro100);
     }
-    
-    .priceContainer, .offerContainer, .increDecreContainer {
+
+    .priceContainer,
+    .offerContainer,
+    .increDecreContainer {
         margin-left: 7rem;
     }
 
     .socialMediaBtnsContainer {
-        margin-left: 0rem;
+        margin-left: 2rem;
     }
-    
-    .colorBlueBtn, .colorLiteBlueBtn, .colorRedBtn {
+
+    .colorBlueBtn,
+    .colorLiteBlueBtn,
+    .colorRedBtn {
         font-size: 0.7rem;
     }
-   
-    
+
+
+}
+
+
+.prodImgLeftContainer::-webkit-scrollbar {
+    width: 0rem;
+}
+
+
+@media only screen and (max-width: 340px) {
+
+    .socialMediaBtnsContainer {
+        margin-left: 0rem;
+    }
+
+    .socialMediaBtnsContainer>button:first-child {
+        margin-left: 1rem;
+    }
+
+    .productParentContainer {
+        margin: 0rem;
+    }
+
+    .prodImgRightContainer>img {
+        height: 10rem;
+        width: 8rem;
+        margin: 1rem 0rem;
+    }
+
+    .productImageContainer {
+        flex-direction: column-reverse;
+    }
+
+    .prodImgLeftContainer {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+
+    .prodImgLeftContainer>div {
+        height: 5.5rem;
+        width: 5rem;
+    }
+
+    .prodImgLeftContainer>div>img {
+        height: 4.8rem;
+        width: 4.2rem;
+        margin: 0.2rem;
+    }
 }
