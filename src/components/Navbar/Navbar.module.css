@@ -538,3 +538,44 @@ background-color: var(--White85);
     letter-spacing: 0.1rem;
    }
 }
+
+@media only screen and (max-width: 390px) {
+    .navIconsContainer {
+        height: 2rem;
+        width: 2rem;
+        margin: 0rem 0.1rem;
+        padding: 0.20rem 0.1rem;
+    }
+    .navIconsContainer > i {
+        font-size: 1rem;
+    }
+    .hamburgerIcon {
+        font-size: 1.4rem;
+        width: 1.5rem;
+        margin-right: 0.8rem;
+    }    
+    .navIconsCartContainer, .navIconsWishlistContainer {
+        height: 2rem;
+        width: 2rem;
+        margin: 0rem 0.1rem;
+        padding: 0.20rem 0.1rem;
+    }
+    
+    .navIconsCartContainer > button, .navIconsWishlistContainer > button {
+        font-size: 1rem;
+        padding: 0rem 0.3rem;
+    }
+    .logoFontStyles {
+        font-size: 2rem;
+        letter-spacing: 0rem;
+    }
+    
+}
+
+@media only screen and (max-width: 385px) {
+    .searchForm {
+        width: 14rem;
+    }
+ }
+ 
+ 
